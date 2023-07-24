@@ -1,0 +1,124 @@
+
+
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage[utf8]{inputenc} % Codificación del documento
+\usepackage[spanish]{babel} % Paquete de idioma español
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[graphicx]{realboxes}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\usepackage{datatool}
+\usepackage[acronym]{glossaries}
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage{cite}
+\usepackage{ieeetrantools}
+\usepackage{float}
+
+\makeindex
+\pagestyle{fancy}
+
+\makeglossaries % este comando debe estar en el preámbulo
+
+
+\begin{document}
+\renewcommand{\glossaryname}{Glosario}
+
+\renewcommand\listtablename{\'Indice de Tablas}
+%\listtablename
+
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\acronymname}{Acr\'onimos y s\'imbolos}
+\renewcommand{\bibname}{Referencias bibliogr\'aficas}
+%\glsaddall
+\frontmatter
+\vspace*{-3cm}
+
+\thispagestyle{empty}
+
+{\bf
+\begin{center}
+\large
+\vspace*{-1 cm}\Large \textsc{Universidad Nacional del Este.} \\
+\Large \textsc{Facultad Politécnica.} \\
+\vspace*{0.5 cm}\hrule
+\end{center}
+}
+
+\vspace*{-0.5 cm}
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[scale = .6]{./portada_y_ficha_catalografica/logo.png}
+
+\end{center}
+\end{figure}
+
+
+\vspace{3 cm}
+{
+\noindent
+\begin{center}
+\huge \bf Plataforma virtual Moodle gamificada, aplicada a la enseñanza de física para admisión a la FPUNE.
+\end{center}
+}
+
+
+\vspace{6 cm}
+
+\begin{center}
+{\textbf{\Large Yisell Magalí Rolón Raviolo}\\[5mm]
+\hspace{0.5 cm} y \textbf{\Large Yudith Gonzalez Mareco}
+\vspace{0.5cm}
+
+\textbf{Año \the\year.}}
+\end{center}
+
+\bstctlcite{IEEEexample:BSTcontrol} % cambia "and" por "y" en bibliograf�a
+
+\include{./portada_y_ficha_catalografica/portada_y_ficha_catalografica}
+\include{./hoja_aprobacion/hoja_aprobacion}
+\include{./dedicatoria/dedicatoria}
+\include{./agradecimientos/agradecimientos}
+\include{./epigrafe/epigrafe}
+\include{./resumen/resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+\include{./abstract/abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\tableofcontents
+\listoffigures
+\addcontentsline{toc}{chapter}{\'Indice de figuras}
+\listoftables
+\addcontentsline{toc}{chapter}{\'Indice de tablas}
+\printglossary[type=\acronymtype] % imprime solo la lista de acr�nimos
+%\cleardoublepage
+\addcontentsline{toc}{chapter}{Acr\'onimos y s\'imbolos}
+\mainmatter
+\include{./capitulo_01/introduccion}
+\include{./capitulo_02/marco_teorico}
+% \include{./capitulo_03/marco_metodologico}
+% \include{./capitulo_04/resultados}
+% \include{./capitulo_05/discusion}
+
+\backmatter
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Glosario}
+\printglossary
+
+\addcontentsline{toc}{chapter}{Anexos}
+
+\cleardoublepage
+\include{./anexos/anexo}
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Referencias bibliogr\'aficas}
+
+\bibliographystyle{IEEEtran-castellano}
+\bibliography{test}
+\end{document}
+
