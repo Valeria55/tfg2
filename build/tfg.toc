@@ -1,9 +1,9 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Resumen}{\es@scroman {ix}}{Doc-Start}%
 \contentsline {chapter}{Abstract}{\es@scroman {x}}{Doc-Start}%
-\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xi}}{chapter*.2}%
-\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xii}}{chapter*.3}%
-\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiii}}{chapter*.5}%
+\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xii}}{chapter*.2}%
+\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xiii}}{chapter*.3}%
+\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiv}}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{2}{section.1.2}%
@@ -15,9 +15,12 @@
 \contentsline {section}{\numberline {1.6}Impacto de la investigación}{4}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Organización del trabajo.}{4}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Predicciones de Compras}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Conceptos fundamentales}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Antecedentes}{5}{section.2.2}%
-\contentsline {chapter}{Anexo A.}{9}{chapter*.6}%
-\contentsline {chapter}{Glosario}{9}{equation.2.2.2}%
-\contentsline {chapter}{Anexos}{9}{equation.2.2.2}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{10}{chapter*.6}%
+\contentsline {section}{\numberline {2.1}Relación de Demanda y Gestión de Suministro}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Importancia de la Predicción de Compra de Insumos}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Factores que Influyen en la Curva de Insumos Demandados}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Tiempos Actuales en las Predicciones de Demanda}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Antecedentes}{7}{section.2.5}%
+\contentsline {chapter}{Anexo A.}{12}{chapter*.6}%
+\contentsline {chapter}{Glosario}{12}{equation.2.5.2}%
+\contentsline {chapter}{Anexos}{12}{equation.2.5.2}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{13}{chapter*.6}%

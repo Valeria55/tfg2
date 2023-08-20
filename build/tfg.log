@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  8 AUG 2023 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  20 AUG 2023 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,7 +664,7 @@ Package hyperref Info: Link coloring OFF on input line 29.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 47.
 
-<./portada_y_ficha_catalografica/logo.png, id=88, 216.0873pt x 216.0873pt>
+<./portada_y_ficha_catalografica/logo.png, id=100, 216.0873pt x 216.0873pt>
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
 Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 56.
@@ -753,22 +753,34 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
 (spanish)                faked small caps on input line 6.
 
-)
+[10
+
+
+
+])
 \tf@toc=\write9
 \openout9 = `tfg.toc'.
 
- [10
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
-] (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
+[11] (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write10
 \openout10 = `tfg.lof'.
 
- [11
+ [12
 
 ] (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -777,7 +789,7 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write11
 \openout11 = `tfg.lot'.
 
- (tfg.acr [12
+ (tfg.acr [13
 
 ]
 
@@ -798,7 +810,7 @@ Package glossaries Warning: Glossary entry `sored' has not been defined on input
 
 Package glossaries Warning: Glossary entry `sored' has not been defined on input line 12.
 
-) [13
+) [14
 
 
 ]
@@ -819,7 +831,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-Overfull \hbox (3.19453pt too wide) in paragraph at lines 48--49
+Overfull \hbox (3.19453pt too wide) in paragraph at lines 49--50
 []\OT1/cmr/m/n/12 Codificar el mo-de-lo l^^Sogi-co de-fi-ni-do en len-gua-jes de pro-gra-ma-ci^^Son Python
  []
 
@@ -851,11 +863,47 @@ Cap\'{\i }tulo 2.
 
 
 ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+LaTeX Warning: Citation `condorena2017desarrollo' on page 7 undefined on input line 56.
+
+
+LaTeX Warning: Citation `pacheco2015rediseno' on page 7 undefined on input line 59.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+LaTeX Warning: Citation `sanchez2018sistemas' on page 8 undefined on input line 62.
+
+
+LaTeX Warning: Citation `afanador2022diseno' on page 8 undefined on input line 65.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
 \@gls@deffile=\write12
 \openout12 = `tfg.glsdefs'.
 
 
-Overfull \hbox (17.39021pt too wide) in paragraph at lines 80--81
+Overfull \hbox (17.39021pt too wide) in paragraph at lines 121--122
 [][][]\OT1/cmr/m/n/12 Matrices[] son arre-glos usual-men-te de-no-ta-dos por una le-tra ne-gri-ta may^^Suscu-
  []
 
@@ -866,7 +914,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
+[9]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -874,7 +922,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7])
+[10])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -882,10 +930,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8] (tfg.gls)
+[11] (tfg.gls)
 \openout2 = `./anexos/anexo.aux'.
 
- (anexos/anexo.tex) [9
+ (anexos/anexo.tex) [12
 
 
 
@@ -893,7 +941,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-] (tfg.bbl) [10
+] (tfg.bbl) [13
 
 
 
@@ -905,17 +953,20 @@ LaTeX Info: Redefining \% on input line 30.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: D1F5142CE8156CAA2A83EF1890FA57C3;2802.
+(rerunfilecheck)             Checksum: 00FE00AA9F166767842C93313A7D1AB8;3909.
  ) 
 Here is how much of TeX's memory you used:
- 19982 strings out of 476331
- 357916 string characters out of 5787765
- 1862660 words of memory out of 5000000
- 39902 multiletter control sequences out of 15000+600000
- 522326 words of font info for 67 fonts, out of 8000000 for 9000
+ 20005 strings out of 476331
+ 358207 string characters out of 5787765
+ 1861660 words of memory out of 5000000
+ 39915 multiletter control sequences out of 15000+600000
+ 522678 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,13n,90p,2294b,721s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,13n,90p,2294b,817s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:matri} has been referenced but does not exist, replaced by a fixed one
 
@@ -925,16 +976,10 @@ pdfTeX warning (dest): name{glo:linus} has been referenced but does not exist, r
 
 pdfTeX warning (dest): name{glo:electrolito} has been referenced but does not exist, replaced by a fixed one
 
-
-pdfTeX warning (dest): name{page.11} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{page.12} has been referenced but does not exist, replaced by a fixed one
-
- <C:\Users\valer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.pdf (23 pages, 290792 bytes).
+ <C:\Users\valer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.pdf (27 pages, 313723 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
