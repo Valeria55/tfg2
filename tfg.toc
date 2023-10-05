@@ -1,9 +1,9 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Resumen}{\es@scroman {ix}}{Doc-Start}%
 \contentsline {chapter}{Abstract}{\es@scroman {x}}{Doc-Start}%
-\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xii}}{chapter*.2}%
-\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xiii}}{chapter*.3}%
-\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiv}}{chapter*.5}%
+\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xi}}{chapter*.2}%
+\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xii}}{chapter*.3}%
+\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiii}}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{2}{section.1.2}%
