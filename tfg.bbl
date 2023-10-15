@@ -22,29 +22,69 @@
 \BIBdecl
 \renewcommand{\BIBentryALTinterwordstretchfactor}{4}
 
+\bibitem{decide}
+\BIBentryALTinterwordspacing
+ [En l{\'\i}nea]. Disponible:
+  \url{https://decidesoluciones.es/modelo-de-prediccion-de-demanda-aplicacion-y-beneficios/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{marques2017nivel}
+Ana~Ortega Marqu{\'e}s, Sandy Patricia~Padilla Dom{\'\i}nguez, Johana
+  Isabel~Torres Dur{\'a}n, y Alexander~Ruz G{\'o}mez, ``Nivel de importancia
+  del control interno de los inventarios dentro del marco conceptual de una
+  empresa,'' \emph{Liderazgo estrat{\'e}gico}, vol.~7, no.~1, pp. 71--82, 2017.
+
 \bibitem{kendall2005analisis}
+\BIBentryALTinterwordspacing
 Kenneth~E Kendall y Julie~E Kendall, \emph{An{\'a}lisis y dise{\~n}o de
   sistemas}.\hskip 1em plus 0.5em minus 0.4em\relax Pearson educaci{\'o}n,
-  2005, obtenido el 20 de mayo de 2023 de url=
-  {https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=K.+E.+Kendall+y+J.+E.+Kendall%2C+An%C2%B4alisis+y+dise%CB%9Cno+de+sistemas.+Pearson+educaci%C2%B4on%2C+2005&btnG=}.
+  2005, obtenido el 20 de mayo de 2023 de. [En l{\'\i}nea]. Disponible:
+  \url{https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=K.+E.+Kendall+y+J.+E.+Kendall%2C+An%C2%B4alisis+y+dise%CB%9Cno+de+sistemas.+Pearson+educaci%C2%B4on%2C+2005&btnG=}
+\BIBentrySTDinterwordspacing
+
+\bibitem{basogain2008redes}
+Xavier Basogain, ``Redes neuronales artificiales y sus aplicaciones,''
+  \emph{Dpto. Ingenier{\'\i}a de Sistemas y Autom{\'a}tica, Escuela Superior de
+  Ingenier{\'\i}a Bilbao. Open Course Ware.[En l{\'\i}nea] disponible en
+  http://ocw. ehu.
+  es/ensenanzas-tecnicas/redes-neuronales-artificiales-y-sus-aplicaciones/Course\_
+  listing.[Consultada 20-09-2012]}, 2008.
 
 \bibitem{mahesh2020machine}
 \BIBentryALTinterwordspacing
 Batta Mahesh, ``Machine learning algorithms-a review,'' \emph{International
   Journal of Science and Research (IJSR). [Internet]}, vol.~9, no.~1, pp.
-  381--386, 2020. [en l�nea]. Disponible:
+  381--386, 2020. [En l{\'\i}nea]. Disponible:
   \url{https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=+machine+learning&btnG=}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ibm}
 \BIBentryALTinterwordspacing
-I.B.M. Staff(es). (2017) Machine learning. [en l�nea]. Disponible:
+I.B.M. Staff(es). (2017) Machine learning. [En l{\'\i}nea]. Disponible:
   \url{https://www.ibm.com/mx-es/analytics/machine-learning}
 \BIBentrySTDinterwordspacing
 
 \bibitem{goodfellow2016deep}
 Ian Goodfellow, Yoshua Bengio, y Aaron Courville, \emph{Deep learning}.\hskip
   1em plus 0.5em minus 0.4em\relax MIT press, 2016.
+
+\bibitem{lopez2008redes}
+Raquel~Fl{\'o}rez L{\'o}pez y Jos{\'e} Miguel~Fern{\'a}ndez Fern{\'a}ndez,
+  \emph{Las redes neuronales artificiales}.\hskip 1em plus 0.5em minus
+  0.4em\relax Netbiblo, 2008.
+
+\bibitem{nacelle2009redes}
+Andres Nacelle y E~Mizraji, ``Redes neuronales artificiales,'' \emph{N{\'u}cleo
+  de ingenier{\'\i}a biom{\'e}dica--Universidad de la Republica Uruguay}, 2009.
+
+\bibitem{acevedo2017principios}
+Eder Acevedo, Alexei Serna, y Edgar Serna, ``Principios y caracter{\'\i}sticas
+  de las redes neuronales artificiales,'' \emph{Desarrollo e innovaci{\'o}n en
+  ingenier{\'\i}a}, vol. 173, 2017.
+
+\bibitem{olabe1998redes}
+Xabier~Basogain Olabe, ``Redes neuronales artificiales y sus aplicaciones,''
+  \emph{Publicaciones de la Escuela de Ingenieros}, 1998.
 
 \bibitem{condorena2017desarrollo}
 V{\'\i}ctor~Marcial Condorena~Rond{\'o}n, ``Desarrollo de un sistema de control
@@ -75,10 +115,14 @@ Jose~R SAURA, Ana Reyes-Men{\'e}ndez, y Pedro PALOS-SANCHEZ, ``Un an{\'a}lisis
   sobre las ofertas de\# blackfriday,'' \emph{Revista Espacios}, vol.~39,
   no.~42, 2018.
 
+\bibitem{hincapie2021prediccion}
+Edwar~Andr{\'e}s Hincapi{\'e}~Herrera, ``Predicci{\'o}n de la demanda usando
+  modelos de machine learning,'' 2021.
+
 \bibitem{python2021python}
 \BIBentryALTinterwordspacing
-Why Python, ``Python,'' \emph{Python Releases for Windows}, vol.~24, 2021. [en
-  l�nea]. Disponible:
+Why Python, ``Python,'' \emph{Python Releases for Windows}, vol.~24, 2021. [En
+  l{\'\i}nea]. Disponible:
   \url{https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=Python+&btnG=}
 \BIBentrySTDinterwordspacing
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  4 OCT 2023 22:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  15 OCT 2023 18:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,11 +600,11 @@ Writing index file tfg.idx
 \glo@main@file=\write6
 \openout6 = `tfg.glo'.
 
-Package glossaries Info: Writing glossary file tfg.glo on input line 27.
+Package glossaries Info: Writing glossary file tfg.glo on input line 25.
 \glo@acronym@file=\write7
 \openout7 = `tfg.acn'.
 
-Package glossaries Info: Writing glossary file tfg.acn on input line 27.
+Package glossaries Info: Writing glossary file tfg.acn on input line 25.
 (C:\Users\valer\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
@@ -612,36 +612,36 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 ) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.aux
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (hoja_aprobacion/hoja_aprobacion.aux) (dedicatoria/dedicatoria.aux) (agradecimientos/agradecimientos.aux) (epigrafe/epigrafe.aux) (resumen/resumen.aux) (abstract/abstract.aux) (capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux
+ (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\hoja_aprobacion\hoja_aprobacion.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\dedicatoria\dedicatoria.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\agradecimientos\agradecimientos.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\epigrafe\epigrafe.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\resumen\resumen.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\abstract\abstract.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_01\introduccion.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_02\marco_teorico.aux
 
 LaTeX Warning: Label `fig:proceso_inventario' multiply defined.
 
 
-LaTeX Warning: Label `fig:proceso_inventario' multiply defined.
+LaTeX Warning: Label `fig:perceptron' multiply defined.
 
-) (capitulo_03/marco_metodologico.aux) (capitulo_04/resultados.aux) (capitulo_05/discusion.aux) (anexos/anexo.aux))
+) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_03\marco_metodologico.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_04\resultados.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_05\discusion.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\anexos\anexo.aux))
 \openout1 = `tfg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
  (C:\Users\valer\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count349
@@ -661,7 +661,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\valer\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 28.
  (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.out) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.out)
 \@outlinefile=\write8
 \openout8 = `tfg.out'.
@@ -669,12 +669,12 @@ Package hyperref Info: Link coloring OFF on input line 30.
  (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.glsdefs)
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 48.
+(Font)              using `OT1/cmr/bx/n' instead on input line 46.
 
-<./portada_y_ficha_catalografica/logo.png, id=199, 216.0873pt x 216.0873pt>
+<./portada_y_ficha_catalografica/logo.png, id=223, 216.0873pt x 216.0873pt>
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
-Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 57.
+Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 55.
 (pdftex.def)             Requested size: 129.65337pt x 129.65337pt.
 [1
 
@@ -768,10 +768,10 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 \tf@toc=\write9
 \openout9 = `tfg.toc'.
 
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -864,23 +864,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \c@teorema=\count355
 
 Cap\'{\i }tulo 2.
-<./proceso_CMD_plazo.png, id=373, 576.9555pt x 287.27325pt>
+<./proceso_CMD_plazo.png, id=418, 576.9555pt x 287.27325pt>
 File: ./proceso_CMD_plazo.png Graphic file (type png)
 <use ./proceso_CMD_plazo.png>
-Package pdftex.def Info: ./proceso_CMD_plazo.png  used on input line 27.
-(pdftex.def)             Requested size: 346.17596pt x 172.36528pt.
+Package pdftex.def Info: ./proceso_CMD_plazo.png  used on input line 30.
+(pdftex.def)             Requested size: 403.86609pt x 201.0899pt.
+
+Overfull \hbox (13.86609pt too wide) in paragraph at lines 30--31
+ [] 
+ []
+
 [5
 
 
 
 
 ]
-<./procesos_de_trabajo.png, id=379, 464.33475pt x 284.86424pt>
-File: ./procesos_de_trabajo.png Graphic file (type png)
-<use ./procesos_de_trabajo.png>
-Package pdftex.def Info: ./procesos_de_trabajo.png  used on input line 45.
-(pdftex.def)             Requested size: 278.60298pt x 170.91986pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -892,8 +891,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.50 
+l.49 
       <./proceso_CMD_plazo.png>]
+<./procesos_de_trabajo.png, id=437, 464.33475pt x 284.86424pt>
+File: ./procesos_de_trabajo.png Graphic file (type png)
+<use ./procesos_de_trabajo.png>
+Package pdftex.def Info: ./procesos_de_trabajo.png  used on input line 57.
+(pdftex.def)             Requested size: 417.8974pt x 256.37544pt.
+
+Overfull \hbox (27.8974pt too wide) in paragraph at lines 57--58
+ [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -905,7 +914,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.70 
+l.69 
       <./procesos_de_trabajo.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -931,7 +940,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-Overfull \hbox (8.51297pt too wide) in paragraph at lines 132--132
+<./hechos.png, id=468, 356.532pt x 274.626pt>
+File: ./hechos.png Graphic file (type png)
+<use ./hechos.png>
+Package pdftex.def Info: ./hechos.png  used on input line 140.
+(pdftex.def)             Requested size: 320.87582pt x 247.1611pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.149 
+       <./hechos.png>]
+Overfull \hbox (8.51297pt too wide) in paragraph at lines 156--156
 []\OT1/cmr/bx/sc/17.28 El apren-di-za-je au-tom^^Sati-co \OT1/cmr/bx/it/17.28 (ma-chi-ne lear-
  []
 
@@ -942,21 +970,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [12]
-<./neuroma_humana.png, id=428, 328.8285pt x 160.80075pt>
-File: ./neuroma_humana.png Graphic file (type png)
-<use ./neuroma_humana.png>
-Package pdftex.def Info: ./neuroma_humana.png  used on input line 161.
-(pdftex.def)             Requested size: 197.29861pt x 96.48117pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -964,12 +978,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.172 
-       <./neuroma_humana.png>]
+[13]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -978,8 +987,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-
-LaTeX Warning: Citation `saura2018analisis' on page 15 undefined on input line 193.
+<./neuroma_humana.png, id=501, 328.8285pt x 160.80075pt>
+File: ./neuroma_humana.png Graphic file (type png)
+<use ./neuroma_humana.png>
+Package pdftex.def Info: ./neuroma_humana.png  used on input line 199.
+(pdftex.def)             Requested size: 295.94292pt x 144.71931pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -988,7 +1000,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15])
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.209 
+       <./neuroma_humana.png>]
+<./tipo_neuronas.png, id=508, 296.90926pt x 134.30174pt>
+File: ./tipo_neuronas.png Graphic file (type png)
+<use ./tipo_neuronas.png>
+Package pdftex.def Info: ./tipo_neuronas.png  used on input line 218.
+(pdftex.def)             Requested size: 267.21585pt x 120.87044pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -996,22 +1019,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
-\openout2 = `./capitulo_03/marco_metodologico.aux'.
-
- (capitulo_03/marco_metodologico.tex
-Cap\'{\i }tulo 3.
-
-Overfull \hbox (5.75894pt too wide) in paragraph at lines 24--25
- []\OT1/cmr/bx/sc/12 NumPy:[] \OT1/cmr/m/n/12 Es una bi-blio-te-ca fun-da-men-tal pa-ra el c^^Salcu-lo num^^Seri-co en Python.
- []
-
-[17
-
-
-
-
-]
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.241 \item  U
+              na estructura de procesamiento distribuida y paralela (opuesta... <./tipo_neuronas.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1019,7 +1032,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[17]
+<./perceptron.png, id=528, 272.217pt x 162.6075pt>
+File: ./perceptron.png Graphic file (type png)
+<use ./perceptron.png>
+Package pdftex.def Info: ./perceptron.png  used on input line 271.
+(pdftex.def)             Requested size: 244.99301pt x 146.3454pt.
+<./uso_aprendisaje_automatico.png, id=529, 429.40425pt x 149.358pt>
+File: ./uso_aprendisaje_automatico.png Graphic file (type png)
+<use ./uso_aprendisaje_automatico.png>
+Package pdftex.def Info: ./uso_aprendisaje_automatico.png  used on input line 284.
+(pdftex.def)             Requested size: 386.46024pt x 134.42094pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1027,7 +1051,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.290 
+       <./perceptron.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.296 
+       <./uso_aprendisaje_automatico.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1043,9 +1085,64 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
+[21])
 
-LaTeX Warning: Citation `lan' on page 22 undefined on input line 108.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+\openout2 = `./capitulo_03/marco_metodologico.aux'.
+
+ (capitulo_03/marco_metodologico.tex
+Cap\'{\i }tulo 3.
+
+Overfull \hbox (5.75894pt too wide) in paragraph at lines 24--25
+ []\OT1/cmr/bx/sc/12 NumPy:[] \OT1/cmr/m/n/12 Es una bi-blio-te-ca fun-da-men-tal pa-ra el c^^Salcu-lo num^^Seri-co en Python.
+ []
+
+[23
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+
+LaTeX Warning: Citation `lan' on page 28 undefined on input line 108.
 
 \@gls@deffile=\write12
 \openout12 = `tfg.glsdefs'.
@@ -1057,7 +1154,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22]
+[28]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1065,7 +1162,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
+[29]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1073,7 +1170,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24])
+[30])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1081,23 +1178,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[31]
 \openout2 = `./capitulo_04/resultados.aux'.
 
  (capitulo_04/resultados.tex
 Cap\'{\i }tulo 4.
-[26
+[32
 
 
 
 
 ]
-<./capitulo_04/huella.jpg, id=540, 169.38281pt x 188.20313pt>
+<./capitulo_04/huella.jpg, id=649, 169.38281pt x 188.20313pt>
 File: ./capitulo_04/huella.jpg Graphic file (type jpg)
 <use ./capitulo_04/huella.jpg>
 Package pdftex.def Info: ./capitulo_04/huella.jpg  used on input line 25.
 (pdftex.def)             Requested size: 84.6912pt x 94.10132pt.
-<./capitulo_04/termodin.png, id=542, 192.72pt x 187.29974pt>
+<./capitulo_04/termodin.png, id=651, 192.72pt x 187.29974pt>
 File: ./capitulo_04/termodin.png Graphic file (type png)
 <use ./capitulo_04/termodin.png>
 Package pdftex.def Info: ./capitulo_04/termodin.png  used on input line 35.
@@ -1110,7 +1207,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27
+[33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1123,7 +1220,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28
+[34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1134,7 +1231,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) ha
                                                   \__shipout_drop_firstpage_...
 l.90 
       <./capitulo_04/termodin.png>]
-<./capitulo_04/tabla_word.png, id=555, 554.67226pt x 155.3805pt>
+<./capitulo_04/tabla_word.png, id=664, 554.67226pt x 155.3805pt>
 File: ./capitulo_04/tabla_word.png Graphic file (type png)
 <use ./capitulo_04/tabla_word.png>
 Package pdftex.def Info: ./capitulo_04/tabla_word.png  used on input line 97.
@@ -1147,22 +1244,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29
+[35
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.105 \include{./capitulo_04/resultados}
+l.104 \include{./capitulo_04/resultados}
                                         
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.105 \include{./capitulo_04/resultados}
+l.104 \include{./capitulo_04/resultados}
                                          <./capitulo_04/tabla_word.png>]
 \openout2 = `./capitulo_05/discusion.aux'.
 
  (capitulo_05/discusion.tex
 Cap\'{\i }tulo 5.
-[30
+[36
 
 
 
@@ -1175,10 +1272,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31] (tfg.gls)
+[37] (tfg.gls)
 \openout2 = `./anexos/anexo.aux'.
 
- (anexos/anexo.tex) [32
+ (anexos/anexo.tex) [38
 
 
 
@@ -1187,89 +1284,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] (tfg.bbl
-tfg.bbl:29: Misplaced alignment tab character &.
-l.29   {https://scholar.google.es/scholar?hl=es&
-                                                as_sdt=0%2C5&q=K.+E.+Kendall...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-tfg.bbl:29: Missing $ inserted.
-<inserted text> 
-                $
-l.29 ...ttps://scholar.google.es/scholar?hl=es&as_
-                                                  sdt=0%2C5&q=K.+E.+Kendall+...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-tfg.bbl:30: Missing $ inserted.
-<inserted text> 
-                $
-l.30 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-tfg.bbl:30: Missing } inserted.
-<inserted text> 
-                }
-l.30 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+[]\OT1/cmr/m/n/12 [En l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / decidesoluciones . es /
+ []
 
 
-tfg.bbl:35: LaTeX Error: Unicode character � (U+FFFD)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35   381--386, 2020. [en l�
-                               nea]. Disponible:
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+[]$\OT1/cmr/m/n/12 https : / / scholar . google . es / scholar ? hl = es & as[]sdt = 0 % 2C5 & q = K . +E .
+ []
 
 
-tfg.bbl:41: LaTeX Error: Unicode character � (U+FFFD)
-               not set up for use with LaTeX.
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+\OT1/cmr/m/n/12 +Kendall + y + J . +E . +Kendall % 2C + An % C2 % B4alisis + y + dise % CB %
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...aff(es). (2017) Machine learning. [en l�
-                                                  nea]. Disponible:
-You may provide a definition with
-\DeclareUnicodeCharacter 
 
-[33
+Underfull \hbox (badness 2941) in paragraph at lines 46--52
+[]\OT1/cmr/m/n/12 Xavier Ba-so-gain, ``Re-des neu-ro-na-les ar-ti-fi-cia-les y sus apli-ca-cio-
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 46--52
+\OT1/cmr/m/it/12 de In-ge-nier^^S^^Pa Bil-bao. Open Cour-se Wa-re.[En l^^S^^Pnea] dis-po-ni-ble en
+ []
+
+[39
 
 
 
 
 ]
-
-tfg.bbl:81: LaTeX Error: Unicode character � (U+FFFD)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81   l�
-           nea]. Disponible:
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1277,10 +1321,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34] (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.aux
+[40])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41] (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.aux
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (hoja_aprobacion/hoja_aprobacion.aux) (dedicatoria/dedicatoria.aux) (agradecimientos/agradecimientos.aux) (epigrafe/epigrafe.aux) (resumen/resumen.aux) (abstract/abstract.aux) (capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux) (capitulo_03/marco_metodologico.aux) (capitulo_04/resultados.aux) (capitulo_05/discusion.aux) (anexos/anexo.aux))
+ (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\hoja_aprobacion\hoja_aprobacion.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\dedicatoria\dedicatoria.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\agradecimientos\agradecimientos.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\epigrafe\epigrafe.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\resumen\resumen.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\abstract\abstract.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_01\introduccion.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_02\marco_teorico.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_03\marco_metodologico.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_04\resultados.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\capitulo_05\discusion.aux) (c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\anexos\anexo.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1291,20 +1343,20 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 63507E9A2CEA186076908FF9F6E94112;8294.
+(rerunfilecheck)             Checksum: 505D496789893A11C32BCEB3FF1BA723;9639.
  ) 
 Here is how much of TeX's memory you used:
- 20179 strings out of 476331
- 362334 string characters out of 5787765
- 1862660 words of memory out of 5000000
- 39994 multiletter control sequences out of 15000+600000
+ 20260 strings out of 476331
+ 365853 string characters out of 5787765
+ 1863660 words of memory out of 5000000
+ 40033 multiletter control sequences out of 15000+600000
  524072 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,12n,90p,2294b,788s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\valer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.pdf (48 pages, 631203 bytes).
+ <C:\Users\valer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/valer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.pdf (55 pages, 895772 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 436 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 504 words of extra memory for PDF output out of 10000 (max. 10000000)
 
