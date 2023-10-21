@@ -18,61 +18,60 @@
 \contentsline {section}{\numberline {2.1}Predicciones de Compras}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Relación de Demanda y Gestión de Suministro}{5}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Importancia de la Predicción de Compra de Insumos}{5}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Factores que Influyen en la Curva de Insumos Demandados}{7}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Factores que Influyen en la Curva de Insumos Demandados}{8}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Sistema de información }{8}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1} Tipos de sistema de información}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1} Tipos de sistema de información}{9}{subsection.2.2.1}%
 \contentsline {paragraph}{Sistemas de procesamiento de transacciones}{9}{section*.6}%
-\contentsline {paragraph}{Sistema de información administrativa}{9}{section*.7}%
+\contentsline {paragraph}{Sistema de información administrativa}{10}{section*.7}%
 \contentsline {paragraph}{Sistema de soporte de decisiones}{10}{section*.8}%
 \contentsline {paragraph}{Sistema de información gerencial}{10}{section*.9}%
 \contentsline {paragraph}{Sistema experto e inteligencia artificial }{10}{section*.10}%
 \contentsline {section}{\numberline {2.3}Tiempos Actuales en las Predicciones de Demanda}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}El aprendizaje automático \textit {(machine learning)}}{12}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Aprendizaje supervisado}{13}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Aprendizaje no supervisado}{14}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Aprendizaje de refuerzo}{14}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Redes Neuronales Artificiales}{14}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}La Neurona Artificial}{14}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Capas de la neurona artificial}{15}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Modelo de redes neuronales artificiales}{17}{subsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.8.4}Los pesos sinápticos}{17}{subsection.2.8.4}%
-\contentsline {subsection}{\numberline {2.8.5}Perceptron}{17}{subsection.2.8.5}%
-\contentsline {section}{\numberline {2.9}Una hoja de ruta para crear sistemas de aprendizaje automático}{18}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Antecedentes}{19}{section.2.10}%
-\contentsline {chapter}{\numberline {3}Método}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Lenguajes de programación}{23}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Python}{23}{subsection.3.1.1}%
-\contentsline {paragraph}{Pandas:}{23}{section*.11}%
-\contentsline {paragraph}{NumPy:}{24}{section*.12}%
-\contentsline {paragraph}{Matplotlib:}{24}{section*.13}%
-\contentsline {paragraph}{Seaborn:}{24}{section*.14}%
-\contentsline {paragraph}{Scikit-learn:}{24}{section*.15}%
-\contentsline {paragraph}{StatsModels:}{24}{section*.16}%
-\contentsline {paragraph}{SciPy:}{24}{section*.17}%
-\contentsline {paragraph}{Plotly:}{24}{section*.18}%
-\contentsline {paragraph}{Bokeh:}{25}{section*.19}%
-\contentsline {paragraph}{Dask:}{25}{section*.20}%
-\contentsline {paragraph}{TensorFlow y PyTorch:}{25}{section*.21}%
-\contentsline {subsection}{\numberline {3.1.2}PHP}{25}{subsection.3.1.2}%
-\contentsline {paragraph}{Facilidad de aprendizaje:}{25}{section*.22}%
-\contentsline {paragraph}{Amplia comunidad y soporte:}{25}{section*.23}%
-\contentsline {paragraph}{Interacción con bases de datos:}{25}{section*.24}%
-\contentsline {paragraph}{Versatilidad:}{26}{section*.25}%
-\contentsline {paragraph}{Plataforma cruzada:}{26}{section*.26}%
-\contentsline {section}{\numberline {3.2}Enfoque}{26}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Alcance de la investigación cuantitativa}{26}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Alcance exploratorio.}{27}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Alcance descriptivo.}{27}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Alcance correlacional.}{27}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Alcance explicativo.}{27}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Diseño}{28}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Resultados}{32}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Ejemplos de elementos grficos}{33}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Discusin}{36}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Logros alcanzados}{36}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Solucin del problema de investigacin}{37}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Sugerencias para futuras investigaciones}{37}{section.5.3}%
-\contentsline {chapter}{Anexo A.}{38}{chapter*.27}%
-\contentsline {chapter}{Glosario}{38}{section.5.3}%
-\contentsline {chapter}{Anexos}{38}{section.5.3}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{39}{chapter*.27}%
+\contentsline {section}{\numberline {2.4}Mineria de datos}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}El aprendizaje automático \textit {(machine learning)}}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Aprendizaje supervisado}{15}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Aprendizaje no supervisado}{16}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Aprendizaje de refuerzo}{17}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Redes Neuronales Artificiales}{17}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Capas de la neurona artificial}{19}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Modelo de redes neuronales artificiales}{20}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Arquitectura de una red neuronal}{20}{subsection.2.9.3}%
+\contentsline {subsection}{\numberline {2.9.4}Los pesos sinápticos}{21}{subsection.2.9.4}%
+\contentsline {section}{\numberline {2.10}Perceptron}{21}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Perceptrón multica}{22}{subsection.2.10.1}%
+\contentsline {section}{\numberline {2.11}Series de Tiempo}{23}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Redes neuronales recurrentes LSTM}{23}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Antecedentes}{23}{section.2.13}%
+\contentsline {chapter}{\numberline {3}Método}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Enfoque}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Descripción de los datos}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Librerias de uso común en Mching Learning}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Alcance de la investigación cuantitativa}{29}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Alcance exploratorio.}{29}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Alcance descriptivo.}{29}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Alcance correlacional.}{30}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Alcance explicativo.}{30}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Diseño}{30}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Lenguajes de programación}{33}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Python}{33}{subsection.3.6.1}%
+\contentsline {paragraph}{Pandas:}{34}{section*.11}%
+\contentsline {paragraph}{NumPy:}{34}{section*.12}%
+\contentsline {paragraph}{Matplotlib:}{34}{section*.13}%
+\contentsline {paragraph}{Seaborn:}{34}{section*.14}%
+\contentsline {paragraph}{Scikit-learn:}{34}{section*.15}%
+\contentsline {paragraph}{StatsModels:}{35}{section*.16}%
+\contentsline {paragraph}{SciPy:}{35}{section*.17}%
+\contentsline {paragraph}{Plotly:}{35}{section*.18}%
+\contentsline {paragraph}{Bokeh:}{35}{section*.19}%
+\contentsline {paragraph}{Dask:}{35}{section*.20}%
+\contentsline {paragraph}{TensorFlow y PyTorch:}{35}{section*.21}%
+\contentsline {subsection}{\numberline {3.6.2}PHP}{36}{subsection.3.6.2}%
+\contentsline {paragraph}{Facilidad de aprendizaje:}{36}{section*.22}%
+\contentsline {paragraph}{Amplia comunidad y soporte:}{36}{section*.23}%
+\contentsline {paragraph}{Interacción con bases de datos:}{36}{section*.24}%
+\contentsline {paragraph}{Versatilidad:}{36}{section*.25}%
+\contentsline {paragraph}{Plataforma cruzada:}{36}{section*.26}%
+\contentsline {chapter}{Anexo A.}{37}{chapter*.27}%
+\contentsline {chapter}{Glosario}{37}{section*.26}%
+\contentsline {chapter}{Anexos}{37}{section*.26}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{38}{chapter*.27}%

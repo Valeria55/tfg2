@@ -3,14 +3,12 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Predicción de demanda a corto, mediano y largo plazo\cite {decide}.}}{6}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Proceso de Optimización de inventario\cite {decide}.}}{7}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Arquitectura de un sistema experto}}{11}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Componentes de una neurona.}}{15}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Tipos de neuronas artificiales\cite {lopez2008redes}.}}{16}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Aplicación de la Red Perceptron}}{18}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo}}{19}{figure.2.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Arquitectura de un sistema experto \cite {diez2001introduccion}.}}{12}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo}}{15}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Aprendisaje supervisado\cite {decide}.}}{16}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Componentes de una neurona.}}{18}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Tipos de neuronas artificiales\cite {lopez2008redes}.}}{19}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Aplicación de la Red Perceptron}}{22}{figure.2.8}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Huella dactilar.}}{33}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplificacin de diagrama en blanco y negro.}}{34}{figure.4.2}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diseño procedural.}}{28}{figure.3.1}%
 \addvspace {10\p@ }

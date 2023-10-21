@@ -28,6 +28,18 @@
   \url{https://decidesoluciones.es/modelo-de-prediccion-de-demanda-aplicacion-y-beneficios/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{diez2001introduccion}
+Ra{\'u}l~Pino D{\'\i}ez, Alberto~G{\'o}mez G{\'o}mez, y Nicol{\'a}s
+  de~Abajo~Mart{\'\i}nez, \emph{Introducci{\'o}n a la inteligencia artificial:
+  sistemas expertos, redes neuronales artificiales y computaci{\'o}n
+  evolutiva}.\hskip 1em plus 0.5em minus 0.4em\relax Universidad de oviedo,
+  2001.
+
+\bibitem{lopez2008redes}
+Raquel~Fl{\'o}rez L{\'o}pez y Jos{\'e} Miguel~Fern{\'a}ndez Fern{\'a}ndez,
+  \emph{Las redes neuronales artificiales}.\hskip 1em plus 0.5em minus
+  0.4em\relax Netbiblo, 2008.
+
 \bibitem{marques2017nivel}
 Ana~Ortega Marqu{\'e}s, Sandy Patricia~Padilla Dom{\'\i}nguez, Johana
   Isabel~Torres Dur{\'a}n, y Alexander~Ruz G{\'o}mez, ``Nivel de importancia
@@ -42,13 +54,19 @@ Kenneth~E Kendall y Julie~E Kendall, \emph{An{\'a}lisis y dise{\~n}o de
   \url{https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=K.+E.+Kendall+y+J.+E.+Kendall%2C+An%C2%B4alisis+y+dise%CB%9Cno+de+sistemas.+Pearson+educaci%C2%B4on%2C+2005&btnG=}
 \BIBentrySTDinterwordspacing
 
-\bibitem{basogain2008redes}
-Xavier Basogain, ``Redes neuronales artificiales y sus aplicaciones,''
-  \emph{Dpto. Ingenier{\'\i}a de Sistemas y Autom{\'a}tica, Escuela Superior de
-  Ingenier{\'\i}a Bilbao. Open Course Ware.[En l{\'\i}nea] disponible en
-  http://ocw. ehu.
-  es/ensenanzas-tecnicas/redes-neuronales-artificiales-y-sus-aplicaciones/Course\_
-  listing.[Consultada 20-09-2012]}, 2008.
+\bibitem{olabe1998redes}
+Xabier~Basogain Olabe, ``Redes neuronales artificiales y sus aplicaciones,''
+  \emph{Publicaciones de la Escuela de Ingenieros}, 1998.
+
+\bibitem{perez2007mineria}
+C{\'e}sar P{\'e}rez~L{\'o}pez y Daniel Santin~Gonz{\'a}lez, \emph{Miner{\'\i}a
+  de datos. T{\'e}cnicas y herramientas: t{\'e}cnicas y herramientas}.\hskip
+  1em plus 0.5em minus 0.4em\relax Ediciones Paraninfo, SA, 2007.
+
+\bibitem{martinez2001mineria}
+Beatriz~Beltr{\'a}n Mart{\'\i}nez, ``Miner{\'\i}a de datos,'' \emph{C{\'o}mo
+  hallar una aguja en un pajar. Ingenier{\'\i}as}, vol.~14, no.~53, pp. 53--66,
+  2001.
 
 \bibitem{mahesh2020machine}
 \BIBentryALTinterwordspacing
@@ -57,6 +75,10 @@ Batta Mahesh, ``Machine learning algorithms-a review,'' \emph{International
   381--386, 2020. [En l{\'\i}nea]. Disponible:
   \url{https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=+machine+learning&btnG=}
 \BIBentrySTDinterwordspacing
+
+\bibitem{herrera2020prediccion}
+Dennys~Fabian Herrera~Cofre \emph{et~al.}, ``Predicci{\'o}n para el mercado de
+  acciones con redes neuronales lstm,'' 2020.
 
 \bibitem{ibm}
 \BIBentryALTinterwordspacing
@@ -68,10 +90,23 @@ I.B.M. Staff(es). (2017) Machine learning. [En l{\'\i}nea]. Disponible:
 Ian Goodfellow, Yoshua Bengio, y Aaron Courville, \emph{Deep learning}.\hskip
   1em plus 0.5em minus 0.4em\relax MIT press, 2016.
 
-\bibitem{lopez2008redes}
-Raquel~Fl{\'o}rez L{\'o}pez y Jos{\'e} Miguel~Fern{\'a}ndez Fern{\'a}ndez,
-  \emph{Las redes neuronales artificiales}.\hskip 1em plus 0.5em minus
-  0.4em\relax Netbiblo, 2008.
+\bibitem{mirjalili2020python}
+Vahid Mirjalili y Sebastian Raschka, \emph{Python machine learning}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Marcombo, 2020.
+
+\bibitem{basogain2008redes}
+Xavier Basogain, ``Redes neuronales artificiales y sus aplicaciones,''
+  \emph{Dpto. Ingenier{\'\i}a de Sistemas y Autom{\'a}tica, Escuela Superior de
+  Ingenier{\'\i}a Bilbao. Open Course Ware.[En l{\'\i}nea] disponible en
+  http://ocw. ehu.
+  es/ensenanzas-tecnicas/redes-neuronales-artificiales-y-sus-aplicaciones/Course\_
+  listing.[Consultada 20-09-2012]}, 2008.
+
+\bibitem{sanchez2015maquinas}
+Nicol{\'a}s S{\'a}nchez~Anzola, ``M{\'a}quinas de soporte vectorial y redes
+  neuronales artificiales en la predicci{\'o}n del movimiento usd/cop spot
+  intradiario.'' \emph{ODEON-Observatorio de Econom{\'\i}a y Operaciones
+  Num{\'e}ricas}, no.~9, 2015.
 
 \bibitem{nacelle2009redes}
 Andres Nacelle y E~Mizraji, ``Redes neuronales artificiales,'' \emph{N{\'u}cleo
@@ -82,9 +117,24 @@ Eder Acevedo, Alexei Serna, y Edgar Serna, ``Principios y caracter{\'\i}sticas
   de las redes neuronales artificiales,'' \emph{Desarrollo e innovaci{\'o}n en
   ingenier{\'\i}a}, vol. 173, 2017.
 
-\bibitem{olabe1998redes}
-Xabier~Basogain Olabe, ``Redes neuronales artificiales y sus aplicaciones,''
-  \emph{Publicaciones de la Escuela de Ingenieros}, 1998.
+\bibitem{de2014aprendizaje}
+E~De~la Rosa~Montero, ``El aprendizaje profundo para la identificaci{\'o}n de
+  sistemas no lineales,'' \emph{Centro de Investigaci{\'o}n y de estudios
+  avanzados del Instituto Polit{\'e}cnico nacional}, 2014.
+
+\bibitem{nava2015procesamiento}
+F~Alejandro Nava, \emph{Procesamiento de series de tiempo}.\hskip 1em plus
+  0.5em minus 0.4em\relax Fondo de cultura econ{\'o}mica, 2015.
+
+\bibitem{tomas2023prediccion}
+Samuel Tomas, Oliver Saavedra, y Israel Espinoza, ``Predicci{\'o}n del ciclo
+  solar 25 mediante modelos arima y redes neuronales lstm,'' \emph{Revista de
+  la Academia Colombiana de Ciencias Exactas, F{\'\i}sicas y Naturales}, 2023.
+
+\bibitem{fernandez2021estimacion}
+Juan Jos{\'e} De~Lucio Fern{\'a}ndez, ``Estimaci{\'o}n adelantada del
+  crecimiento regional mediante redes neuronales lstm,'' \emph{Investigaciones
+  Regionales= Journal of Regional Research}, no.~49, pp. 45--64, 2021.
 
 \bibitem{condorena2017desarrollo}
 V{\'\i}ctor~Marcial Condorena~Rond{\'o}n, ``Desarrollo de un sistema de control
@@ -119,6 +169,11 @@ Jose~R SAURA, Ana Reyes-Men{\'e}ndez, y Pedro PALOS-SANCHEZ, ``Un an{\'a}lisis
 Edwar~Andr{\'e}s Hincapi{\'e}~Herrera, ``Predicci{\'o}n de la demanda usando
   modelos de machine learning,'' 2021.
 
+\bibitem{sampieri}
+Roberto Hern\'andez, C.~Fern\'andez, y M.~P. Baptista, \emph{Metodolog\'ia de
+  la investigaci\'on}, 5th~ed.\hskip 1em plus 0.5em minus 0.4em\relax M\'exico
+  D.F.: McGraw-Hill, 2010.
+
 \bibitem{python2021python}
 \BIBentryALTinterwordspacing
 Why Python, ``Python,'' \emph{Python Releases for Windows}, vol.~24, 2021. [En
@@ -130,10 +185,5 @@ Why Python, ``Python,'' \emph{Python Releases for Windows}, vol.~24, 2021. [En
 {\'A}ngel Cobo, \emph{PHP y MySQL: Tecnolog{\'\i}a para el desarrollo de
   aplicaciones web.}\hskip 1em plus 0.5em minus 0.4em\relax Ediciones D{\'\i}az
   de Santos, 2005.
-
-\bibitem{sampieri}
-Roberto Hern\'andez, C.~Fern\'andez, y M.~P. Baptista, \emph{Metodolog\'ia de
-  la investigaci\'on}, 5th~ed.\hskip 1em plus 0.5em minus 0.4em\relax M\'exico
-  D.F.: McGraw-Hill, 2010.
 
 \end{thebibliography}

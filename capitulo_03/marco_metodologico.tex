@@ -6,76 +6,46 @@
 \lhead{Método}
 
 \chapter{Método}
-\section{Lenguajes de programación}
+En esta sección, se describirán los métodos utilizados para llevar a cabo la investigación sobre la predicción de compras a parir de un historial de ventas.
 
-\subsection{Python}
-Python es un lenguaje de programación potente y elegante
-que sea fácil de leer y de entender\cite{python2021python}.
-
-Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.
-
-Python se destaca en el ámbito de la inteligencia artificial debido a su capacidad para gestionar conjuntos de datos voluminosos y su facilidad de programación. Su sintaxis concisa y legible lo convierte en una elección ideal para crear prototipos de forma rápida, dinámica y comprensible.
-Además de su amplia popularidad, la razón principal para adentrarse en Python en el contexto del aprendizaje automático es, indiscutiblemente, su vasto ecosistema de recursos previamente desarrollados. 
-
-\paragraph{Pandas:}
-Es una biblioteca de código abierto que proporciona estructuras de datos flexibles y herramientas de análisis de datos para Python. Su principal estructura de datos es el DataFrame, que permite organizar datos en tablas bidimensionales. Pandas es ampliamente utilizado para la limpieza, manipulación y análisis de datos tabulares, lo que lo hace esencial en el análisis de datos.
-
-\paragraph{NumPy:}
-Es una biblioteca fundamental para el cálculo numérico en Python. Proporciona soporte para arreglos multidimensionales (llamados ndarrays) y una amplia gama de funciones matemáticas para operaciones en estos arreglos. NumPy es crucial para realizar cálculos numéricos eficientes y es la base de muchas otras bibliotecas de análisis de datos en Python.
-
-\paragraph{Matplotlib:}
-Es una biblioteca de visualización que permite crear gráficos estáticos de alta calidad. Proporciona una variedad de tipos de gráficos, desde gráficos de líneas y barras hasta histogramas y gráficos de dispersión. Matplotlib es ampliamente utilizado para visualizar datos y resultados en el análisis de datos.
-
-\paragraph{Seaborn:}
-Es una biblioteca de visualización basada en Matplotlib que simplifica la creación de gráficos estadísticos atractivos. Ofrece una interfaz de alto nivel para crear fácilmente visualizaciones complejas y atractivas, lo que la hace útil para el análisis exploratorio de datos y la presentación de resultados.
-
-\paragraph{Scikit-learn:}
-Es una biblioteca de aprendizaje automático que proporciona herramientas para tareas comunes de aprendizaje automático, como clasificación, regresión, clustering y selección de modelos. También incluye utilidades para la evaluación de modelos y el preprocesamiento de datos, lo que la convierte en una biblioteca esencial para el análisis de datos relacionados con el aprendizaje automático.
-
-\paragraph{StatsModels:}
-Es una biblioteca que se utiliza para realizar análisis estadísticos y modelado en Python. Está especialmente orientada a tareas como la regresión lineal y logística, análisis de series temporales y pruebas estadísticas. Es útil para realizar análisis estadísticos rigurosos en el contexto del análisis de datos.
-
-\paragraph{SciPy:}
-Es una extensión de NumPy que proporciona funcionalidades adicionales para cálculos científicos y técnicos. Incluye módulos para optimización, interpolación, integración numérica, álgebra lineal, transformadas y más. Es una biblioteca esencial para aplicaciones científicas y de ingeniería que involucran cálculos numéricos.
-
-\paragraph{Plotly:}
-Es una biblioteca que permite crear gráficos interactivos y visualizaciones web en Python. Es útil para crear visualizaciones interactivas para el análisis exploratorio de datos y la presentación de resultados en aplicaciones web.
-
-\paragraph{Bokeh:}
-Es otra biblioteca para crear gráficos interactivos y aplicaciones web basadas en datos. Ofrece una amplia gama de herramientas para crear visualizaciones interactivas y es especialmente útil para proyectos que requieren interfaces de usuario interactivas.
-
-\paragraph{Dask:}
-Es una biblioteca que se utiliza para el procesamiento paralelo y distribuido de datos en Python. Permite trabajar con conjuntos de datos grandes y realizar operaciones complejas de manera eficiente en clústeres de computadoras.
-
-\paragraph{TensorFlow y PyTorch:}
-Si bien estas bibliotecas son conocidas principalmente por el aprendizaje profundo, también se utilizan en tareas de procesamiento y análisis de datos cuando se trabajan con modelos de redes neuronales. Proporcionan herramientas para construir, entrenar y evaluar modelos de aprendizaje automático y profundo.
-
-Estas bibliotecas forman la base del ecosistema de análisis de datos en Python y son esenciales para una variedad de tareas en ciencia de datos, análisis de datos y aprendizaje automático.
-
-\subsection{PHP}
-Es un lenguaje de programación ampliamente utilizado en el desarrollo web. Se destaca por su capacidad para crear aplicaciones web dinámicas e interactivas\cite{cobo2005php}.
-
-Ofrece diversas ventajas que lo hacen atractivo en el desarrollo web:
-
-\paragraph{Facilidad de aprendizaje:}
-Tiene una sintaxis simple y legible, lo que facilita su aprendizaje, especialmente para principiantes en programación.
-\paragraph{Amplia comunidad y soporte:}
-Cuenta con una gran comunidad de desarrolladores y abundantes recursos en línea, incluyendo bibliotecas y frameworks, lo que agiliza el desarrollo.
-\paragraph{Interacción con bases de datos:}
-Brinda soporte integrado para la mayoría de las bases de datos populares, lo que lo hace ideal para aplicaciones que gestionan datos.
-\paragraph{Versatilidad:}
-Se integra fácilmente con HTML y otros lenguajes web, permitiendo una amplia gama de aplicaciones y funcionalidades.
-\paragraph{Plataforma cruzada:}
-Es compatible con varias plataformas y sistemas operativos, lo que lo hace altamente portátil.
 
 \section{Enfoque}
-Mejora de la Eficiencia en la Gestión de Insumos Gastronómicos a través del Análisis Inteligente de Datos de Ventas
+El desarrollo de un sistema de compras inteligentes que utiliza un histórico de ventas como fuente principal de información. El objetivo principal es optimizar la gestión de insumos gastronómicos.
+
 \begin{itemize}
-\item Cuantitativa; usa la recolección de datos para probar hipótesis, con base en la medición numérica y el análisis estadístico, para establecer patrones de regularidad y probar teorías. 
-\item Cualitativa; utiliza la recolección de datos sin medición numérica para descubrir o afinar preguntas de investigación en el proceso de investigación.
-\item mixta o cualicuantitativa; en general, toda investigación posee aspectos cualitativos (siempre) y cuantitativos, de manera que en la medida en que este compartimiento de aspectos se encuentre balanceado, se puede hablar de un tipo mixto cualicuantitativo.
-En la FPUNE, dada la naturaleza tecnológica de los estudios en esta casa de estudios superiores, generalmente los trabajos de investigación adoptan un enfoque cuantitativo; a veces se adopta el enfoque mixto o el cualitativo por ser más adecuado a la naturaleza del problema estudiado.
+\item Recopilación y análisis de datos cuantitativos de ventas históricas para desarrollar un modelo predictivo. Esto abarcaría la identificación de patrones de ventas, el uso de algoritmos de aprendizaje automático para predecir futuras compras y la evaluación de la precisión del sistema. 
+\item Aplicación de métricas cuantitativas para evaluar el rendimiento del sistema en términos de eficiencia, impacto en las ventas y beneficios para la entidad objeto de estudio.
+
 \end{itemize}
+
+\section{Descripción de los datos}
+Se  empleó  un  conjunto  de  datos  recopilados  a  partir  del  número  diario  de  productos vendidos,  obtenido  de la empresa gastronomica que proveyo los datos para el analisis y predicción de la misma, es importante destacar que el conjunto de datos es continuamente actualizado, sin embargo, para los propósitos de esta investigación, se consideró un conjunto de datos con XXX registros que cubren el período desde MES de XXX hasta MES de XXX.
+
+Posteriormente, se dividió el conjunto de datos en dos grupos: entrenamiento y validación. El grupo de entrenamiento comprendió XXX registros que cubren desde MES de XXX hasta MES de XXX. El grupo de validación incluyó XXX registros, desde MES de XXX hasta MES de XXX.
+
+
+
+\textbf{Lista de requisitos:}
+
+\begin{itemize}
+% \item Registro de usuarios(Alta, Baja, Modificaciones).
+\item Registro de productos (Alta, Baja, Modificaciones).
+\item Registro de insumos(materia prima) (Alta, Baja,Modificaciones). 
+\item Registro de pedidos/ventas (Alta, Baja, Modificaciones).
+\item Generación de Informes Personalizados: Debe permitir la creación de informes personalizados que muestren datos específicos para análisis.
+\item Análisis de Tendencias: Debe ser capaz de identificar tendencias y patrones en las ventas de insumos, lo que facilita la toma de decisiones basadas en datos.
+
+\end{itemize}
+\begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=0.90]{./diseño_procedural.png}
+      \caption{Diseño procedural.}
+      \label{fig:diseño_procedural}
+    \end{center}
+  \end{figure}
+  
+\section{Librerias de uso común en Mching Learning}
+A continuación se instalara y actualizaran las principales librerias mas utilizadas cuando se realizan programas de inteligencia artificial
 
 \section{Alcance de la investigación cuantitativa}
 El alcance de la investigación consiste en una medida de causalidad de la misma, entendida la causalidad como la relación causa efecto existente entre las variables, siendo el alcance; el grado de identificación de esta relación. La medida de causalidad puede variar dentro de límites de un continuo con varios grados caracterizados, estos grados de alcance bien caracterizados son: exploratorio, descriptivo, correlacional y explicativo. Las investigaciones exploratorias sirven para preparar el terreno y por lo común anteceden a investigaciones con alcances más profundos. Las investigaciones descriptivas pueden ser base de investigaciones correlacionales, si no explicativos; y así también las investigaciones correlacionales pueden proporcionar información para llevar a cabo investigaciones explicativas. Las investigaciones explicativas explicitan relaciones causa efecto, generan un sentido de entendimiento y son altamente estructurados. Es posible que una investigación se inicie como exploratoria, después puede ser descriptiva, luego correlacional y terminar siendo explicativa. El alcance depende fundamentalmente de dos factores: el estado del conocimiento sobre el problema de investigación, mostrado por la revisión de la literatura, así como la perspectiva que se pretenda dar a la investigación.
@@ -149,7 +119,7 @@ Una vez concluida la primera etapa y aprobado el presupuesto de la red es necesa
 
 \newacronym{sored}{SOR}{Sistema Operativo de Red}
 \glsreset{sored} % reinicia el banderín del primer uso
-
+ 
 \textit{Seleccionar el \gls{sored}.}
 
 Aunque el \gls{sored}  (del inglés NOS: Netware Operating System) NetWare predomina en el mundo, éste no es siempre la elección adecuada, debido a sus costos y características. En el mercado existen otros \glspl{sored} tales como: LAN Manager, LANServer, LANtastic, Vines, LINUX, Windows NT Server, Windows 2000 Server, etc.; los cuales poseen una determinada cuota de mercado. Para seleccionar el SOR adecuado se debe tener en cuenta:
@@ -173,3 +143,65 @@ Aunque el \gls{sored}  (del inglés NOS: Netware Operating System) NetWare predo
 \textit{Contemplar las necesidades del personal involucrado en la red.} Esto es muy importante pues en última instancia éste será el personal que utilizará la red y por lo tanto deben quedar satisfechas sus necesidades de forma tal que la nueva red sea un elemento que facilite su trabajo.
 
 \textit{Modificar de ser necesario el flujo de información y seleccionar el software de aplicación.} Esto implica la modificación, como última opción, de la manera en que la información circula dentro de la organización y la definición del software de aplicación necesario, ya sea comercial o aquél que se encargará al personal especializado; que conozca las particularidades de la programación en ambiente multiusuario. El software encargado o adquirido debe ser de fácil instalación y aprendizaje. Además se debe velar porque sea posible tener acceso a posteriores actualizaciones y que éstas no sean caras.
+
+\section{Lenguajes de programación}
+
+\subsection{Python}
+Python es un lenguaje de programación potente y elegante
+que sea fácil de leer y de entender\cite{python2021python}.
+
+Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.
+
+Python se destaca en el ámbito de la inteligencia artificial debido a su capacidad para gestionar conjuntos de datos voluminosos y su facilidad de programación. Su sintaxis concisa y legible lo convierte en una elección ideal para crear prototipos de forma rápida, dinámica y comprensible.
+Además de su amplia popularidad, la razón principal para adentrarse en Python en el contexto del aprendizaje automático es, indiscutiblemente, su vasto ecosistema de recursos previamente desarrollados. 
+
+\paragraph{Pandas:}
+Es una biblioteca de código abierto que proporciona estructuras de datos flexibles y herramientas de análisis de datos para Python. Su principal estructura de datos es el DataFrame, que permite organizar datos en tablas bidimensionales. Pandas es ampliamente utilizado para la limpieza, manipulación y análisis de datos tabulares, lo que lo hace esencial en el análisis de datos.
+
+\paragraph{NumPy:}
+Es una biblioteca fundamental para el cálculo numérico en Python. Proporciona soporte para arreglos multidimensionales (llamados ndarrays) y una amplia gama de funciones matemáticas para operaciones en estos arreglos. NumPy es crucial para realizar cálculos numéricos eficientes y es la base de muchas otras bibliotecas de análisis de datos en Python.
+
+\paragraph{Matplotlib:}
+Es una biblioteca de visualización que permite crear gráficos estáticos de alta calidad. Proporciona una variedad de tipos de gráficos, desde gráficos de líneas y barras hasta histogramas y gráficos de dispersión. Matplotlib es ampliamente utilizado para visualizar datos y resultados en el análisis de datos.
+
+\paragraph{Seaborn:}
+Es una biblioteca de visualización basada en Matplotlib que simplifica la creación de gráficos estadísticos atractivos. Ofrece una interfaz de alto nivel para crear fácilmente visualizaciones complejas y atractivas, lo que la hace útil para el análisis exploratorio de datos y la presentación de resultados.
+
+\paragraph{Scikit-learn:}
+Es una biblioteca de aprendizaje automático que proporciona herramientas para tareas comunes de aprendizaje automático, como clasificación, regresión, clustering y selección de modelos. También incluye utilidades para la evaluación de modelos y el preprocesamiento de datos, lo que la convierte en una biblioteca esencial para el análisis de datos relacionados con el aprendizaje automático.
+
+\paragraph{StatsModels:}
+Es una biblioteca que se utiliza para realizar análisis estadísticos y modelado en Python. Está especialmente orientada a tareas como la regresión lineal y logística, análisis de series temporales y pruebas estadísticas. Es útil para realizar análisis estadísticos rigurosos en el contexto del análisis de datos.
+
+\paragraph{SciPy:}
+Es una extensión de NumPy que proporciona funcionalidades adicionales para cálculos científicos y técnicos. Incluye módulos para optimización, interpolación, integración numérica, álgebra lineal, transformadas y más. Es una biblioteca esencial para aplicaciones científicas y de ingeniería que involucran cálculos numéricos.
+
+\paragraph{Plotly:}
+Es una biblioteca que permite crear gráficos interactivos y visualizaciones web en Python. Es útil para crear visualizaciones interactivas para el análisis exploratorio de datos y la presentación de resultados en aplicaciones web.
+
+\paragraph{Bokeh:}
+Es otra biblioteca para crear gráficos interactivos y aplicaciones web basadas en datos. Ofrece una amplia gama de herramientas para crear visualizaciones interactivas y es especialmente útil para proyectos que requieren interfaces de usuario interactivas.
+
+\paragraph{Dask:}
+Es una biblioteca que se utiliza para el procesamiento paralelo y distribuido de datos en Python. Permite trabajar con conjuntos de datos grandes y realizar operaciones complejas de manera eficiente en clústeres de computadoras.
+
+\paragraph{TensorFlow y PyTorch:}
+Si bien estas bibliotecas son conocidas principalmente por el aprendizaje profundo, también se utilizan en tareas de procesamiento y análisis de datos cuando se trabajan con modelos de redes neuronales. Proporcionan herramientas para construir, entrenar y evaluar modelos de aprendizaje automático y profundo.
+
+Estas bibliotecas forman la base del ecosistema de análisis de datos en Python y son esenciales para una variedad de tareas en ciencia de datos, análisis de datos y aprendizaje automático.
+
+\subsection{PHP}
+Es un lenguaje de programación ampliamente utilizado en el desarrollo web. Se destaca por su capacidad para crear aplicaciones web dinámicas e interactivas\cite{cobo2005php}.
+
+Ofrece diversas ventajas que lo hacen atractivo en el desarrollo web:
+
+\paragraph{Facilidad de aprendizaje:}
+Tiene una sintaxis simple y legible, lo que facilita su aprendizaje, especialmente para principiantes en programación.
+\paragraph{Amplia comunidad y soporte:}
+Cuenta con una gran comunidad de desarrolladores y abundantes recursos en línea, incluyendo bibliotecas y frameworks, lo que agiliza el desarrollo.
+\paragraph{Interacción con bases de datos:}
+Brinda soporte integrado para la mayoría de las bases de datos populares, lo que lo hace ideal para aplicaciones que gestionan datos.
+\paragraph{Versatilidad:}
+Se integra fácilmente con HTML y otros lenguajes web, permitiendo una amplia gama de aplicaciones y funcionalidades.
+\paragraph{Plataforma cruzada:}
+Es compatible con varias plataformas y sistemas operativos, lo que lo hace altamente portátil.

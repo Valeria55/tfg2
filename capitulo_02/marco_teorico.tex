@@ -10,7 +10,7 @@
 \chapter{Conceptos fundamentales, teorías y antecedentes}
 
 \section{Predicciones de Compras}
-La predicciónes el proceso de anticipar la cantidad y tipo de insumos que un negocio gastronómico necesitará adquirir en el futuro, con el objetivo de asegurar un suministro adecuado y eficiente.
+La predicción es el proceso de anticipar la cantidad y tipo de insumos que un negocio gastronómico necesitará adquirir en el futuro, con el objetivo de asegurar un suministro adecuado y eficiente.
 
 
 \subsection{Relación de Demanda y Gestión de Suministro}
@@ -21,22 +21,39 @@ La relación de demanda y gestión de suministro se refiere a la interacción en
 \subsection{Importancia de la Predicción de Compra de Insumos}
 
 La aplicación de un modelo de predicción para planificar la demanda futura es un proceso circular de mejora continua. Eso significa que el modelo es enriquecido constantemente con datos en tiempo real para realizar predicciones más precisas y generar una planificación más acorde a la realidad \cite{decide}.
-
-\vspace{1\baselineskip}
-La predicción de compra de insumos es vital para la planificación a corto, mediano y largo plazo en un negocio gastronómico por varias razones:
-
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[scale=0.70]{./proceso_CMD_plazo.png}
+    \includegraphics[scale=0.70]{./trianguloCMD.png}
     \caption{Predicción de demanda a corto, mediano y largo plazo\cite{decide}.}
     \label{fig:proceso_inventario}
   \end{center}
 \end{figure}
 
 \begin{enumerate}
+  \item Utiliza la \textbf{Predicción de la demanda a largo plazo para la planificación estrategica.}
+  Simula y compara diferentes escenarios hipotéticos de demanda, anticipate los cambios de mercado y planifica la contratación futura de recursos.
+  \item Utiliza la \textbf{Predicción de la demanda a corto plaxo para la planificación operativa.}
+  Planifica semanalmente las operaciones y recursos del día.
+  \item Utiliza la\textbf{Predicción de la demanda a medio plazo para la planificación táctica.} 
+  Conoce las capacidades con meses de antelacion y compáralas con las actuales para detectar posibles necesidades.
+\end{enumerate}
+\vspace{1\baselineskip}
+La predicción de compra de insumos es vital para la planificación a corto, mediano y largo plazo en un negocio gastronómico por varias razones:
+
+
+
+\begin{enumerate}
   \item \textbf{Optimización de Inventario:} El inventario tiene como propósito fundamental proveer a la empresa de materiales necesarios, para  su  continuo  y  regular  desenvolvimiento,  es  decir,  el  inventario  tiene  un  papel  vital  para  el funcionamiento acorde y coherente dentro del proceso de producción y de esta forma afrontar la demanda\cite{marques2017nivel}.
   
   Al prever la demanda futura, el negocio puede mantener un nivel de inventario óptimo. Comprar en exceso puede llevar al desperdicio de alimentos, mientras que comprar muy poco puede resultar en escasez y pérdida de ventas.
+
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=0.90]{./procesos_de_trabajo.png}
+      \caption{Proceso de Optimización de inventario\cite{decide}.}
+      \label{fig:proceso_inventario}
+    \end{center}
+  \end{figure}
   
   \item \textbf{Reducción de Costos:} Una predicción precisa permite comprar solo lo necesario, lo que reduce los costos asociados con el almacenamiento y la conservación de productos perecederos.
   
@@ -52,13 +69,9 @@ La predicción de compra de insumos es vital para la planificación a corto, med
   \item \textbf{Satisfacción del Cliente:} Mantener un suministro constante de productos esencial para el negocio, ya que los clientes esperan encontrar su elección preferida en el menú en todo momento.
 \end{enumerate}
 
-\begin{figure}[H]
-  \begin{center}
-    \includegraphics[scale=0.90]{./procesos_de_trabajo.png}
-    \caption{Proceso de Optimización de inventario\cite{decide}.}
-    \label{fig:proceso_inventario}
-  \end{center}
-\end{figure}
+
+
+
 
 \subsection{Factores que Influyen en la Curva de Insumos Demandados}
 
@@ -133,19 +146,24 @@ La inteligencia artificial (AI) puede ser considerada como el campo dominante de
 Los sistemas expertos utilizan las metodologías de razonamiento de la AI para resolver los problemas que los usuarios de negocios (y otros tipos de usuarios) les presentan. Los sistemas expertos son una clase muy especial de sistema de información que ha demostrado su utilidad comercial gracias a la disponibilidad extendida de hardware y software como las computadoras personales (PC) y las interfaces de sistemas expertos.
 
 
-Un sistema experto (también conocido como sistema basado en el conocimiento) captura y utiliza en forma efectiva el conocimiento de uno o varios expertos humanos para resolver un problema específico al que una organización se enfrenta. Cabe mencionar que a diferencia de los sistemas DSS, que en última instancia dejan la decisión a la persona encargada de la toma de decisiones, un sistema experto selecciona la mejor solución para un problema o una clase específica de problemas. Los componentes básicos de un sistema experto son la base de conocimiento, un motor de inferencia que conecta al usuario con el sistema mediante el proceso de consultas en lenguajes, como el lenguaje de consulta estructurado (SQL), y la interfaz de usuario. Las personas conocidas como ingenieros del conocimiento capturan la experiencia de los expertos, crean un sistema computacional que incluye este conocimiento y después lo implementan.
+Un sistema experto (también conocido como sistema basado en el conocimiento) captura y utiliza en forma efectiva el conocimiento de uno o varios expertos humanos para resolver un problema específico al que una organización se enfrenta. Cabe mencionar que a diferencia de los sistemas DSS, que en última instancia dejan la decisión a la persona encargada de la toma de decisiones, un sistema experto selecciona la mejor solución para un problema o una clase específica de problemas. Los componentes básicos de un sistema experto son la base de conocimiento, un motor de inferencia que conecta al usuario con el sistema mediante el proceso de consultas en lenguajes, como el lenguaje de consulta estructurado (SQL), y la interfaz de usuario. Las personas conocidas como ingenieros del conocimiento capturan la experiencia de los expertos, crean un sistema computacional que incluye este conocimiento y después lo implementan\cite{kendall2005analisis}.
+
+
 
 \begin{figure}[H]
   \begin{center}
     \includegraphics[scale=0.90]{./hechos.png}
-    \caption{Arquitectura de un sistema experto}
+    \caption{Arquitectura de un sistema experto \cite{diez2001introduccion}.}
     \label{fig:Arquitectura de un sistema experto}
   \end{center}
 \end{figure}
 
-Los sistemas expertos difieren de la programación tradicional en que la base del conocimiento está separada del motor de inferencia (el método del procesado del conocimiento). Esta característica permite que todo el conocimiento adicional puede ser añadido al sistema sin necesidad de tener que ser reprogramado todo el sistema. Esta técnica requiere que exista una persona experta en un área y que se puedan crear reglas que codifiquen el conocimiento\cite{basogain2008redes}.
 
-En el desarrollo de una red neuronal no hay que programar ni el conocimiento ni las reglas del procesamiento del conocimiento. La red neuronal aprende las reglas del procesamiento del conocimiento mediante el ajuste de las conexiones ponderadas entre las neuronas de distintas capas de la red. Mientras que en los Sistemas Expertos el conocimiento se hace explícito en forma de reglas, en la computación neuronal las ANN generan sus propias reglas aprendiendo de los ejemplos que se les muestran en la fase de entrenamiento. El aprendizaje se consigue a través de una regla de aprendizaje que adapta o cambia los pesos de las conexiones en respuesta a los ejemplos de entrada, y opcionalmente también en respuesta a las salidas deseadas. Esta característica de las ANN es lo que permite decir que las redes neuronales aprenden de la experiencia\cite{basogain2008redes}. 
+
+
+En los Sistemas Expertos el conocimiento se hace explícito en forma de reglas, en la computación neuronal las ANN generan sus propias reglas aprendiendo de los ejemplos que se les muestran en la fase de entrenamiento\cite{olabe1998redes}. 
+
+
 
 \section{Tiempos Actuales en las Predicciones de Demanda}
 
@@ -153,11 +171,25 @@ En la actualidad, las predicciones de demanda se benefician ampliamente de las t
 
 En tiempos recientes, se ha observado la aplicación de diversas técnicas en el campo de la inteligencia artificial, como sistemas expertos, y más recientemente, algoritmos genéticos. Sin embargo, a pesar de esta evolución, los modelos que han captado una atención destacada son los basados en Redes Neuronales Artificiales (RNAs). Con el transcurso del tiempo, se han desarrollado múltiples arquitecturas de RNAs para abordar una variedad de problemas en el ámbito de la predicción de demanda.
 
+\section{Mineria de datos}
+La minería de datos puede definirse inicialmente como un proceso de descubrimiento de nuevas y significativas relaciones, patrones y tendencias al examinar grandes cantidades de datos\cite{perez2007mineria}.
+
+El análisis de datos, potenciado por herramientas informáticas, ha dado lugar a la minería de datos. Esta disciplina busca descubrir automáticamente conocimiento en grandes bases de datos, identificando patrones, tendencias y perfiles a través de tecnologías avanzadas como el reconocimiento de patrones, redes neuronales y algoritmos genéticos.
+
+Inicialmente, los sistemas de información se centraban en recopilar datos para apoyar la toma de decisiones. Con la informatización de las organizaciones, se amplió su función para respaldar los procesos esenciales. Ahora, se buscan prestaciones adicionales, como sistemas de información para la toma de decisiones.
+
+La Minería de Datos se puede ubicar en el nivel más alto de la evolución de los procesos tecnológicos de análisis de datos \cite{martinez2001mineria}.
+
 \section{El aprendizaje automático \textit{(machine learning)}}
 
 \textit{Según Arthur Samuel, el aprendizaje automático se define como el campo de estudio que otorga a las computadoras la capacidad de aprender sin ser programadas explícitamente}\cite{mahesh2020machine}. 
 
-El aprendizaje automático se utiliza para enseñar a las máquinas a manejar los datos de manera más eficiente. A veces, después de ver los datos, no podemos interpretar la información extraída de los mismos. En ese caso, aplicamos el aprendizaje automático. Con la abundancia de conjuntos de datos disponibles, la demanda de aprendizaje automático está en aumento. Muchas industrias aplican el aprendizaje automático para extraer datos relevantes. El propósito del aprendizaje automático es aprender de los datos. Se han realizado muchos estudios sobre cómo hacer que las máquinas aprendan por sí mismas sin ser programadas explícitamente. Muchos matemáticos y programadores aplican varios enfoques para encontrar la solución a este problema que implica conjuntos de datos enormes.
+El aprendizaje automático se utiliza para enseñar a las máquinas a manejar los datos de manera más eficiente. A veces, después de ver los datos, no podemos interpretar la información extraída de los mismos.En ese caso, aplicamos el aprendizaje automático.
+
+Es decir, el aprendizaje automático como area de las ciencias computacionales aplicadas, desarrolla algoritmos capaces de tomar datos numéricos y alfanuméricos almacenados en un computador\cite{herrera2020prediccion}. 
+
+Con la abundancia de conjuntos de datos disponibles, la demanda de aprendizaje automático está en aumento. Muchas industrias aplican el aprendizaje automático para extraer datos relevantes. El propósito del aprendizaje automático es aprender de los datos. Se han realizado muchos estudios sobre cómo hacer que las máquinas aprendan por sí mismas sin ser programadas explícitamente. Muchos matemáticos y programadores aplican varios enfoques para encontrar la solución a este problema que implica conjuntos de datos enormes\cite{mahesh2020machine}.
+
 
 \vspace{1\baselineskip}El Aprendizaje Automático se basa en diferentes algoritmos para resolver problemas de datos. A los científicos de datos les gusta señalar que no existe un único tipo de algoritmo que sea universal y mejor para resolver todos los problemas. El tipo de algoritmo utilizado depende del tipo de problema que se desee resolver, el número de variables, el tipo de modelo que se adapte mejor, entre otros factores. 
 
@@ -165,13 +197,53 @@ Las técnicas de machine learning son necesarias para mejorar la precisión de l
 
 En el contexto de la aplicación de algoritmos de Machine Learning en el cálculo de pronósticos de demanda, es esencial comprender que el objetivo principal de estos algoritmos es encontrar una función que tome un conjunto de variables como entrada y produzca una estimación del valor deseado, en este caso, la demanda. Esta función se ajusta a través del aprendizaje a partir de observaciones pasadas donde los datos de demanda son conocidos. Por ejemplo, utilizando datos de demanda de los últimos años, el modelo se entrena para desarrollar una función que pueda hacer predicciones precisas sobre la demanda futura, lo que implica una tarea de regresión, ya que el resultado esperado es un valor numérico real. Esta metodología se basa en el libro “Deep Learning” de Ian Goodfellow, Yoshua Bengio y Aaron Courville\cite{goodfellow2016deep}.
 
+
+El siguiente diagrama muestra un flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo \cite{mirjalili2020python}:
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.90]{./uso_aprendisaje_automatico.png}
+    \caption{ flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo}
+    \label{fig:perceptron}
+  \end{center}
+\end{figure}
+
+\textbf{Procesamiento:}
+  \begin{itemize}
+    \item Extracción y escalado de características.
+    \item Selección de características.
+    \item Reducción de la dimensionalidad.
+    \item Muestreo.
+  \end{itemize}
+\textbf{Aprendizaje:}%importante
+  \begin{itemize}
+    \item Selección del modelo.
+    \item Validación cruzada.
+    \item Medición del rendimiento.
+    \item Optimización de hiperparametro.
+  \end{itemize}
+
 \section{Aprendizaje supervisado}
 
 El aprendizaje supervisado comienza típicamente con un conjunto establecido de datos y una cierta comprensión de cómo se clasifican estos datos. El aprendizaje supervisado tiene la intención de encontrar patrones en datos que se pueden aplicar a un proceso de analítica. Estos datos tienen características etiquetadas que definen el significado de los datos. Por ejemplo, se puede crear una aplicación de machine learning con base en imágenes y descripciones escritas que distinga entre millones de animales\cite{ibm}.
 
+\vspace{1\baselineskip}
+El objetivo principal del aprendizaje supervisado es aprender un modelo, a partir de datos de entrenamiento etiquetados, que nos permite hacer predicciones sobre datos futuros o no vistos \cite{mirjalili2020python}. Aquí, el término supervisado se refiere a un conjunto de muestras donde las señales
+de salida deseadas (etiquetas) ya se conocen.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.70]{./aprendisaje_supervisado.png}
+    \caption{Aprendisaje supervisado\cite{decide}.}
+    \label{fig:aprendisajesupervisado}
+  \end{center}
+\end{figure}
+
 \section{Aprendizaje no supervisado}
 
 El aprendizaje no supervisado se utiliza cuando el problema requiere una cantidad masiva de datos sin etiquetar. Por ejemplo, las aplicaciones de redes sociales, tales como Twitter, Instagram y Snapchat, tienen grandes cantidades de datos sin etiquetar. La comprensión del significado detrás de estos datos requiere algoritmos que clasifican los datos con base en los patrones o clústeres que encuentra. El aprendizaje no supervisado lleva a cabo un proceso iterativo, analizando los datos sin intervención humana\cite{ibm}.
+
+Los métodos de aprendizaje no supervisados son utilizados durante el preprocesamiento de los datos antes de ser utilizados por algoritmos de característica supervisada. Estos algoritmos también son muy utilizados en la compresión de datos. Todos los métodos son implícita o explícitamente basados en la distribución de probabilidad en el espacio definido por las variables de entrada\cite{de2014aprendizaje}.
 
 \section{Aprendizaje de refuerzo}
 
@@ -180,7 +252,14 @@ El aprendizaje de refuerzo es un modelo de aprendizaje conductual. El algoritmo 
 \section{Redes Neuronales Artificiales}
 Las Redes Neuronales Artificiales (RNA) son un componente esencial de la Inteligencia Artificial que emula el funcionamiento de las neuronas biológicas. Estas redes, entrenadas con entradas de escenarios internos o externos multiplicadas por pesos aleatorios, destacan en la resolución de funciones altamente no lineales, lo que las convierte en herramientas poderosas para la predicción. Inspiradas en el sistema nervioso biológico, encuentran aplicaciones en áreas como neurociencias, matemáticas, estadísticas y más. Su capacidad para aprender de datos de entrada las hace especialmente valiosas en la predicción de patrones complejos en diversos campos, como finanzas, ciencia de datos y análisis de mercado.
 
-\subsection{La Neurona Artificial}
+Es un algoritmo basado en una red de alimentación de múltiples capas entrenadas inspirado en las neuronas del cerebro humano, estos sistemas aprenden y se forman a sí mismos ya que sus neuronas artificiales están conectadas, en lugar de ser programados de forma explícita\cite{herrera2020prediccion }.
+
+\vspace{1\baselineskip}
+En el desarrollo de una red neuronal no hay que programar ni el conocimiento ni las reglas del procesamiento del conocimiento. La red neuronal aprende las reglas del procesamiento del conocimiento mediante el ajuste de las conexiones ponderadas entre las neuronas de distintas capas de la red.
+El aprendizaje se consigue a través de una regla de aprendizaje que adapta o cambia los pesos de las conexiones en respuesta a los ejemplos de entrada, y opcionalmente también en respuesta a las salidas deseadas. Esta característica de las ANN es lo que permite decir que las redes neuronales aprenden de la experiencia\cite{olabe1998redes}. 
+
+% \subsection{La Neurona Artificial}
+\vspace{1\baselineskip}
 La neurona artificial fue diseñada para “emular” las características del funcionamiento básico de la neurona biológica \cite{basogain2008redes}. En esencia, se aplica un conjunto de entradas a la neurona, cada una de las cuales representa una salida de otra neurona . Cada entrada se multiplica por su “peso” o ponderación correspondiente análogo al grado de conexión de la sinapsis. Todas las entradas ponderadas se suman y se determina el nivel de excitación o activación de la neurona. Una representación vectorial del funcionamiento
 básico de una neurona artificial se indica según la siguiente expresión de la ecuación.
 
@@ -205,13 +284,13 @@ El elemento fundamental de los sistemas neuronales biológicos es la neurona, un
 
 \subsection{Capas de la neurona artificial}
 \textbf{\textit{Desde un punto de vista funcional}}, las neuronas constituyen procesadores de información sencillos, integrados por:
-Un canal de recepción de información, las dendritas, que reciben señales de entrada (inputs) procedentes de otras células (interneuronas) o del exterior (neuronas receptoras o sensoras, como los conos y bastones de la retina).
+Un canal de recepción de información, las dendritas, que reciben señales de entrada (inputs) procedentes de otras células (interneuronas) o del exterior (neuronas receptoras o sensoras, como los conos y bastones de la retina)\cite{sanchez2015maquinas}.
 
-\textbf{\textit{Un órgano de cómputo}}, el soma, que combina e integra los inputs recibidos (generalmente a través de funcionales no lineales), emitiendo señales de salida en forma de estímulos nerviosos.
+\textbf{\textit{Un órgano de cómputo}}, el soma, que combina e integra los inputs recibidos (generalmente a través de funcionales no lineales), emitiendo señales de salida en forma de estímulos nerviosos\cite{sanchez2015maquinas}.
 
 \textbf{\textit{Un canal de salida}}, el axón, que envía la salida generada por el soma a
 otras neuronas o bien, en el caso de las neuronas motoras, directamente al
-músculo. Para transmitir la información, el axón se conecta a través de sus ramificaciones a las dendritas de otras neuronas, que reciben las señales y las combinan para producir nuevas salidas. Una neurona del córtex cerebral recibe información, por término medio, de unas 10.000 neuronas (convergencia), y envía impulsos a varios cientos de ellas (divergencia).
+músculo. Para transmitir la información, el axón se conecta a través de sus ramificaciones a las dendritas de otras neuronas, que reciben las señales y las combinan para producir nuevas salidas. Una neurona del córtex cerebral recibe información, por término medio, de unas 10.000 neuronas (convergencia), y envía impulsos a varios cientos de ellas (divergencia)\cite{sanchez2015maquinas}.
 
 \begin{figure}[H]
   \begin{center}
@@ -250,10 +329,40 @@ obstante los procesadores son unidades procesadoras simples, diseñadas para la 
 
 \end{itemize}
 
+\subsection{Arquitectura de una red neuronal}
+La topotogia o arquitectura hace referencia a La organización y disposición de las neuronas en la red formando capas de procesadores interconectados entre sí a través de sinapsis unidireccionales. La arquitectura de una RNA depende de cuatro parámetros principales \cite{lopez2008redes}: 
+
+\begin{itemize}
+\item el número de capas,
+\item el número de neuronas por capa,
+\item el grado de conectividad entre las neuronas y 
+\item el tipo de conexiones neuronales. 
+\end{itemize}
+
+
+\vspace{1\baselineskip}
+Las arquitecturas neuronales pueden clasificarse atendiendo a distintos criterios \cite{lopez2008redes}:
+
+\begin{itemize}
+\item Según su estructura en capas
+\begin{itemize}
+  \item Redes monocapa, compuestas por una única capa de neuronas, entre las que se establecen conexiones laterales y, en ocasiones, autorrecurrentes. Este tipo de redes suele utilizarse para la resolución de problemas de autoasociación y clusterización.
+
+  \item Redes multicapa (layered networks), cuyas neuronas se organizan en varias capas (de entrada, oculta(s) y de salida). La capa a la que pertenece la neurona puede distinguirse mediante la observación del origen de las señales que recibe y el destino de la señal que genera.
+\end{itemize}
+
+\item Según el flujo de datos en la red
+
+\begin{itemize}
+  \item Redes unidireccionales o de propagación hacia adelante (feedforward), en las que ninguna salida neuronal es entrada de unidades de la misma capa o de capas precedentes. La información circula en un único sentido, desde las neuronas de entrada hacia las neuronas de salida de la red.
+
+  \item Redes de propagación hacia atrás (feedback), en las que las salidas de las neuronas pueden servir de entradas a unidades del mismo nivel (conexiones laterales) o de niveles previos. Las redes de propagación hacia atrás que presentan lazos cerrados se denominan sistemas recurrentes.
+\end{itemize}
+\end{itemize}
 \subsection{Los pesos sinápticos}
 A una neurona artificial se le asigna un peso sináptico a las entradas que provienen desde otras neuronas\cite{acevedo2017principios}. Este procedimiento es similar al que se realiza en una neurona de un ser humano, a lo que normalmente en la medicina se le conoce como sinapsis. El peso sináptico entonces es un valor numérico y que puede ir cambiando durante la fase de entrenamiento. Este peso hace que la red neural tengo una utilidad y es allí donde se almacena la información.
 
-\subsection{Perceptron}
+\section{Perceptron}
 \vspace{1\baselineskip}
 En 1957, Frank Rosenblatt publicó el mayor trabajo de investigación en computación neuronal realizado hasta esas fechas. Su trabajo consistía en el desarrollo de un
 elemento llamado “Perceptron” \cite{olabe1998redes}.
@@ -274,19 +383,30 @@ Si las células presentan un valor de entrada superior a un umbral predeterminad
   \end{center}
 \end{figure}
 
-\section{Una hoja de ruta para crear sistemas
-de aprendizaje automático}
+\subsection{Perceptrón multica}
+Una Perceptrón multicapa (MLP) puede ser interpretada como una extensión del algoritmo de regresión logística donde primero la entrada es transformada utilizando una transformación no lineal\cite{de2014aprendizaje}. El propósito de esta transformación es proyectar los datos de entrada a un espacio donde sean linealmente separables.
+Esta capa intermedia es conocida como capa oculta y es característica de una MLP poseer dos o mas de ellas. Una capa oculta única es suficiente para hacer de una MLP un aproximador universal.
 
-En secciones anteriores, hemos hablado de los conceptos básicos del aprendizaje automático y de los tres tipos distintos de aprendizaje. En esta sección, hablaremos de las otras partes importantes del sistema de aprendizaje automático que acompañan al algoritmo de aprendizaje. El siguiente diagrama muestra un flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo, que trataremos en las siguientes subsecciones:
+\section{Series de Tiempo}
+Las series de tiempo, son datos estadísticos que se recopilan, observan o registran en intervalos de tiempo regulares (diario, semanal, semestral, anual, entre otros)\cite{herrera2020prediccion}. 
 
-\begin{figure}[H]
-  \begin{center}
-    \includegraphics[scale=0.90]{./uso_aprendisaje_automatico.png}
-    \caption{ flujo de trabajo típico para el uso del aprendizaje automático en
-    modelado predictivo}
-    \label{fig:perceptron}
-  \end{center}
-\end{figure}
+Conviene recalcar que una serie de tiempo es un conjunto ordenado de valores, no una función, y que no debe ser tratada como tal\cite{nava2015procesamiento}.
+
+
+\section{Redes neuronales recurrentes LSTM}
+
+Las redes neuronales recurrentes (RNNs) son un tipo de modelo de aprendizaje profundo que se utiliza para analizar datos secuenciales, como el procesamiento del lenguaje natural o la predicción de series de tiempo\cite{tomas2023prediccion}. Sin embargo, la capacidad de las RNNs para manejar datos a largo plazo se ve comprometida por el problema del gradiente que desaparece, que ocurre cuando el gradiente se hace cada vez más pequeño a medida que se propaga hacia atrás en la red.
+
+Para  superar  este  problema,  Hochreiter \& Schmidhuber,  propusieron  la  memoria  a  corto  y  largo  plazo  (LSTM),  una  variante  de  las  RNNs  que  ha  demostrado  ser efectiva para el procesamiento de datos secuenciales a largo plazo\cite{tomas2023prediccion}.
+
+Las redes de “larga memoria de corto plazo”(LSTM, por sus siglas en ingles Long Short-Term Memory) propuestas por Hochreiter y Schmidhuber. Es una de las arquitecturas de aprendizaje profundo más avanzadas y exitosas para predicción de series temporales, reconocimiento de escritura y análisis de discurso\cite{fernandez2021estimacion}.
+
+El modelo matemático de LSTM se define como una función no lineal que transforma la entrada actual, el estado anterior y la memoria a largo plazo en una salida y un estado actualizado.
+
+El cálculo de esta función implica la  operación  de  multiplicación  de  matrices  y  la  aplicación  de  funciones  de  activación,  como la función sigmoide o la tangente hiperbólica\cite{tomas2023prediccion}.
+
+% La técnica de minería de datos se refiere a la extracción de información latente, desconocida, significativa y útil de grandes conjuntos de datos para investigar la información que se puede producir a partir de los datos extraídos. En Europa, el número de clientes que cambian de operador ha aumentado año tras año y la tasa de abandono se sitúa ya en el 25\% de media hasta 2012.	La pérdida de clientes valiosos tendrá un impacto en mayores costos para atraer nuevos clientes, lo que es de cinco a seis veces más costoso que los gastos de retención de clientes.
+
 
 \section{Antecedentes}
 En el proyecto titulado \textbf{\textit{“Desarrollo de un Sistema de Control de Inventario para la Gestión de Compras de Materia Prima en el Rubro de Restaurantes”}} \cite{condorena2017desarrollo}. Se empleó el modelo de desarrollo de ciclo de vida en cascada para desarrollar un sistema de control de inventario para un restaurante con el objetivo de mejorar la gestión de los procesos de almacén y reducir los tiempos innecesarios en la entrega del producto final al cliente. El sistema se divide en los módulos de almacén, que ofrecen diferentes funcionalidades para el desarrollo y gestión del restaurante. Como resultado, el sistema moderniza los procesos de la empresa en el rubro de restaurantes, aportando una mejora significativa en la gestión y reducción de tiempos innecesarios en el almacén. 
