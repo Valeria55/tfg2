@@ -10,6 +10,7 @@
 \chapter{Conceptos fundamentales, teorías y antecedentes}
 
 \section{Predicciones de Compras}
+
 La predicción es el proceso de anticipar la cantidad y tipo de insumos que un negocio gastronómico necesitará adquirir en el futuro, con el objetivo de asegurar un suministro adecuado y eficiente.
 
 
@@ -20,10 +21,13 @@ La relación de demanda y gestión de suministro se refiere a la interacción en
 
 \subsection{Importancia de la Predicción de Compra de Insumos}
 
+La mayoría de las empresas distribuidoras de productos sufren de manera recurrente al no conocer la cantidad o un aproximado de productos que debería mantener en stock ya que, por un lado, si el stock es demasiado grande se pueden producir pérdidas de mercancía y costos innecesarios de transporte y almacenamiento, por el contrario, si el stock es demasiado pequeño, este será insuficiente para cubrir la demanda de los diferentes productos y se verá reflejado en la pérdida de clientes\cite{romero2021prediccion}. 
+
+\vspace{1\baselineskip}
 La aplicación de un modelo de predicción para planificar la demanda futura es un proceso circular de mejora continua. Eso significa que el modelo es enriquecido constantemente con datos en tiempo real para realizar predicciones más precisas y generar una planificación más acorde a la realidad \cite{decide}.
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[scale=0.70]{./trianguloCMD.png}
+    \includegraphics[scale=0.50]{./trianguloCMD.png}
     \caption{Predicción de demanda a corto, mediano y largo plazo\cite{decide}.}
     \label{fig:proceso_inventario}
   \end{center}
@@ -49,7 +53,7 @@ La predicción de compra de insumos es vital para la planificación a corto, med
 
   \begin{figure}[H]
     \begin{center}
-      \includegraphics[scale=0.90]{./procesos_de_trabajo.png}
+      \includegraphics[scale=0.70]{./procesos_de_trabajo.png}
       \caption{Proceso de Optimización de inventario\cite{decide}.}
       \label{fig:proceso_inventario}
     \end{center}
@@ -93,7 +97,7 @@ Varios factores pueden influir en el comportamiento de la curva de insumos deman
 
 Según\cite{kendall2005analisis} el sistema de información\textit{ “Es un conjunto de elementos que interactúan entre sí, con el fin de apoyar las actividades de una empresa o negocio”}.
 
-Es importante tener en cuenta que la necesidad de información en las organizaciones es vital para alcanzar el éxito y que un sistema de información debe justificar su implementación desde el punto de vista costo/beneficio, basándose en el valor que se le otorga a la información dentro de la organización. Los beneficios pueden ser tangibles e intangibles, y dependen de los objetivos y necesidades de la organización.
+Es importante tener en cuenta que la necesidad de información en las organizaciones es vital para alcanzar el éxito y que un sistema de información debe justificar su implementación desde el punto de vista costo/beneficio, basándose en el valor que se le otorga a la información dentro de la organización \cite{kendall2005analisis}. Los beneficios pueden ser tangibles e intangibles, y dependen de los objetivos y necesidades de la organización.
 
 Los sistemas de información se desarrollan para diferentes propósitos, según las necesidades de los usuarios humanos y la empresa. En definitiva, el uso adecuado de la información y la implementación de sistemas de información efectivos pueden marcar una gran diferencia en el éxito de una organización.
 
@@ -133,8 +137,9 @@ Los Sistemas de Información Gerencial, también llamados Sistemas de Reportes d
 
 
 \paragraph{Sistema experto e inteligencia artificial }
+La inteligencia artificial (IA) puede ser considerada como el campo dominante de los sistemas expertos. La idea general de la IA ha sido desarrollar equipos que se comporten de manera inteligente\cite{kendall2005analisis}. 
 
-La inteligencia artificial (AI) puede ser considerada como el campo dominante de los sistemas expertos. La idea general de la AI ha sido desarrollar equipos que se comporten de manera inteligente\cite{kendall2005analisis}. Dos ramas de investigación de la AI son: 
+Dos ramas de investigación de la IA son: 
 
 \begin{itemize}
 
@@ -143,7 +148,7 @@ La inteligencia artificial (AI) puede ser considerada como el campo dominante de
 
 \end{itemize}
 
-Los sistemas expertos utilizan las metodologías de razonamiento de la AI para resolver los problemas que los usuarios de negocios (y otros tipos de usuarios) les presentan. Los sistemas expertos son una clase muy especial de sistema de información que ha demostrado su utilidad comercial gracias a la disponibilidad extendida de hardware y software como las computadoras personales (PC) y las interfaces de sistemas expertos.
+Los sistemas expertos utilizan las metodologías de razonamiento de la IA para resolver los problemas que los usuarios de negocios (y otros tipos de usuarios) les presentan. Los sistemas expertos son una clase muy especial de sistema de información que ha demostrado su utilidad comercial gracias a la disponibilidad extendida de hardware y software como las computadoras personales (PC) y las interfaces de sistemas expertos.
 
 
 Un sistema experto (también conocido como sistema basado en el conocimiento) captura y utiliza en forma efectiva el conocimiento de uno o varios expertos humanos para resolver un problema específico al que una organización se enfrenta. Cabe mencionar que a diferencia de los sistemas DSS, que en última instancia dejan la decisión a la persona encargada de la toma de decisiones, un sistema experto selecciona la mejor solución para un problema o una clase específica de problemas. Los componentes básicos de un sistema experto son la base de conocimiento, un motor de inferencia que conecta al usuario con el sistema mediante el proceso de consultas en lenguajes, como el lenguaje de consulta estructurado (SQL), y la interfaz de usuario. Las personas conocidas como ingenieros del conocimiento capturan la experiencia de los expertos, crean un sistema computacional que incluye este conocimiento y después lo implementan\cite{kendall2005analisis}.
@@ -152,7 +157,7 @@ Un sistema experto (también conocido como sistema basado en el conocimiento) ca
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[scale=0.90]{./hechos.png}
+    \includegraphics[scale=0.60]{./hechos.png}
     \caption{Arquitectura de un sistema experto \cite{diez2001introduccion}.}
     \label{fig:Arquitectura de un sistema experto}
   \end{center}
@@ -190,19 +195,20 @@ Es decir, el aprendizaje automático como area de las ciencias computacionales a
 
 Con la abundancia de conjuntos de datos disponibles, la demanda de aprendizaje automático está en aumento. Muchas industrias aplican el aprendizaje automático para extraer datos relevantes. El propósito del aprendizaje automático es aprender de los datos. Se han realizado muchos estudios sobre cómo hacer que las máquinas aprendan por sí mismas sin ser programadas explícitamente. Muchos matemáticos y programadores aplican varios enfoques para encontrar la solución a este problema que implica conjuntos de datos enormes\cite{mahesh2020machine}.
 
-
-\vspace{1\baselineskip}El Aprendizaje Automático se basa en diferentes algoritmos para resolver problemas de datos. A los científicos de datos les gusta señalar que no existe un único tipo de algoritmo que sea universal y mejor para resolver todos los problemas. El tipo de algoritmo utilizado depende del tipo de problema que se desee resolver, el número de variables, el tipo de modelo que se adapte mejor, entre otros factores. 
+\vspace{1\baselineskip}
+El Aprendizaje Automático se basa en diferentes algoritmos para resolver problemas de datos. A los científicos de datos les gusta señalar que no existe un único tipo de algoritmo que sea universal y mejor para resolver todos los problemas. El tipo de algoritmo utilizado depende del tipo de problema que se desee resolver, el número de variables, el tipo de modelo que se adapte mejor, entre otros factores. 
 
 Las técnicas de machine learning son necesarias para mejorar la precisión de los modelos predictivos. Dependiendo de la naturaleza del problema empresarial que se está atendiendo, existen diferentes enfoques basados en el tipo y volumen de los datos\cite{ibm}.
 
 En el contexto de la aplicación de algoritmos de Machine Learning en el cálculo de pronósticos de demanda, es esencial comprender que el objetivo principal de estos algoritmos es encontrar una función que tome un conjunto de variables como entrada y produzca una estimación del valor deseado, en este caso, la demanda. Esta función se ajusta a través del aprendizaje a partir de observaciones pasadas donde los datos de demanda son conocidos. Por ejemplo, utilizando datos de demanda de los últimos años, el modelo se entrena para desarrollar una función que pueda hacer predicciones precisas sobre la demanda futura, lo que implica una tarea de regresión, ya que el resultado esperado es un valor numérico real. Esta metodología se basa en el libro “Deep Learning” de Ian Goodfellow, Yoshua Bengio y Aaron Courville\cite{goodfellow2016deep}.
 
+Una forma común de describir a un conjunto de datos u observaciones (dataset) es con una matriz de diseño. Una matriz de diseño es una matriz que contiene un ejemplo diferente en cada fila. Cada columna de la matriz corresponde a una característica diferente. Los algoritmos de aprendizaje se diferencian en función de la forma de operar y procesa los datos contenidos en una matriz de diseño\cite{arana2021redes}.
 
 El siguiente diagrama muestra un flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo \cite{mirjalili2020python}:
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[scale=0.90]{./uso_aprendisaje_automatico.png}
+    \includegraphics[scale=0.80]{./uso_aprendisaje_automatico.png}
     \caption{ flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo}
     \label{fig:perceptron}
   \end{center}
@@ -233,7 +239,7 @@ de salida deseadas (etiquetas) ya se conocen.
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[scale=0.70]{./aprendisaje_supervisado.png}
+    \includegraphics[scale=0.60]{./aprendisaje_supervisado.png}
     \caption{Aprendisaje supervisado\cite{decide}.}
     \label{fig:aprendisajesupervisado}
   \end{center}
@@ -260,22 +266,31 @@ El aprendizaje se consigue a través de una regla de aprendizaje que adapta o ca
 
 % \subsection{La Neurona Artificial}
 \vspace{1\baselineskip}
-La neurona artificial fue diseñada para “emular” las características del funcionamiento básico de la neurona biológica \cite{basogain2008redes}. En esencia, se aplica un conjunto de entradas a la neurona, cada una de las cuales representa una salida de otra neurona . Cada entrada se multiplica por su “peso” o ponderación correspondiente análogo al grado de conexión de la sinapsis. Todas las entradas ponderadas se suman y se determina el nivel de excitación o activación de la neurona. Una representación vectorial del funcionamiento
-básico de una neurona artificial se indica según la siguiente expresión de la ecuación.
+La neurona artificial fue diseñada para “emular” las características del funcionamiento básico de la neurona biológica \cite{basogain2008redes}. En esencia, se aplica un conjunto de entradas a la neurona, cada una de las cuales representa una salida de otra neurona . Cada entrada se multiplica por su “peso” o ponderación correspondiente análogo al grado de conexión de la sinapsis. Todas las entradas ponderadas se suman y se determina el nivel de excitación o activación de la neurona.
+
+Representación vectorial del funcionamiento básico de una neurona artificial se indica según la siguiente expresión de la ecuación.
 
 \[
 NET = X \cdot W
 \]
 
-Siendo NET la salida, X el vector de entrada y W el vector de pesos. 
+
+Siendo NET la salida, X el vector de entrada y W el vector de pesos.
 
 \vspace{1\baselineskip}
-% Considerando su tamaño microscópico, resulta sorprendente la capacidad de la neurona como procesador de señales eléctricas y de actividad bioquímica \cite{lopez2008redes}.
+La representación del modelo matemático es el siguiente
+\begin{equation}
+  y = H\left(\sum_{j=1}^{n} w_jx_j - u\right)
+  \end{equation}
+
+Donde \(H\) es la función de activación (en este caso la función escalón de Heaviside) con el umbral \(u\), \(x_j\) es la señal de entrada y \(w_j\) es el peso asociado con \(j = 1,2,\ldots,n\), donde \(n\) corresponde al número de entradas. La salida de esta unidad es 1 cuando la suma está por encima del umbral \(u\), y es 0 en caso contrario\cite{arana2021redes}.
+
+\vspace{1\baselineskip}
 El elemento fundamental de los sistemas neuronales biológicos es la neurona, una célula viva que, como tal contiene todos los elementos que integran las células biológicas, si bien incorpora otros elementos que la diferencian (Figura~\ref{fig:componentes}). De forma genérica, una neurona consta de un cuerpo celular o soma más o menos esférico (de entre 10 y 80 micras de longitud), del que parten una rama principal o axón (cuya longitud varía desde las 100 micras hasta el metro en el caso de las neuronas motoras que constituyen los nervios) y un denso árbol de ramificaciones más cortas (árbol dendrítico), compuesto por dendritas. A su vez, el axón puede ramificarse en su punto de arranque, y con frecuencia presenta múltiples ramas en su extremo. La forma final de la neurona depende de la función que cumple, esto es, de la posición que ocupa en el conjunto del sistema y de los estímulos que recibe \cite{lopez2008redes}.
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[scale=0.90]{./neuroma_humana.png}
+    \includegraphics[scale=0.70]{./neuroma_humana.png}
     \caption{Componentes de una neurona.}
     \label{fig:componentes}
   \end{center}
@@ -330,7 +345,7 @@ obstante los procesadores son unidades procesadoras simples, diseñadas para la 
 \end{itemize}
 
 \subsection{Arquitectura de una red neuronal}
-La topotogia o arquitectura hace referencia a La organización y disposición de las neuronas en la red formando capas de procesadores interconectados entre sí a través de sinapsis unidireccionales. La arquitectura de una RNA depende de cuatro parámetros principales \cite{lopez2008redes}: 
+La topotogia o arquitectura hace referencia a la organización y disposición de las neuronas en la red formando capas de procesadores interconectados entre sí a través de sinapsis unidireccionales. La arquitectura de una RNA depende de cuatro parámetros principales \cite{lopez2008redes}: 
 
 \begin{itemize}
 \item el número de capas,
@@ -360,10 +375,11 @@ Las arquitecturas neuronales pueden clasificarse atendiendo a distintos criterio
 \end{itemize}
 \end{itemize}
 \subsection{Los pesos sinápticos}
-A una neurona artificial se le asigna un peso sináptico a las entradas que provienen desde otras neuronas\cite{acevedo2017principios}. Este procedimiento es similar al que se realiza en una neurona de un ser humano, a lo que normalmente en la medicina se le conoce como sinapsis. El peso sináptico entonces es un valor numérico y que puede ir cambiando durante la fase de entrenamiento. Este peso hace que la red neural tengo una utilidad y es allí donde se almacena la información.
+A una neurona artificial se le asigna un peso sináptico a las entradas que provienen desde otras neuronas. Este procedimiento es similar al que se realiza en una neurona de un ser humano, a lo que normalmente en la medicina se le conoce como sinapsis. El peso sináptico entonces es un valor numérico y que puede ir cambiando durante la fase de entrenamiento\cite{acevedo2017principios}. Este peso hace que la red neural tengo una utilidad y es allí donde se almacena la información.
+
+En una red de neuronas existe un peso o fuerza sináptica que va a ser un valor numérico que pondera las señales que se reciben por sus entradas. Este peso será un valor que determina la fuerza de conexión entre 2 neuronas. Cuando se evalúa una neurona se debe calcular el conjunto de todas las fuerzas o valores (denominado NET) que se reciben por sus entradas. Una vez calculado el valor conjunto de todas las entradas se aplica una función de activación (FA) que determinará el valor del estado interno de la neurona y que será lo que se transmita a su salida\cite{pose2009introduccion}.
 
 \section{Perceptron}
-\vspace{1\baselineskip}
 En 1957, Frank Rosenblatt publicó el mayor trabajo de investigación en computación neuronal realizado hasta esas fechas. Su trabajo consistía en el desarrollo de un
 elemento llamado “Perceptron” \cite{olabe1998redes}.
 
@@ -373,7 +389,7 @@ Además presentaba la característica de ser flexible y comportarse correctament
 El perceptron fue originalmente diseñado para el reconocimiento óptico de patrones.
 Una rejilla de 400 fotocélulas, correspondientes a las neuronas de la retina sensibles a la luz, recibe el estímulo óptico. Estas fotocélulas están conectadas a elementos asociativos que recogen los impulsos eléctricos emitidos desde las fotocélulas. Las
 conexiones entre los elementos asociativos y las fotocélulas se realizan de forma aleatoria.
-Si las células presentan un valor de entrada superior a un umbral predeterminado entonces el elemento asociativo produce una salida.
+Si las células presentan un valor de entrada superior a un umbral predeterminado entonces el elemento asociativo produce una salida\cite{olabe1998redes}.
 
 \begin{figure}[H]
   \begin{center}
@@ -392,12 +408,37 @@ Las series de tiempo, son datos estadísticos que se recopilan, observan o regis
 
 Conviene recalcar que una serie de tiempo es un conjunto ordenado de valores, no una función, y que no debe ser tratada como tal\cite{nava2015procesamiento}.
 
+\section{Redes neuronales recurrentes (RNN)}
 
-\section{Redes neuronales recurrentes LSTM}
+Las redes neuronales recurrentes tienen caminos de retroalimentación entre todos los elementos que las conforman \cite{montesdeoca2016estudios}. Una sola neurona está entonces conectada a las neuronas posteriores en la siguiente capa, las neuronas pasadas de la capa anterior y a ella misma a través de vectores de pesos variables que sufren alteraciones en cada época con el fin de alcanzar los parámetros o metas de operación.
 
-Las redes neuronales recurrentes (RNNs) son un tipo de modelo de aprendizaje profundo que se utiliza para analizar datos secuenciales, como el procesamiento del lenguaje natural o la predicción de series de tiempo\cite{tomas2023prediccion}. Sin embargo, la capacidad de las RNNs para manejar datos a largo plazo se ve comprometida por el problema del gradiente que desaparece, que ocurre cuando el gradiente se hace cada vez más pequeño a medida que se propaga hacia atrás en la red.
+Las redes neuronales recurrentes (RNNs) son un tipo de modelo de aprendizaje profundo que se utiliza para analizar datos secuenciales, como el procesamiento del lenguaje natural o la predicción de series de tiempo\cite{tomas2023prediccion}.
+
+A diferencia de las redes neuronales artificiales ya vistas, que asumen la independencia entre los datos de entrada, las RNN capturan activamente sus dependencias secuenciales y temporales\cite{arana2021redes}.
+
+Las RNN generalmente aumentan la arquitectura de red multicapa convencional con la adición de ciclos que conectan nodos adyacentes o pasos de tiempo.
+
+Estos ciclos constituyen la memoria interna de la red que se utiliza para evaluar las propiedades del dato actual con respecto a los datos del pasado inmediato.
+
+Las redes neuronales recurrentes son más eficaces para resolver problemas con no­linealidades temporales significativas. Son especialmente útiles en aplicaciones tales
+como el reconocimiento de patrones secuenciales, cambiantes en el tiempo, ya que las capacidades de predicción y mapeo de las RNN así lo permiten\cite{montesdeoca2016estudios}..
+
+Sin embargo, la capacidad de las RNNs para manejar datos a largo plazo se ve comprometida por el problema del gradiente que desaparece, que ocurre cuando el gradiente se hace cada vez más pequeño a medida que se propaga hacia atrás en la red\cite{tomas2023prediccion}.
 
 Para  superar  este  problema,  Hochreiter \& Schmidhuber,  propusieron  la  memoria  a  corto  y  largo  plazo  (LSTM),  una  variante  de  las  RNNs  que  ha  demostrado  ser efectiva para el procesamiento de datos secuenciales a largo plazo\cite{tomas2023prediccion}.
+
+\subsection{Arquitectura básica de una RNN (RNN)}
+Arquitectura básica de una RNN. Una característica importante es la inclusión de retrasos ($z^{-1}$) a la salida de las neuronas en las capas intermedias; las salidas parciales $S_{mn}(t + 1)$ se convierten en valores $S_{mn}(t)$, un instante de tiempo anterior, y así se retroalimenta a todos los componentes de la red, guardando información de instantes de tiempo anteriores \cite{montesdeoca2016estudios}.Se puede apreciar cómo todos los nodos están interconectados entre sí, estableciendo conexiones tanto directas como mediante retardos temporales con los nodos precedentes en cada capa, lo que permite la incorporación de memorias temporales.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.70]{./redes_recurrentes.png}
+    \caption{La arquitectura básica de una RNN}
+    \label{fig:red_recurreente}
+  \end{center}
+\end{figure}
+
+\section{Redes de Memoria Corta y Larga LSTM}
 
 Las redes de “larga memoria de corto plazo”(LSTM, por sus siglas en ingles Long Short-Term Memory) propuestas por Hochreiter y Schmidhuber. Es una de las arquitecturas de aprendizaje profundo más avanzadas y exitosas para predicción de series temporales, reconocimiento de escritura y análisis de discurso\cite{fernandez2021estimacion}.
 
@@ -405,33 +446,41 @@ El modelo matemático de LSTM se define como una función no lineal que transfor
 
 El cálculo de esta función implica la  operación  de  multiplicación  de  matrices  y  la  aplicación  de  funciones  de  activación,  como la función sigmoide o la tangente hiperbólica\cite{tomas2023prediccion}.
 
-% La técnica de minería de datos se refiere a la extracción de información latente, desconocida, significativa y útil de grandes conjuntos de datos para investigar la información que se puede producir a partir de los datos extraídos. En Europa, el número de clientes que cambian de operador ha aumentado año tras año y la tasa de abandono se sitúa ya en el 25\% de media hasta 2012.	La pérdida de clientes valiosos tendrá un impacto en mayores costos para atraer nuevos clientes, lo que es de cinco a seis veces más costoso que los gastos de retención de clientes.
+El objetivo es mejorar la memoria de la RNN de los eventos pasados entrenándola para que recuerde lo importante y olvide el resto. Para ello, las LSTM procesan dos versiones del pasado\cite{arana2021redes}.
 
 
 \section{Antecedentes}
-En el proyecto titulado \textbf{\textit{“Desarrollo de un Sistema de Control de Inventario para la Gestión de Compras de Materia Prima en el Rubro de Restaurantes”}} \cite{condorena2017desarrollo}. Se empleó el modelo de desarrollo de ciclo de vida en cascada para desarrollar un sistema de control de inventario para un restaurante con el objetivo de mejorar la gestión de los procesos de almacén y reducir los tiempos innecesarios en la entrega del producto final al cliente. El sistema se divide en los módulos de almacén, que ofrecen diferentes funcionalidades para el desarrollo y gestión del restaurante. Como resultado, el sistema moderniza los procesos de la empresa en el rubro de restaurantes, aportando una mejora significativa en la gestión y reducción de tiempos innecesarios en el almacén. 
+En el proyecto titulado \textbf{\textit{“Desarrollo de un Sistema de Control de Inventario para la Gestión de Compras de Materia Prima en el Rubro de Restaurantes”}} \cite{condorena2017desarrollo}. 
 
-\vspace{1\baselineskip}
 Este antecedente presenta un estudio de caso relevante en el ámbito de la gestión de inventario y compras en la industria de restaurantes. Se describe cómo se implementó con éxito un sistema de control de inventario utilizando el modelo de desarrollo de ciclo de vida en cascada. El objetivo principal de esta implementación fue mejorar la gestión de los procesos de almacén y reducir los tiempos innecesarios en la entrega de productos a los clientes. El sistema se dividió en módulos específicos, centrándose en el almacén y ofreciendo diversas funcionalidades para la gestión eficiente del restaurante. Los resultados obtenidos demuestran una modernización efectiva de los procesos de la empresa en el rubro de restaurantes, con mejoras significativas en la gestión y una reducción sustancial de los tiempos de almacenamiento. Este antecedente sirve como base para la presente tesis, que se enfoca en el desarrollo de un sistema de compra inteligente basado en el historial de ventas, aprovechando la experiencia exitosa de la implementación previa para impulsar la eficiencia operativa en la industria de alimentos
+% Se empleó el modelo de desarrollo de ciclo de vida en cascada para desarrollar un sistema de control de inventario para un restaurante con el objetivo de mejorar la gestión de los procesos de almacén y reducir los tiempos innecesarios en la entrega del producto final al cliente. El sistema se divide en los módulos de almacén, que ofrecen diferentes funcionalidades para el desarrollo y gestión del restaurante. Como resultado, el sistema moderniza los procesos de la empresa en el rubro de restaurantes, aportando una mejora significativa en la gestión y reducción de tiempos innecesarios en el almacén. 
+
+
 
 \vspace{1\baselineskip}
-En el trabajo titulado \textbf{\textit{ “Optimización de la cadena de abastecimiento a través de un sistema inteligente de pronósticos de demanda y gestión de inventario multiproducto”}} \cite{pacheco2015rediseno}. Se propone una metodo de seis pasos para optimizar el área de compras y reducir costos en dos empresas del sector gastronómico: EV e IS. El objetivo general del proyecto es construir una aplicación web que semiautomatice las actividades del área de compras y optimice la cadena de abastecimiento a través de un sistema inteligente de pronósticos de demanda y gestión de inventario multiproducto. Se logró una mejora en los errores de pronóstico de 22 \%   en 2 meses, 16 \% en 8 meses y 10 \% en 12 meses. Los resultados económicos indican un VAN de \$61 millones en 3 años y una TIR de 280 \%.
+En el trabajo titulado \textbf{\textit{ “Optimización de la cadena de abastecimiento a través de un sistema inteligente de pronósticos de demanda y gestión de inventario multiproducto”}} \cite{pacheco2015rediseno}. 
 
-\vspace{1\baselineskip}
 El objetivo principal del proyecto fue desarrollar una aplicación web que automatizara parcialmente las actividades del área de compras y mejorara la cadena de abastecimiento mediante un sistema inteligente de pronósticos de demanda y gestión de inventario multiproducto. 
 Este antecedente se presenta como una sólida prueba de concepto para la implementación de sistemas inteligentes de gestión de compras basados en pronósticos de demanda en la industria gastronómica, lo que respalda y valida la relevancia de la presente tesis sobre un sistema de compra inteligente basado en historial de ventas.
+
+
+% Se propone una metodo de seis pasos para optimizar el área de compras y reducir costos en dos empresas del sector gastronómico: EV e IS. El objetivo general del proyecto es construir una aplicación web que semiautomatice las actividades del área de compras y optimice la cadena de abastecimiento a través de un sistema inteligente de pronósticos de demanda y gestión de inventario multiproducto. Se logró una mejora en los errores de pronóstico de 22 \%   en 2 meses, 16 \% en 8 meses y 10 \% en 12 meses. Los resultados económicos indican un VAN de \$61 millones en 3 años y una TIR de 280 \%.
 
 \vspace{1\baselineskip}
 En el artículo titulado  \textbf{\textit{“Plan de gestión para la creación de una plataforma tecnológica en un establecimiento gastronómico” }}\cite{sanchez2018sistemas}. Los autores proponen la implementación de una plataforma tecnológica en un restaurante, combinando metodologías de gestión tradicionales y ágiles. El objetivo es mejorar la eficiencia y eficacia en las tareas de atención, supervisión, control y administración del establecimiento gastronómico. La metodología SCRUM se utilizará para la gestión del desarrollo, utilizando las estimaciones previas como métricas de evolución para identificar posibles retrasos e inconvenientes. El plan de proyecto estima los alcances, costos y duración de las tareas de desarrollo, definiendo planes de gestión de calidad y mitigación de riesgos. La combinación de metodologías utilizada busca generar una solución eficiente para la administración del desarrollo de la plataforma tecnológica. 
 
-\vspace{1\baselineskip}
-El plan de proyecto detalla estimaciones de alcance, costos y duración de las actividades de desarrollo, y establece planes para la gestión de calidad y mitigación de riesgos. La combinación de enfoques metodológicos adoptada en este proyecto busca ofrecer una solución eficaz para la administración y desarrollo exitoso de la plataforma tecnológica en el contexto de la industria gastronómica.
+% \vspace{1\baselineskip}
+% El plan de proyecto detalla estimaciones de alcance, costos y duración de las actividades de desarrollo, y establece planes para la gestión de calidad y mitigación de riesgos. La combinación de enfoques metodológicos adoptada en este proyecto busca ofrecer una solución eficaz para la administración y desarrollo exitoso de la plataforma tecnológica en el contexto de la industria gastronómica.
 
 \vspace{1\baselineskip}
-El artículo \textbf{\textit{ “Reducing Food Waste in the Food Industry with Deep Learning” }}\cite{afanador2022diseno}. Escrito por Esteban David Romero Pérez aborda el objetivo de reducir el desperdicio de alimentos en la industria alimentaria utilizando la tecnología de Deep Learning. El enfoque del artículo es ayudar a la industria alimentaria a predecir la cantidad de platos que se pueden vender en una semana específica, lo que ayudará a minimizar los desperdicios de alimentos y cumplir con el objetivo número 12 de la Organización de las Naciones Unidas para el desarrollo sostenible. Los resultados obtenidos muestran una disminución significativa en la cantidad de alimentos desperdiciados en la industria alimentaria, lo que contribuye a un futuro más sostenible.
+El artículo \textbf{\textit{ “Reducing Food Waste in the Food Industry with Deep Learning” }}\cite{afanador2022diseno}. 
 
-\vspace{1\baselineskip}
 El autor, Esteban David Romero Pérez, se centra en la importante tarea de ayudar a la industria alimentaria a anticipar con precisión la demanda de sus productos y, por lo tanto, reducir los excedentes no vendidos, lo que está alineado con el Objetivo de Desarrollo Sostenible número 12 de las Naciones Unidas. Los resultados obtenidos en este estudio demuestran de manera convincente que la aplicación de Deep Learning puede conducir a una disminución sustancial en la cantidad de alimentos desperdiciados en la industria alimentaria, contribuyendo significativamente a un futuro más sostenible y eficiente en el uso de recursos. Este antecedente resalta la relevancia de la tecnología de aprendizaje profundo en la optimización de procesos en la industria alimentaria, lo que puede ser de gran utilidad para el enfoque de la presente tesis.
+
+% Escrito por Esteban David Romero Pérez aborda el objetivo de reducir el desperdicio de alimentos en la industria alimentaria utilizando la tecnología de Deep Learning. El enfoque del artículo es ayudar a la industria alimentaria a predecir la cantidad de platos que se pueden vender en una semana específica, lo que ayudará a minimizar los desperdicios de alimentos y cumplir con el objetivo número 12 de la Organización de las Naciones Unidas para el desarrollo sostenible. Los resultados obtenidos muestran una disminución significativa en la cantidad de alimentos desperdiciados en la industria alimentaria, lo que contribuye a un futuro más sostenible.
+
+% \vspace{1\baselineskip}
+
 
 \vspace{1\baselineskip}
 En un estudio llevado a cabo en Móstoles, España titulado \textbf{\textit{“Un análisis de sentimiento en Twitter con Machine Learning: Identificando el sentimiento sobre las ofertas de \#BlackFriday” }}\cite{saura2018analisis}. Se estableció una conexión con la API de Twitter para recopilar un total de 2204 tweets relacionados con los comentarios e interacciones de los usuarios acerca de las ofertas proporcionadas por empresas en la muestra. Posteriormente, se aplicó un algoritmo de análisis de sentimiento desarrollado en Python utilizando la biblioteca MonkeyLearn para categorizar estos tweets en positivos y negativos. Se centró en evaluar la percepción de los usuarios sobre las ofertas del Black Friday a través del análisis automatizado de los comentarios en Twitter.
@@ -439,6 +488,11 @@ En un estudio llevado a cabo en Móstoles, España titulado \textbf{\textit{“U
 \vspace{1\baselineskip}
 Tesis\textbf{\textit{“Prediccion de la demanda usando modelos de machine Learning” }}\cite{hincapie2021prediccion} Para aquellas empresas dedicadas a la venta en retail o venta directa donde su portafolio de productos es muy amplio, la planeación de la demanda se convierte en un área determinante para la correcta administración del flujo de caja, rentabilidad y efectividad en ventas por varias razones: la primera de ellas es la gestión de compra de insumos por medio de negociación de precio por volumen con sus proveedores; el control de inventario donde se cuide un equilibrio entre uso efectivo del espacio de almacenamiento y reducción de obsolescencia contra la disponibilidad para distribución y por último en la venta efectiva respetando las estacionalidades, tendencias del mercado y satisfacción del cliente.
 
+% \vspace{1\baselineskip}
+% La planeación de la demanda en empresas minoristas con una amplia gama de productos es crucial para gestionar la compra de insumos, controlar el inventario y maximizar las ventas. Se emplean modelos de regresión, como Random Forest Regressor y H2O AutoML, junto con análisis de tipicidad, para predecir con precisión las unidades de productos a vender y optimizar la gestión de categorías, lo que mejora la eficiencia y rentabilidad.
+
+
 \vspace{1\baselineskip}
-La planeación de la demanda en empresas minoristas con una amplia gama de productos es crucial para gestionar la compra de insumos, controlar el inventario y maximizar las ventas. Se emplean modelos de regresión, como Random Forest Regressor y H2O AutoML, junto con análisis de tipicidad, para predecir con precisión las unidades de productos a vender y optimizar la gestión de categorías, lo que mejora la eficiencia y rentabilidad.
+Trabajo final de grado tiulado \textbf{\textit{“Estudios de predicción en series temporales de datos meteorológicos utilizando redes neuronales recurrentes” }}\cite{montesdeoca2016estudios}
+En los últimos años, en el campo de las energías renovables, la energía eólica ha sido una de las que mas se ha desarrollado e invertido. La importancia de las predicciones de viento radica en la ayuda que aportan para planificar y anticiparse a los valores futuros que afectarán al sistema, ayudando a gestionar la adquisición de los recursos necesarios con antelación suficiente. Recientemente se han desarrollado nuevas arquitecturas de redes recurrentes que resultan muy prometedoras para realizar predicción. En este trabajo se probará y experimentará con dichas arquitecturas para realizar distintas predicciones de la velocidad del viento en un horizonte de corto y muy corto plazo a partir de datos de series temporales de viento.
 

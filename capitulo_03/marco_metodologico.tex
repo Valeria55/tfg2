@@ -18,12 +18,72 @@ El desarrollo de un sistema de compras inteligentes que utiliza un histórico de
 
 \end{itemize}
 
-\section{Descripción de los datos}
-Se  empleó  un  conjunto  de  datos  recopilados  a  partir  del  número  diario  de  productos vendidos,  obtenido  de la empresa gastronomica que proveyo los datos para el analisis y predicción de la misma, es importante destacar que el conjunto de datos es continuamente actualizado, sin embargo, para los propósitos de esta investigación, se consideró un conjunto de datos con XXX registros que cubren el período desde MES de XXX hasta MES de XXX.
+\section{Datos originales}
+Los datos originales suministrados están conformados por los siguientes datasets: 
+\begin{itemize}
+  \item productos.csv 
+  \item ventas.csv
+\end{itemize}
+
+Los datos vienen organizados en forma tabular, cada archivo presenta información separada relacionada con los diferentes productos y el registro de ventas histórico, a continuación se describirán cada uno por separado.
+
+Proporciona información de XXX  productos, el dataset contiene 2 columnas: id, producto. El primero representa un identificador único para cada producto que posteriormente me permitirá relacionarlo con otras tablas, el segunto indica el nombre del producto.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.90]{./primeros_5productos.png}
+    \caption{productos.csv(Los primeros 5 productos)}
+    \label{fig:priemeros_5productos}
+  \end{center}
+\end{figure}
+
+En la tabla \ref{tab:productos} se muestra una descripción de cada una de las columnas.
+
+\begin{table}
+
+  \begin{tabular}{|c|l|}  % Usamos "l" para alinear a la izquierda
+    \hline
+    \rowcolor{cyan!30} \textbf{Columna} & \textbf{Descripción} \\
+    \hline
+    id &  el id del producto (identificador unico)\\
+    producto & el nombre del producto \\
+    \hline
+  \end{tabular}
+  \centering
+  \caption{ Descripción columnas productos.csv}
+  \label{tab:productos} % Asigna una etiqueta a la tabla
+\end{table}
+
+En la tabla 3 se muestra una descripción de cada una de las columnas
+
+\begin{table}
+
+  \begin{tabular}{|c|l|}  % Usamos "l" para alinear a la izquierda
+    \hline
+    \rowcolor{cyan!30} \textbf{Columna} & \textbf{Descripción} \\
+    \hline
+    id &  el id del producto (identificador unico)\\
+    producto & el nombre del producto \\
+    \hline
+  \end{tabular}
+  \centering
+  \caption{ Descripción columnas productos.csv}
+  \label{tab:productos} % Asigna una etiqueta a la tabla
+\end{table}
+
+
+\section{Conjunto de datos}
+Se  empleó  un  conjunto  de  datos  recopilados  a  partir  del  número  diario  de  productos vendidos,  obtenido  de la empresa gastronomica que proveyo los datos para el analisis y predicción de la misma, es importante destacar que el conjunto de datos es continuamente actualizado, sin embargo, para los propósitos de esta investigación, se consideró un conjunto de datos con 180 registros que cubren el período desde 17 de Abril del 2023 hasta 15 de Octubre del 2023.
 
 Posteriormente, se dividió el conjunto de datos en dos grupos: entrenamiento y validación. El grupo de entrenamiento comprendió XXX registros que cubren desde MES de XXX hasta MES de XXX. El grupo de validación incluyó XXX registros, desde MES de XXX hasta MES de XXX.
 
-
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.40]{./ditribucion_de_datos.jpg}
+    \caption{distribución de los datos.}
+    \label{fig:distribucion_datos}
+  \end{center}
+\end{figure}
 
 \textbf{Lista de requisitos:}
 

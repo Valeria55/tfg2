@@ -40,6 +40,10 @@ Raquel~Fl{\'o}rez L{\'o}pez y Jos{\'e} Miguel~Fern{\'a}ndez Fern{\'a}ndez,
   \emph{Las redes neuronales artificiales}.\hskip 1em plus 0.5em minus
   0.4em\relax Netbiblo, 2008.
 
+\bibitem{romero2021prediccion}
+Jimmy~Alexander Romero~Miranda, V{\'\i}ctor~Alberto Lizcano~Portilla
+  \emph{et~al.}, ``Predicci{\'o}n de ventas futuras,'' 2021.
+
 \bibitem{marques2017nivel}
 Ana~Ortega Marqu{\'e}s, Sandy Patricia~Padilla Dom{\'\i}nguez, Johana
   Isabel~Torres Dur{\'a}n, y Alexander~Ruz G{\'o}mez, ``Nivel de importancia
@@ -90,9 +94,19 @@ I.B.M. Staff(es). (2017) Machine learning. [En l{\'\i}nea]. Disponible:
 Ian Goodfellow, Yoshua Bengio, y Aaron Courville, \emph{Deep learning}.\hskip
   1em plus 0.5em minus 0.4em\relax MIT press, 2016.
 
+\bibitem{arana2021redes}
+Carlos Arana, ``Redes neuronales recurrentes: An{\'a}lisis de los modelos
+  especializados en datos secuenciales,'' Serie Documentos de Trabajo, Tech.
+  Rep., 2021.
+
 \bibitem{mirjalili2020python}
 Vahid Mirjalili y Sebastian Raschka, \emph{Python machine learning}.\hskip 1em
   plus 0.5em minus 0.4em\relax Marcombo, 2020.
+
+\bibitem{de2014aprendizaje}
+E~De~la Rosa~Montero, ``El aprendizaje profundo para la identificaci{\'o}n de
+  sistemas no lineales,'' \emph{Centro de Investigaci{\'o}n y de estudios
+  avanzados del Instituto Polit{\'e}cnico nacional}, 2014.
 
 \bibitem{basogain2008redes}
 Xavier Basogain, ``Redes neuronales artificiales y sus aplicaciones,''
@@ -117,10 +131,10 @@ Eder Acevedo, Alexei Serna, y Edgar Serna, ``Principios y caracter{\'\i}sticas
   de las redes neuronales artificiales,'' \emph{Desarrollo e innovaci{\'o}n en
   ingenier{\'\i}a}, vol. 173, 2017.
 
-\bibitem{de2014aprendizaje}
-E~De~la Rosa~Montero, ``El aprendizaje profundo para la identificaci{\'o}n de
-  sistemas no lineales,'' \emph{Centro de Investigaci{\'o}n y de estudios
-  avanzados del Instituto Polit{\'e}cnico nacional}, 2014.
+\bibitem{pose2009introduccion}
+M~Gestal Pose, ``Introducci{\'o}n a las redes de neuronas artificiales,''
+  \emph{Departamento de Tecnolog{\'\i}as de la Informaci{\'o}n y las
+  Comunicaciones. Universidad da Coru{\~n}a}, 2009.
 
 \bibitem{nava2015procesamiento}
 F~Alejandro Nava, \emph{Procesamiento de series de tiempo}.\hskip 1em plus
@@ -168,6 +182,11 @@ Jose~R SAURA, Ana Reyes-Men{\'e}ndez, y Pedro PALOS-SANCHEZ, ``Un an{\'a}lisis
 \bibitem{hincapie2021prediccion}
 Edwar~Andr{\'e}s Hincapi{\'e}~Herrera, ``Predicci{\'o}n de la demanda usando
   modelos de machine learning,'' 2021.
+
+\bibitem{montesdeoca2016estudios}
+Besay Montesdeoca~Santana, ``Estudios de predicci{\'o}n en series temporales de
+  datos meteorol{\'o}gicos utilizando redes neuronales recurrentes,'' {B.S.}
+  thesis, 2016.
 
 \bibitem{sampieri}
 Roberto Hern\'andez, C.~Fern\'andez, y M.~P. Baptista, \emph{Metodolog\'ia de
