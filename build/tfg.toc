@@ -3,7 +3,7 @@
 \contentsline {chapter}{Abstract}{\es@scroman {x}}{Doc-Start}%
 \contentsline {chapter}{\'Indice de figuras}{\es@scroman {xii}}{chapter*.2}%
 \contentsline {chapter}{\'Indice de tablas}{\es@scroman {xiii}}{chapter*.3}%
-\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiv}}{chapter*.5}%
+\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiii}}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{2}{section.1.2}%
@@ -20,12 +20,11 @@
 \contentsline {subsection}{\numberline {2.1.2}Importancia de la Predicción de Compra de Insumos}{5}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Factores que Influyen en la Curva de Insumos Demandados}{8}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Sistema de información }{8}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1} Tipos de sistema de información}{9}{subsection.2.2.1}%
-\contentsline {paragraph}{Sistemas de procesamiento de transacciones}{9}{section*.6}%
-\contentsline {paragraph}{Sistema de información administrativa}{10}{section*.7}%
-\contentsline {paragraph}{Sistema de soporte de decisiones}{10}{section*.8}%
-\contentsline {paragraph}{Sistema de información gerencial}{10}{section*.9}%
-\contentsline {paragraph}{Sistema experto e inteligencia artificial }{10}{section*.10}%
+\contentsline {paragraph}{Sistemas de procesamiento de transacciones}{9}{section*.4}%
+\contentsline {paragraph}{Sistema de información administrativa}{9}{section*.5}%
+\contentsline {paragraph}{Sistema de soporte de decisiones DSS}{10}{section*.6}%
+\contentsline {paragraph}{Sistema de información gerencial}{10}{section*.7}%
+\contentsline {paragraph}{Sistema experto e inteligencia artificial }{10}{section*.8}%
 \contentsline {section}{\numberline {2.3}Tiempos Actuales en las Predicciones de Demanda}{12}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Mineria de datos}{12}{section.2.4}%
 \contentsline {section}{\numberline {2.5}El aprendizaje automático \textit {(machine learning)}}{13}{section.2.5}%
@@ -36,45 +35,48 @@
 \contentsline {subsection}{\numberline {2.9.1}Capas de la neurona artificial}{18}{subsection.2.9.1}%
 \contentsline {subsection}{\numberline {2.9.2}Modelo de redes neuronales artificiales}{19}{subsection.2.9.2}%
 \contentsline {subsection}{\numberline {2.9.3}Arquitectura de una red neuronal}{20}{subsection.2.9.3}%
-\contentsline {subsection}{\numberline {2.9.4}Los pesos sinápticos}{21}{subsection.2.9.4}%
-\contentsline {section}{\numberline {2.10}Perceptron}{21}{section.2.10}%
-\contentsline {subsection}{\numberline {2.10.1}Perceptrón multica}{22}{subsection.2.10.1}%
-\contentsline {section}{\numberline {2.11}Series de Tiempo}{22}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Redes neuronales recurrentes (RNN)}{22}{section.2.12}%
-\contentsline {subsection}{\numberline {2.12.1}Arquitectura básica de una RNN (RNN)}{23}{subsection.2.12.1}%
-\contentsline {section}{\numberline {2.13}Redes de Memoria Corta y Larga LSTM}{24}{section.2.13}%
-\contentsline {section}{\numberline {2.14}Antecedentes}{24}{section.2.14}%
+\contentsline {section}{\numberline {2.10}Redes neuronales recurrentes (RNN)}{21}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Arquitectura básica de una RNN}{21}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Redes de Memoria Corta y Larga LSTM}{22}{subsection.2.10.2}%
+\contentsline {subsection}{\numberline {2.10.3}Los pesos sinápticos}{22}{subsection.2.10.3}%
+\contentsline {subsection}{\numberline {2.10.4}Perceptron}{23}{subsection.2.10.4}%
+\contentsline {subsection}{\numberline {2.10.5}Perceptrón multica}{24}{subsection.2.10.5}%
+\contentsline {section}{\numberline {2.11}Series de Tiempo}{24}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Antecedentes}{24}{section.2.12}%
 \contentsline {chapter}{\numberline {3}Método}{28}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Enfoque}{28}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Datos originales}{28}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Conjunto de datos}{29}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Librerias de uso común en Mching Learning}{31}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Alcance de la investigación cuantitativa}{31}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Alcance exploratorio.}{32}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Alcance descriptivo.}{32}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Alcance correlacional.}{32}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Alcance explicativo.}{32}{subsection.3.5.4}%
-\contentsline {section}{\numberline {3.6}Diseño}{33}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Lenguajes de programación}{36}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Python}{36}{subsection.3.7.1}%
-\contentsline {paragraph}{Pandas:}{36}{section*.11}%
-\contentsline {paragraph}{NumPy:}{37}{section*.12}%
-\contentsline {paragraph}{Matplotlib:}{37}{section*.13}%
-\contentsline {paragraph}{Seaborn:}{37}{section*.14}%
-\contentsline {paragraph}{Scikit-learn:}{37}{section*.15}%
-\contentsline {paragraph}{StatsModels:}{37}{section*.16}%
-\contentsline {paragraph}{SciPy:}{37}{section*.17}%
-\contentsline {paragraph}{Plotly:}{37}{section*.18}%
-\contentsline {paragraph}{Bokeh:}{38}{section*.19}%
-\contentsline {paragraph}{Dask:}{38}{section*.20}%
-\contentsline {paragraph}{TensorFlow y PyTorch:}{38}{section*.21}%
-\contentsline {subsection}{\numberline {3.7.2}PHP}{38}{subsection.3.7.2}%
-\contentsline {paragraph}{Facilidad de aprendizaje:}{38}{section*.22}%
-\contentsline {paragraph}{Amplia comunidad y soporte:}{38}{section*.23}%
-\contentsline {paragraph}{Interacción con bases de datos:}{38}{section*.24}%
-\contentsline {paragraph}{Versatilidad:}{39}{section*.25}%
-\contentsline {paragraph}{Plataforma cruzada:}{39}{section*.26}%
-\contentsline {chapter}{Anexo A.}{40}{chapter*.27}%
-\contentsline {chapter}{Glosario}{40}{section*.26}%
-\contentsline {chapter}{Anexos}{40}{section*.26}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{41}{chapter*.27}%
+\contentsline {section}{\numberline {3.2}Alcance de la investigación cuantitativa}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Datos originales}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Analítica descriptiva}{31}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Conjunto de datos}{32}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Librerias de uso común en Mching Learning}{34}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Diseño}{35}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Lenguajes de programación}{35}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Python}{35}{subsection.3.8.1}%
+\contentsline {paragraph}{Pandas:}{36}{section*.9}%
+\contentsline {paragraph}{NumPy:}{36}{section*.10}%
+\contentsline {paragraph}{Matplotlib:}{36}{section*.11}%
+\contentsline {paragraph}{Seaborn:}{36}{section*.12}%
+\contentsline {paragraph}{Scikit-learn:}{36}{section*.13}%
+\contentsline {paragraph}{StatsModels:}{36}{section*.14}%
+\contentsline {paragraph}{SciPy:}{37}{section*.15}%
+\contentsline {paragraph}{Plotly:}{37}{section*.16}%
+\contentsline {paragraph}{Bokeh:}{37}{section*.17}%
+\contentsline {paragraph}{Dask:}{37}{section*.18}%
+\contentsline {paragraph}{TensorFlow y PyTorch:}{37}{section*.19}%
+\contentsline {subsection}{\numberline {3.8.2}PHP}{37}{subsection.3.8.2}%
+\contentsline {paragraph}{Facilidad de aprendizaje:}{37}{section*.20}%
+\contentsline {paragraph}{Amplia comunidad y soporte:}{38}{section*.21}%
+\contentsline {paragraph}{Interacción con bases de datos:}{38}{section*.22}%
+\contentsline {paragraph}{Versatilidad:}{38}{section*.23}%
+\contentsline {paragraph}{Plataforma cruzada:}{38}{section*.24}%
+\contentsline {chapter}{\numberline {4}Resultados}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ejemplos de elementos grficos}{36}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Discusin}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Logros alcanzados}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Solucin del problema de investigacin}{40}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Sugerencias para futuras investigaciones}{40}{section.5.3}%
+\contentsline {chapter}{Anexo A.}{41}{chapter*.25}%
+\contentsline {chapter}{Glosario}{41}{section.5.3}%
+\contentsline {chapter}{Anexos}{41}{section.5.3}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{42}{chapter*.25}%

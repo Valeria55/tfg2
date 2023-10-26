@@ -101,7 +101,7 @@ Es importante tener en cuenta que la necesidad de información en las organizaci
 
 Los sistemas de información se desarrollan para diferentes propósitos, según las necesidades de los usuarios humanos y la empresa. En definitiva, el uso adecuado de la información y la implementación de sistemas de información efectivos pueden marcar una gran diferencia en el éxito de una organización.
 
-\subsection{ Tipos de sistema de información}
+paragraph{ Tipos de sistema de información}
 
 El propósito de un sistema de información, puede ser muy amplio, todo depende de las necesidades de la organización. Existen distintos tipos de sistemas de información, entre los que destacan los siguientes\cite{kendall2005analisis}:
 
@@ -127,7 +127,7 @@ Los sistemas de información administrativa (MIS) no sustituyen a los sistemas d
 
 Al requerir que las personas, el software y el hardware funcionen en concierto, los sistemas de información administrativa brindan soporte a los usuarios para realizar un espectro más amplio de tareas organizacionales que los sistemas de procesamiento de transacciones, incluyendo los procesos de análisis y toma de decisiones. Para acceder a la información, los usuarios del sistema de información administrativa comparten una base de datos común; esta almacena tanto los datos como los modelos que permiten al usuario interactuar con ellos, interpretarlos y aplicarlos. Los sistemas de información administrativa producen información que se utiliza en el proceso de toma de decisiones. También pueden ayudar a integrar algunas de las funciones de información computarizadas de una empresa. 
 
-\paragraph{Sistema de soporte de decisiones}
+\paragraph{Sistema de soporte de decisiones DSS}
 
 Son sistemas de información que tienen como propósito auxiliar al usuario con las decisiones únicas que no se repiten y que no tienen una estructura definida\cite{kendall2005analisis}. Además de estar hechos a la medida de la persona o grupo que los usa en comparación con los Sistemas de información Gerencial. El propósito de estos sistemas es el de responder correctamente a condiciones inesperadas y propias de la información. Esto permite que sean empleados en niveles altos de la organización.  
 
@@ -157,7 +157,7 @@ Un sistema experto (también conocido como sistema basado en el conocimiento) ca
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[scale=0.60]{./hechos.png}
+    \includegraphics[scale=0.50]{./hechos.png}
     \caption{Arquitectura de un sistema experto \cite{diez2001introduccion}.}
     \label{fig:Arquitectura de un sistema experto}
   \end{center}
@@ -374,12 +374,57 @@ Las arquitecturas neuronales pueden clasificarse atendiendo a distintos criterio
   \item Redes de propagación hacia atrás (feedback), en las que las salidas de las neuronas pueden servir de entradas a unidades del mismo nivel (conexiones laterales) o de niveles previos. Las redes de propagación hacia atrás que presentan lazos cerrados se denominan sistemas recurrentes.
 \end{itemize}
 \end{itemize}
+
+\section{Redes neuronales recurrentes (RNN)}
+
+Las redes neuronales recurrentes tienen caminos de retroalimentación entre todos los elementos que las conforman \cite{montesdeoca2016estudios}. Una sola neurona está entonces conectada a las neuronas posteriores en la siguiente capa, las neuronas pasadas de la capa anterior y a ella misma a través de vectores de pesos variables que sufren alteraciones en cada época con el fin de alcanzar los parámetros o metas de operación.
+
+Las redes neuronales recurrentes (RNNs) son un tipo de modelo de aprendizaje profundo que se utiliza para analizar datos secuenciales, como el procesamiento del lenguaje natural o la predicción de series de tiempo\cite{tomas2023prediccion}.
+
+A diferencia de las redes neuronales artificiales ya vistas, que asumen la independencia entre los datos de entrada, las \gls{rnn} capturan activamente sus dependencias secuenciales y temporales\cite{arana2021redes}.
+
+Las RNN generalmente aumentan la arquitectura de red multicapa convencional con la adición de ciclos que conectan nodos adyacentes o pasos de tiempo.
+
+Estos ciclos constituyen la memoria interna de la red que se utiliza para evaluar las propiedades del dato actual con respecto a los datos del pasado inmediato.
+
+Las redes neuronales recurrentes son más eficaces para resolver problemas con no­linealidades temporales significativas. Son especialmente útiles en aplicaciones tales
+como el reconocimiento de patrones secuenciales, cambiantes en el tiempo, ya que las capacidades de predicción y mapeo de las RNN así lo permiten\cite{montesdeoca2016estudios}..
+
+Sin embargo, la capacidad de las RNNs para manejar datos a largo plazo se ve comprometida por el problema del gradiente que desaparece, que ocurre cuando el gradiente se hace cada vez más pequeño a medida que se propaga hacia atrás en la red\cite{tomas2023prediccion}.
+
+
+Para  superar  este  problema,  Hochreiter \& Schmidhuber,  propusieron  la  memoria  a  corto  y  largo  plazo  (LSTM),  una  variante  de  las  RNNs  que  ha  demostrado  ser efectiva para el procesamiento de datos secuenciales a largo plazo\cite{tomas2023prediccion}.
+
+
+\subsection{Arquitectura básica de una RNN}
+Arquitectura básica de una RNN. Una característica importante es la inclusión de retrasos ($z^{-1}$) a la salida de las neuronas en las capas intermedias; las salidas parciales $S_{mn}(t + 1)$ se convierten en valores $S_{mn}(t)$, un instante de tiempo anterior, y así se retroalimenta a todos los componentes de la red, guardando información de instantes de tiempo anteriores \cite{montesdeoca2016estudios}.Se puede apreciar cómo todos los nodos están interconectados entre sí, estableciendo conexiones tanto directas como mediante retardos temporales con los nodos precedentes en cada capa, lo que permite la incorporación de memorias temporales.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.70]{./redes_recurrentes.png}
+    \caption{La arquitectura básica de una RNN}
+    \label{fig:red_recurreente}
+  \end{center}
+\end{figure}
+
+\newacronym{lstm}{LSTM}{Redes de Memoria Corta y Larga}
+\glsreset{lstm} % reinicia el banderín del primer uso
+ 
+\subsection{Redes de Memoria Corta y Larga  LSTM}
+
+Las redes de “larga memoria de corto plazo”(\gls{lstm}), propuestas por Hochreiter y Schmidhuber. Es una de las arquitecturas de aprendizaje profundo más avanzadas y exitosas para predicción de series temporales, reconocimiento de escritura y análisis de discurso\cite{fernandez2021estimacion}.
+
+El modelo matemático de LSTM se define como una función no lineal que transforma la entrada actual, el estado anterior y la memoria a largo plazo en una salida y un estado actualizado.
+
+El cálculo de esta función implica la  operación  de  multiplicación  de  matrices  y  la  aplicación  de  funciones  de  activación,  como la función sigmoide o la tangente hiperbólica\cite{tomas2023prediccion}.
+
+El objetivo es mejorar la memoria de la RNN de los eventos pasados entrenándola para que recuerde lo importante y olvide el resto. Para ello, las LSTM procesan dos versiones del pasado\cite{arana2021redes}.
 \subsection{Los pesos sinápticos}
 A una neurona artificial se le asigna un peso sináptico a las entradas que provienen desde otras neuronas. Este procedimiento es similar al que se realiza en una neurona de un ser humano, a lo que normalmente en la medicina se le conoce como sinapsis. El peso sináptico entonces es un valor numérico y que puede ir cambiando durante la fase de entrenamiento\cite{acevedo2017principios}. Este peso hace que la red neural tengo una utilidad y es allí donde se almacena la información.
 
 En una red de neuronas existe un peso o fuerza sináptica que va a ser un valor numérico que pondera las señales que se reciben por sus entradas. Este peso será un valor que determina la fuerza de conexión entre 2 neuronas. Cuando se evalúa una neurona se debe calcular el conjunto de todas las fuerzas o valores (denominado NET) que se reciben por sus entradas. Una vez calculado el valor conjunto de todas las entradas se aplica una función de activación (FA) que determinará el valor del estado interno de la neurona y que será lo que se transmita a su salida\cite{pose2009introduccion}.
 
-\section{Perceptron}
+\subsection{Perceptron}
 En 1957, Frank Rosenblatt publicó el mayor trabajo de investigación en computación neuronal realizado hasta esas fechas. Su trabajo consistía en el desarrollo de un
 elemento llamado “Perceptron” \cite{olabe1998redes}.
 
@@ -408,45 +453,9 @@ Las series de tiempo, son datos estadísticos que se recopilan, observan o regis
 
 Conviene recalcar que una serie de tiempo es un conjunto ordenado de valores, no una función, y que no debe ser tratada como tal\cite{nava2015procesamiento}.
 
-\section{Redes neuronales recurrentes (RNN)}
+\newacronym{rnn}{RNN}{Redes neuronales recurrentes}
+\glsreset{rnn} % reinicia el banderín del primer uso
 
-Las redes neuronales recurrentes tienen caminos de retroalimentación entre todos los elementos que las conforman \cite{montesdeoca2016estudios}. Una sola neurona está entonces conectada a las neuronas posteriores en la siguiente capa, las neuronas pasadas de la capa anterior y a ella misma a través de vectores de pesos variables que sufren alteraciones en cada época con el fin de alcanzar los parámetros o metas de operación.
-
-Las redes neuronales recurrentes (RNNs) son un tipo de modelo de aprendizaje profundo que se utiliza para analizar datos secuenciales, como el procesamiento del lenguaje natural o la predicción de series de tiempo\cite{tomas2023prediccion}.
-
-A diferencia de las redes neuronales artificiales ya vistas, que asumen la independencia entre los datos de entrada, las RNN capturan activamente sus dependencias secuenciales y temporales\cite{arana2021redes}.
-
-Las RNN generalmente aumentan la arquitectura de red multicapa convencional con la adición de ciclos que conectan nodos adyacentes o pasos de tiempo.
-
-Estos ciclos constituyen la memoria interna de la red que se utiliza para evaluar las propiedades del dato actual con respecto a los datos del pasado inmediato.
-
-Las redes neuronales recurrentes son más eficaces para resolver problemas con no­linealidades temporales significativas. Son especialmente útiles en aplicaciones tales
-como el reconocimiento de patrones secuenciales, cambiantes en el tiempo, ya que las capacidades de predicción y mapeo de las RNN así lo permiten\cite{montesdeoca2016estudios}..
-
-Sin embargo, la capacidad de las RNNs para manejar datos a largo plazo se ve comprometida por el problema del gradiente que desaparece, que ocurre cuando el gradiente se hace cada vez más pequeño a medida que se propaga hacia atrás en la red\cite{tomas2023prediccion}.
-
-Para  superar  este  problema,  Hochreiter \& Schmidhuber,  propusieron  la  memoria  a  corto  y  largo  plazo  (LSTM),  una  variante  de  las  RNNs  que  ha  demostrado  ser efectiva para el procesamiento de datos secuenciales a largo plazo\cite{tomas2023prediccion}.
-
-\subsection{Arquitectura básica de una RNN (RNN)}
-Arquitectura básica de una RNN. Una característica importante es la inclusión de retrasos ($z^{-1}$) a la salida de las neuronas en las capas intermedias; las salidas parciales $S_{mn}(t + 1)$ se convierten en valores $S_{mn}(t)$, un instante de tiempo anterior, y así se retroalimenta a todos los componentes de la red, guardando información de instantes de tiempo anteriores \cite{montesdeoca2016estudios}.Se puede apreciar cómo todos los nodos están interconectados entre sí, estableciendo conexiones tanto directas como mediante retardos temporales con los nodos precedentes en cada capa, lo que permite la incorporación de memorias temporales.
-
-\begin{figure}[H]
-  \begin{center}
-    \includegraphics[scale=0.70]{./redes_recurrentes.png}
-    \caption{La arquitectura básica de una RNN}
-    \label{fig:red_recurreente}
-  \end{center}
-\end{figure}
-
-\section{Redes de Memoria Corta y Larga LSTM}
-
-Las redes de “larga memoria de corto plazo”(LSTM, por sus siglas en ingles Long Short-Term Memory) propuestas por Hochreiter y Schmidhuber. Es una de las arquitecturas de aprendizaje profundo más avanzadas y exitosas para predicción de series temporales, reconocimiento de escritura y análisis de discurso\cite{fernandez2021estimacion}.
-
-El modelo matemático de LSTM se define como una función no lineal que transforma la entrada actual, el estado anterior y la memoria a largo plazo en una salida y un estado actualizado.
-
-El cálculo de esta función implica la  operación  de  multiplicación  de  matrices  y  la  aplicación  de  funciones  de  activación,  como la función sigmoide o la tangente hiperbólica\cite{tomas2023prediccion}.
-
-El objetivo es mejorar la memoria de la RNN de los eventos pasados entrenándola para que recuerde lo importante y olvide el resto. Para ello, las LSTM procesan dos versiones del pasado\cite{arana2021redes}.
 
 
 \section{Antecedentes}

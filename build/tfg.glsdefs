@@ -1,14 +1,14 @@
-\glsdefs@newdocentry{lan}%
+\glsdefs@newdocentry{lstm}%
 {%
-name={\acronymfont {\glsentryshort {lan}}},%
-sort={LAN},%
+name={\acronymfont {\glsentryshort {lstm}}},%
+sort={LSTM},%
 type={acronym},%
-first={LAN},%
-firstplural={LANs},%
-text={LAN},%
-plural={LANs},%
-description={Local Area Network},%
-descriptionplural={Local Area Network},%
+first={LSTM},%
+firstplural={LSTMs},%
+text={LSTM},%
+plural={LSTMs},%
+description={Redes de Memoria Corta y Larga},%
+descriptionplural={Redes de Memoria Corta y Larga},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -17,26 +17,26 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Local Area Network},%
-longplural={Local Area Networks},%
-short={LAN},%
-shortplural={LANs},%
+long={Redes de Memoria Corta y Larga},%
+longplural={Redes de Memoria Corta y Largas},%
+short={LSTM},%
+shortplural={LSTMs},%
 counter={page},%
 parent={},%
 %
 }%
 
-\glsdefs@newdocentry{sored}%
+\glsdefs@newdocentry{rnn}%
 {%
-name={\acronymfont {\glsentryshort {sored}}},%
-sort={SOR},%
+name={\acronymfont {\glsentryshort {rnn}}},%
+sort={RNN},%
 type={acronym},%
-first={SOR},%
-firstplural={SORs},%
-text={SOR},%
-plural={SORs},%
-description={Sistema Operativo de Red},%
-descriptionplural={Sistema Operativo de Red},%
+first={RNN},%
+firstplural={RNNs},%
+text={RNN},%
+plural={RNNs},%
+description={Redes neuronales recurrentes},%
+descriptionplural={Redes neuronales recurrentes},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -45,10 +45,10 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Sistema Operativo de Red},%
-longplural={Sistema Operativo de Reds},%
-short={SOR},%
-shortplural={SORs},%
+long={Redes neuronales recurrentes},%
+longplural={Redes neuronales recurrentess},%
+short={RNN},%
+shortplural={RNNs},%
 counter={page},%
 parent={},%
 %

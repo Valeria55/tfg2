@@ -140,6 +140,11 @@ M~Gestal Pose, ``Introducci{\'o}n a las redes de neuronas artificiales,''
 F~Alejandro Nava, \emph{Procesamiento de series de tiempo}.\hskip 1em plus
   0.5em minus 0.4em\relax Fondo de cultura econ{\'o}mica, 2015.
 
+\bibitem{montesdeoca2016estudios}
+Besay Montesdeoca~Santana, ``Estudios de predicci{\'o}n en series temporales de
+  datos meteorol{\'o}gicos utilizando redes neuronales recurrentes,'' {B.S.}
+  thesis, 2016.
+
 \bibitem{tomas2023prediccion}
 Samuel Tomas, Oliver Saavedra, y Israel Espinoza, ``Predicci{\'o}n del ciclo
   solar 25 mediante modelos arima y redes neuronales lstm,'' \emph{Revista de
@@ -182,11 +187,6 @@ Jose~R SAURA, Ana Reyes-Men{\'e}ndez, y Pedro PALOS-SANCHEZ, ``Un an{\'a}lisis
 \bibitem{hincapie2021prediccion}
 Edwar~Andr{\'e}s Hincapi{\'e}~Herrera, ``Predicci{\'o}n de la demanda usando
   modelos de machine learning,'' 2021.
-
-\bibitem{montesdeoca2016estudios}
-Besay Montesdeoca~Santana, ``Estudios de predicci{\'o}n en series temporales de
-  datos meteorol{\'o}gicos utilizando redes neuronales recurrentes,'' {B.S.}
-  thesis, 2016.
 
 \bibitem{sampieri}
 Roberto Hern\'andez, C.~Fern\'andez, y M.~P. Baptista, \emph{Metodolog\'ia de
