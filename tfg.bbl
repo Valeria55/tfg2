@@ -72,6 +72,28 @@ Beatriz~Beltr{\'a}n Mart{\'\i}nez, ``Miner{\'\i}a de datos,'' \emph{C{\'o}mo
   hallar una aguja en un pajar. Ingenier{\'\i}as}, vol.~14, no.~53, pp. 53--66,
   2001.
 
+\bibitem{SIMITSIS200822}
+\BIBentryALTinterwordspacing
+Alkis Simitsis y Panos Vassiliadis, ``A method for the mapping of conceptual
+  designs to logical blueprints for etl processes,'' \emph{Decision Support
+  Systems}, vol.~45, no.~1, pp. 22--40, 2008, data Warehousing and OLAP. [En
+  l{\'\i}nea]. Disponible:
+  \url{https://www.sciencedirect.com/science/article/pii/S0167923606002065}
+\BIBentrySTDinterwordspacing
+
+\bibitem{martinez2013tecnicas}
+Alexander~Bustamante Mart{\'\i}nez, Ernesto Amaru~Galvis Lista, y Luis
+  Carlos~G{\'o}mez Fl{\'o}rez, ``T{\'e}cnicas de modelado de procesos de etl:
+  una revisi{\'o}n de alternativas y su aplicaci{\'o}n en un proyecto de
+  desarrollo de una soluci{\'o}n de bi,'' \emph{Scientia et technica}, vol.~18,
+  no.~1, pp. 185--191, 2013.
+
+\bibitem{villarroel2013incorporacion}
+Rodolfo~H Villarroel, Yessica~M G{\'o}mez, y Constanza~B Krause,
+  ``Incorporaci{\'o}n de seguridad en el modelado conceptual de procesos
+  extracci{\'o}n-transformaci{\'o}n-carga,'' \emph{Informaci{\'o}n
+  tecnol{\'o}gica}, vol.~24, no.~6, pp. 101--110, 2013.
+
 \bibitem{mahesh2020machine}
 \BIBentryALTinterwordspacing
 Batta Mahesh, ``Machine learning algorithms-a review,'' \emph{International
@@ -126,20 +148,6 @@ Nicol{\'a}s S{\'a}nchez~Anzola, ``M{\'a}quinas de soporte vectorial y redes
 Andres Nacelle y E~Mizraji, ``Redes neuronales artificiales,'' \emph{N{\'u}cleo
   de ingenier{\'\i}a biom{\'e}dica--Universidad de la Republica Uruguay}, 2009.
 
-\bibitem{acevedo2017principios}
-Eder Acevedo, Alexei Serna, y Edgar Serna, ``Principios y caracter{\'\i}sticas
-  de las redes neuronales artificiales,'' \emph{Desarrollo e innovaci{\'o}n en
-  ingenier{\'\i}a}, vol. 173, 2017.
-
-\bibitem{pose2009introduccion}
-M~Gestal Pose, ``Introducci{\'o}n a las redes de neuronas artificiales,''
-  \emph{Departamento de Tecnolog{\'\i}as de la Informaci{\'o}n y las
-  Comunicaciones. Universidad da Coru{\~n}a}, 2009.
-
-\bibitem{nava2015procesamiento}
-F~Alejandro Nava, \emph{Procesamiento de series de tiempo}.\hskip 1em plus
-  0.5em minus 0.4em\relax Fondo de cultura econ{\'o}mica, 2015.
-
 \bibitem{montesdeoca2016estudios}
 Besay Montesdeoca~Santana, ``Estudios de predicci{\'o}n en series temporales de
   datos meteorol{\'o}gicos utilizando redes neuronales recurrentes,'' {B.S.}
@@ -154,6 +162,30 @@ Samuel Tomas, Oliver Saavedra, y Israel Espinoza, ``Predicci{\'o}n del ciclo
 Juan Jos{\'e} De~Lucio Fern{\'a}ndez, ``Estimaci{\'o}n adelantada del
   crecimiento regional mediante redes neuronales lstm,'' \emph{Investigaciones
   Regionales= Journal of Regional Research}, no.~49, pp. 45--64, 2021.
+
+\bibitem{sepulveda2023analisis}
+Carlos~Andr{\'e}s Sep{\'u}lveda~Calle y Milton~Tarsicio Benavides~Posso,
+  ``An{\'a}lisis predictivo de demanda de servicios bajo series temporales,''
+  2023.
+
+\bibitem{chang2023comparacion}
+Haward~Miguel Chang~Hidalgo, ``Comparaci{\'o}n de t{\'e}cnicas de
+  estimaci{\'o}n basadas en machine learning para predecir costos en los planes
+  de adquisiciones de las entidades p{\'u}blicas del per{\'u},'' 2023.
+
+\bibitem{acevedo2017principios}
+Eder Acevedo, Alexei Serna, y Edgar Serna, ``Principios y caracter{\'\i}sticas
+  de las redes neuronales artificiales,'' \emph{Desarrollo e innovaci{\'o}n en
+  ingenier{\'\i}a}, vol. 173, 2017.
+
+\bibitem{pose2009introduccion}
+M~Gestal Pose, ``Introducci{\'o}n a las redes de neuronas artificiales,''
+  \emph{Departamento de Tecnolog{\'\i}as de la Informaci{\'o}n y las
+  Comunicaciones. Universidad da Coru{\~n}a}, 2009.
+
+\bibitem{nava2015procesamiento}
+F~Alejandro Nava, \emph{Procesamiento de series de tiempo}.\hskip 1em plus
+  0.5em minus 0.4em\relax Fondo de cultura econ{\'o}mica, 2015.
 
 \bibitem{condorena2017desarrollo}
 V{\'\i}ctor~Marcial Condorena~Rond{\'o}n, ``Desarrollo de un sistema de control
@@ -192,17 +224,5 @@ Edwar~Andr{\'e}s Hincapi{\'e}~Herrera, ``Predicci{\'o}n de la demanda usando
 Roberto Hern\'andez, C.~Fern\'andez, y M.~P. Baptista, \emph{Metodolog\'ia de
   la investigaci\'on}, 5th~ed.\hskip 1em plus 0.5em minus 0.4em\relax M\'exico
   D.F.: McGraw-Hill, 2010.
-
-\bibitem{python2021python}
-\BIBentryALTinterwordspacing
-Why Python, ``Python,'' \emph{Python Releases for Windows}, vol.~24, 2021. [En
-  l{\'\i}nea]. Disponible:
-  \url{https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=Python+&btnG=}
-\BIBentrySTDinterwordspacing
-
-\bibitem{cobo2005php}
-{\'A}ngel Cobo, \emph{PHP y MySQL: Tecnolog{\'\i}a para el desarrollo de
-  aplicaciones web.}\hskip 1em plus 0.5em minus 0.4em\relax Ediciones D{\'\i}az
-  de Santos, 2005.
 
 \end{thebibliography}

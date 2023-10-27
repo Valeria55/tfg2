@@ -1,0 +1,56 @@
+\glsdefs@newdocentry{lstm}%
+{%
+name={\acronymfont {\glsentryshort {lstm}}},%
+sort={LSTM},%
+type={acronym},%
+first={LSTM},%
+firstplural={LSTMs},%
+text={LSTM},%
+plural={LSTMs},%
+description={Redes de Memoria Corta y Larga},%
+descriptionplural={Redes de Memoria Corta y Larga},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Redes de Memoria Corta y Larga},%
+longplural={Redes de Memoria Corta y Largas},%
+short={LSTM},%
+shortplural={LSTMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{rnn}%
+{%
+name={\acronymfont {\glsentryshort {rnn}}},%
+sort={RNN},%
+type={acronym},%
+first={RNN},%
+firstplural={RNNs},%
+text={RNN},%
+plural={RNNs},%
+description={Redes neuronales recurrentes},%
+descriptionplural={Redes neuronales recurrentes},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Redes neuronales recurrentes},%
+longplural={Redes neuronales recurrentess},%
+short={RNN},%
+shortplural={RNNs},%
+counter={page},%
+parent={},%
+%
+}%
+

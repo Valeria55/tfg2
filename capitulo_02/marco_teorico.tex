@@ -73,10 +73,6 @@ La predicción de compra de insumos es vital para la planificación a corto, med
   \item \textbf{Satisfacción del Cliente:} Mantener un suministro constante de productos esencial para el negocio, ya que los clientes esperan encontrar su elección preferida en el menú en todo momento.
 \end{enumerate}
 
-
-
-
-
 \subsection{Factores que Influyen en la Curva de Insumos Demandados}
 
 Varios factores pueden influir en el comportamiento de la curva de insumos demandados:
@@ -92,6 +88,12 @@ Varios factores pueden influir en el comportamiento de la curva de insumos deman
     
     \item Promociones y Ofertas: Las promociones especiales pueden aumentar temporalmente la demanda de ciertos productos.
 \end{itemize}
+
+\section{Tiempos Actuales en las Predicciones de Demanda}
+
+En la actualidad, las predicciones de demanda se benefician ampliamente de las tecnologías avanzadas y el análisis de datos. Las empresas pueden aprovechar sistemas de gestión de inventario y software de análisis de datos para recopilar y procesar información histórica y en tiempo real. Estas herramientas les permiten aplicar técnicas estadísticas y modelos de pronóstico para anticipar con mayor precisión los patrones de demanda futura.
+
+En tiempos recientes, se ha observado la aplicación de diversas técnicas en el campo de la inteligencia artificial, como sistemas expertos, y más recientemente, algoritmos genéticos. Sin embargo, a pesar de esta evolución, los modelos que han captado una atención destacada son los basados en Redes Neuronales Artificiales (RNAs). Con el transcurso del tiempo, se han desarrollado múltiples arquitecturas de RNAs para abordar una variedad de problemas en el ámbito de la predicción de demanda.
 
 \section{Sistema de información }
 
@@ -170,12 +172,6 @@ En los Sistemas Expertos el conocimiento se hace explícito en forma de reglas, 
 
 
 
-\section{Tiempos Actuales en las Predicciones de Demanda}
-
-En la actualidad, las predicciones de demanda se benefician ampliamente de las tecnologías avanzadas y el análisis de datos. Las empresas pueden aprovechar sistemas de gestión de inventario y software de análisis de datos para recopilar y procesar información histórica y en tiempo real. Estas herramientas les permiten aplicar técnicas estadísticas y modelos de pronóstico para anticipar con mayor precisión los patrones de demanda futura.
-
-En tiempos recientes, se ha observado la aplicación de diversas técnicas en el campo de la inteligencia artificial, como sistemas expertos, y más recientemente, algoritmos genéticos. Sin embargo, a pesar de esta evolución, los modelos que han captado una atención destacada son los basados en Redes Neuronales Artificiales (RNAs). Con el transcurso del tiempo, se han desarrollado múltiples arquitecturas de RNAs para abordar una variedad de problemas en el ámbito de la predicción de demanda.
-
 \section{Mineria de datos}
 La minería de datos puede definirse inicialmente como un proceso de descubrimiento de nuevas y significativas relaciones, patrones y tendencias al examinar grandes cantidades de datos\cite{perez2007mineria}.
 
@@ -185,7 +181,18 @@ Inicialmente, los sistemas de información se centraban en recopilar datos para 
 
 La Minería de Datos se puede ubicar en el nivel más alto de la evolución de los procesos tecnológicos de análisis de datos \cite{martinez2001mineria}.
 
-\section{El aprendizaje automático \textit{(machine learning)}}
+% \section{Técnicas de modelado de procesos de ETL}
+
+% Las herramientas de Extracción-Transformación-Carga (ETL) son piezas de software responsables de la extracción de datos de varias fuentes, su limpieza, personalización e inserción en un almacén de datos\cite{SIMITSIS200822}.
+
+% El proceso de extracción, transformación y carga – ETL es una de las actividades técnicas más críticas en el desarrollo de soluciones de inteligencia de negocios BI \cite{martinez2013tecnicas}.
+
+% El proceso de ETL es esencial para garantizar la calidad y la integridad de los datos antes de que se utilicen en aplicaciones analíticas o de toma de decisiones. Permite a las organizaciones transformar datos crudos en información procesable y confiable. Además, con la creciente cantidad de datos disponibles en la actualidad, el ETL se ha vuelto cada vez más importante para integrar datos de diversas fuentes y garantizar que estén listos para su análisis.
+
+% Para autores como Ralph Kimball los Almacenes de Datos son “una copia de los datos transaccionales estructurados específicamente para consultas y análisis”, mientras que Bill Inmon define el término Almacén de Datos como: “una colección de datos orientados por temas, integrados, variables en el tiempo y no volátiles para el apoyo de la toma de decisiones”. Los Almacenes de Datos son integradores, ya que su contenido proviene de diversas fuentes de datos como: Sistemas heredados, Archivos de Textos, Base de Datos Relacionales, ERP, entre otras posibilidades. La forma de lograr esta integración es a través del uso y desarrollo de los Procesos ETL. Estos procesos son los encargados de la extracción de los datos desde sus fuentes de origen, de transformarlos a la información deseada, de lograr la limpieza necesaria en aquellos que lo requieran y finalmente cargar al Almacén de Datos deseado, el que será utilizado con alguna finalidad como análisis en un área de las ventas de una corporación o el estudio de tendencias de alguna consultora\cite{villarroel2013incorporacion}.
+
+\section{Inteligencia Artificial}
+\subsection{El aprendizaje automático \textit{(machine learning)}}
 
 \textit{Según Arthur Samuel, el aprendizaje automático se define como el campo de estudio que otorga a las computadoras la capacidad de aprender sin ser programadas explícitamente}\cite{mahesh2020machine}. 
 
@@ -229,7 +236,7 @@ El siguiente diagrama muestra un flujo de trabajo típico para el uso del aprend
     \item Optimización de hiperparametro.
   \end{itemize}
 
-\section{Aprendizaje supervisado}
+\subsection{Aprendizaje supervisado}
 
 El aprendizaje supervisado comienza típicamente con un conjunto establecido de datos y una cierta comprensión de cómo se clasifican estos datos. El aprendizaje supervisado tiene la intención de encontrar patrones en datos que se pueden aplicar a un proceso de analítica. Estos datos tienen características etiquetadas que definen el significado de los datos. Por ejemplo, se puede crear una aplicación de machine learning con base en imágenes y descripciones escritas que distinga entre millones de animales\cite{ibm}.
 
@@ -245,17 +252,17 @@ de salida deseadas (etiquetas) ya se conocen.
   \end{center}
 \end{figure}
 
-\section{Aprendizaje no supervisado}
+\subsection{Aprendizaje no supervisado}
 
 El aprendizaje no supervisado se utiliza cuando el problema requiere una cantidad masiva de datos sin etiquetar. Por ejemplo, las aplicaciones de redes sociales, tales como Twitter, Instagram y Snapchat, tienen grandes cantidades de datos sin etiquetar. La comprensión del significado detrás de estos datos requiere algoritmos que clasifican los datos con base en los patrones o clústeres que encuentra. El aprendizaje no supervisado lleva a cabo un proceso iterativo, analizando los datos sin intervención humana\cite{ibm}.
 
 Los métodos de aprendizaje no supervisados son utilizados durante el preprocesamiento de los datos antes de ser utilizados por algoritmos de característica supervisada. Estos algoritmos también son muy utilizados en la compresión de datos. Todos los métodos son implícita o explícitamente basados en la distribución de probabilidad en el espacio definido por las variables de entrada\cite{de2014aprendizaje}.
 
-\section{Aprendizaje de refuerzo}
+\subsubsection{Aprendizaje de refuerzo}
 
 El aprendizaje de refuerzo es un modelo de aprendizaje conductual. El algoritmo recibe retroalimentación del análisis de datos, conduciendo el usuario hacia el mejor resultado. El aprendizaje de refuerzo difiere de otros tipos de aprendizaje supervisado, porque el sistema no está entrenado con el conjunto de datos de ejemplo. Más bien, el sistema aprende a través de la prueba y el error. Por lo tanto, una secuencia de decisiones exitosas conduce al fortalecimiento del proceso, porque es el que resuelve el problema de manera más efectiva \cite{ibm}.
 
-\section{Redes Neuronales Artificiales}
+\subsection{Redes Neuronales Artificiales}
 Las Redes Neuronales Artificiales (RNA) son un componente esencial de la Inteligencia Artificial que emula el funcionamiento de las neuronas biológicas. Estas redes, entrenadas con entradas de escenarios internos o externos multiplicadas por pesos aleatorios, destacan en la resolución de funciones altamente no lineales, lo que las convierte en herramientas poderosas para la predicción. Inspiradas en el sistema nervioso biológico, encuentran aplicaciones en áreas como neurociencias, matemáticas, estadísticas y más. Su capacidad para aprender de datos de entrada las hace especialmente valiosas en la predicción de patrones complejos en diversos campos, como finanzas, ciencia de datos y análisis de mercado.
 
 Es un algoritmo basado en una red de alimentación de múltiples capas entrenadas inspirado en las neuronas del cerebro humano, estos sistemas aprenden y se forman a sí mismos ya que sus neuronas artificiales están conectadas, en lugar de ser programados de forma explícita\cite{herrera2020prediccion }.
@@ -375,7 +382,7 @@ Las arquitecturas neuronales pueden clasificarse atendiendo a distintos criterio
 \end{itemize}
 \end{itemize}
 
-\section{Redes neuronales recurrentes (RNN)}
+\subsection{Redes neuronales recurrentes (RNN)}
 
 Las redes neuronales recurrentes tienen caminos de retroalimentación entre todos los elementos que las conforman \cite{montesdeoca2016estudios}. Una sola neurona está entonces conectada a las neuronas posteriores en la siguiente capa, las neuronas pasadas de la capa anterior y a ella misma a través de vectores de pesos variables que sufren alteraciones en cada época con el fin de alcanzar los parámetros o metas de operación.
 
@@ -419,6 +426,9 @@ El modelo matemático de LSTM se define como una función no lineal que transfor
 El cálculo de esta función implica la  operación  de  multiplicación  de  matrices  y  la  aplicación  de  funciones  de  activación,  como la función sigmoide o la tangente hiperbólica\cite{tomas2023prediccion}.
 
 El objetivo es mejorar la memoria de la RNN de los eventos pasados entrenándola para que recuerde lo importante y olvide el resto. Para ello, las LSTM procesan dos versiones del pasado\cite{arana2021redes}.
+
+\subsection{Modelo de Regresión Lineal}
+cargar aqui \cite{sepulveda2023analisis}.\cite{chang2023comparacion}
 \subsection{Los pesos sinápticos}
 A una neurona artificial se le asigna un peso sináptico a las entradas que provienen desde otras neuronas. Este procedimiento es similar al que se realiza en una neurona de un ser humano, a lo que normalmente en la medicina se le conoce como sinapsis. El peso sináptico entonces es un valor numérico y que puede ir cambiando durante la fase de entrenamiento\cite{acevedo2017principios}. Este peso hace que la red neural tengo una utilidad y es allí donde se almacena la información.
 

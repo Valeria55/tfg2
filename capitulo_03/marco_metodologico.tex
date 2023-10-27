@@ -4,25 +4,13 @@
 
 
 \lhead{Método}
-\chapter{Método}
+% \chapter{Método}
+\chapter{Predicción de la  demanda}
 En esta sección, se describirán los métodos utilizados para llevar a cabo la investigación sobre la predicción de compras a parir de un historial de ventas.
 
-\section{Enfoque}
-El desarrollo de un sistema de compras inteligentes que utiliza un histórico de ventas como fuente principal de información. El objetivo principal es optimizar la gestión de insumos gastronómicos.
+\section{Preprocesamiento de datos}
 
-\begin{itemize}
-\item Recopilación y análisis de datos cuantitativos de ventas históricas para desarrollar un modelo predictivo. Esto abarcaría la identificación de patrones de ventas, el uso de algoritmos de aprendizaje automático para predecir futuras compras y la evaluación de la precisión del sistema. 
-\item Aplicación de métricas cuantitativas para evaluar el rendimiento del sistema en términos de eficiencia, impacto en las ventas y beneficios para la entidad objeto de estudio.
-
-\end{itemize}
-
-\section{Alcance de la investigación cuantitativa}
-El alcance de esta investigación descriptiva se enfoca en proporcionar una visión detallada y exhaustiva de la aplicación de un sistema inteligente de gestión de compras basado en el histórico de ventas en un local gastronómico ubicado en Ciudad del Este. 
-Se describirá el proceso de recopilación de datos históricos de ventas, incluyendo la fuente de los datos, el periodo de tiempo cubierto y la naturaleza de la información registrada.
-Se proporcionará una descripción completa de cómo opera el sistema inteligente computarizado, incluyendo su arquitectura, algoritmos de pronóstico, y la forma en que utiliza los datos históricos para generar predicciones de demanda.
-
-\section{Datos originales}
-% Los datos usados para generar el modelo fueron proporcionados por la empresa gastronomica “PoroTO”. La misma proporcionó el dataset para ser usado con fines académicos, los datos presentan las ventas diarias para los diferentes productos  cuenta con XXX meses de registro desde el XXX hasta el XXX.
+Los datos usados para generar el modelo fueron proporcionados por la empresa gastronomica “Poroto”. La misma proporcionó el dataset para ser usado con fines académicos, los datos presentan las ventas diarias para los diferentes productos  cuenta con 6 meses de registro desde el 17 de abril del 2023 hasta el 15 de octubre del 2023.
 
 Los datos originales suministrados están conformados por los siguientes datasets: 
 \begin{itemize}
@@ -30,20 +18,70 @@ Los datos originales suministrados están conformados por los siguientes dataset
   \item ventas.csv
 \end{itemize}
 
-Los datos vienen organizados en forma tabular, cada archivo presenta información separada relacionada con los diferentes productos y el registro de ventas histórico, a continuación se describirán cada uno por separado.
+Los datos vienen organizados en forma tabular, cada archivo presenta información separada relacionada con los diferentes productos y el registro de ventas histórico.
 
 \vspace{1\baselineskip}
 \textbf{productos.csv}
+
+Estructura inicial de la tabla de productos (informacion de los 5 primeros productos(Fig. \ref{fig:priemeros_5productos})).
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.90]{./tabla_producto.png}
+    \caption{Estructura inicial de la tabla productos.csv}
+    \label{fig:priemeros_5productos}
+  \end{center}
+\end{figure}
+
+\textbf{ventas.csv}
+
+Estructura inicial de la tabla de ventas(con información de 6 registros (Fig. \ref{fig:ventas_original})).
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.90]{./tabla_inicial_venta.png}
+    \caption{Estructura inicial de la tabla  ventas.csv}
+    \label{fig:ventas_original}
+  \end{center}
+\end{figure}
+
+% \section{Enfoque}
+% El desarrollo de un sistema de compras inteligentes que utiliza un histórico de ventas como fuente principal de información. El objetivo principal es optimizar la gestión de insumos gastronómicos.
+
+% \begin{itemize}
+% \item Recopilación y análisis de datos cuantitativos de ventas históricas para desarrollar un modelo predictivo. Esto abarcaría la identificación de patrones de ventas, el uso de algoritmos de aprendizaje automático para predecir futuras compras y la evaluación de la precisión del sistema. 
+% \item Aplicación de métricas cuantitativas para evaluar el rendimiento del sistema en términos de eficiencia, impacto en las ventas y beneficios para la entidad objeto de estudio.
+
+% \end{itemize}
+
+% \section{Alcance de la investigación cuantitativa}
+% El alcance de esta investigación descriptiva se enfoca en proporcionar una visión detallada y exhaustiva de la aplicación de un sistema inteligente de gestión de compras basado en el histórico de ventas en un local gastronómico ubicado en Ciudad del Este. 
+% Se describirá el proceso de recopilación de datos históricos de ventas, incluyendo la fuente de los datos, el periodo de tiempo cubierto y la naturaleza de la información registrada.
+% Se proporcionará una descripción completa de cómo opera el sistema inteligente computarizado, incluyendo su arquitectura, algoritmos de pronóstico, y la forma en que utiliza los datos históricos para generar predicciones de demanda.
+
+
+\section{Análisis de los datos }
+\section{Definición de variables de entrada y salida}
+\section{Lectura y escalado del dataset en Python}
+\section{Distribución del conjunto de datos}
+\section{Aplicación y comparación de técnicas ML}
+\subsection{Regresión lineal}
+\subsection{LSTM}
+\section{Afinación de hiperparámetros con base en porcentaje de pérdida RMS}
+
+
+Cuenta con 3.840 registros de ventas que agrupados por fecha dan un total de 185 registros, que corresponden a la cantidad de ventas diarias del prodcuto mensionado organizados por fechas desde el 17 de abril de 2023 hasta el 15 de octubre de 2023.
 
 Proporciona información de 5  productos, el dataset contiene 2 columnas: id, producto. El primero representa un identificador único para cada producto que posteriormente me permitirá relacionarlo con otras tablas, el segunto indica el nombre del producto.
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[scale=0.90]{./primeros_5productos.png}
+    \includegraphics[scale=0.90]{./tabla_producto.png}
     \caption{productos.csv(Los primeros 5 productos)}
     \label{fig:priemeros_5productos}
   \end{center}
 \end{figure}
+
 
 En la tabla \ref{tab:productos} se muestra una descripción de cada una de las columnas de productos.
 
@@ -62,26 +100,8 @@ En la tabla \ref{tab:productos} se muestra una descripción de cada una de las c
   \label{tab:productos} % Asigna una etiqueta a la tabla
 \end{table}
 
-
-\textbf{ventas.csv}
-
-Cuenta con 3.840 registros de ventas que agrupados por fecha dan un total de 185 registros, que corresponden a la cantidad de ventas diarias del prodcuto mensionado organizados por fechas desde el 17 de abril de 2023 hasta el 15 de octubre de 2023.
-
-
-
-
-\begin{figure}[H]
-  \begin{center}
-    \includegraphics[scale=0.90]{./registro_ventas.png}
-    \caption{ventas.csv(Los primeros 25 registros)}
-    \label{fig:priemeros_5productos}
-  \end{center}
-\end{figure}
-\begin{table}[H]
-  
-
   En la tabla \ref{tab:ventas} se muestra una descripción de cada una de las columnas de ventas.
-
+  \begin{table}[H]
   \begin{tabular}{|c|l|}  % Usamos "l" para alinear a la izquierda
     \hline
     \rowcolor{gray!50} \textbf{Columna} & \textbf{Descripción} \\
@@ -99,7 +119,7 @@ Cuenta con 3.840 registros de ventas que agrupados por fecha dan un total de 185
   \label{tab:ventas} % Asigna una etiqueta a la tabla
 \end{table}
 
-\section{Analítica descriptiva}
+% \section{Analítica descriptiva}
 El objetivo principal de esta etapa es explorar y comprender en profundidad los datos, lo que resulta fundamental para una sólida preparación y análisis de los mismos. Esta comprensión más profunda del problema de negocio nos permitirá seleccionar modelos de predicción y tomar decisiones más fundamentadas. Durante el proceso de limpieza y preparación de los datos, se han identificado características relevantes que proporcionarán información valiosa para las fases posteriores del análisis y la toma de decisiones.
 
 \vspace{1\baselineskip}
@@ -121,7 +141,7 @@ Gráfico en violín \ref{fig:grafico_violin_salida} para asegurar que los datos 
     \label{fig:grafico_violin_salida}
   \end{center}
 \end{figure}
-\section{Conjunto de datos}
+% \section{Conjunto de datos}
 
 % Cuenta con 3.840 registros de ventas que agrupados por fecha dan un total de 185 registros, que corresponden a la cantidad de ventas diarias del prodcuto mensionado organizados por fechas desde el 17 de abril de 2023 hasta el 15 de octubre de 2023. 
 
@@ -166,7 +186,7 @@ Posteriormente, se dividió el conjunto de datos en tres grupos: entrenamiento, 
     \end{center}
   \end{figure}
   
-\section{Librerias de uso común en Mching Learning}
+% \section{Librerias de uso común en Mching Learning}
 A continuación se instalara y actualizaran las principales librerias mas utilizadas cuando se realizan programas de inteligencia artificial.
 
 \begin{itemize}
@@ -194,7 +214,7 @@ La función de activación utilizada para modelar la no linealidad suele ser la 
 
 % Un ejemplo de este alcance es una investigación que busca averiguar la relación entre urbanización y alfabetismo en un país, para ver qué variables macrosociales definen el grado de alfabetización de la población del país.
 
-\section{Diseño}
+% \section{Diseño}
 % Es el plan o estrategia que se desarrolla para obtener la información que se requiere en una investigación, generalmente para verificar la hipótesis. La precisión, amplitud y profundidad de la información obtenida varía en función del diseño elegido \cite{sampieri}.
 
 % En la literatura sobre investigación cuantitativa es posible encontrar diferentes clasificaciones de los diseños; los autores \cite{sampieri} adoptan la siguiente clasificaciòn: investigación experimental e investigación no experimental. A su vez, la primera puede dividirse de acuerdo con las clásicas categorías de Campbell y Stanley (1966) en: preexperimentos, experimentos ``puros'' y cuasiexperimentos. La investigación no experimental, siempre de acuerdo con \cite{sampieri}, se subdivide en diseños transversales y diseños longitudinales.
@@ -266,64 +286,64 @@ Para su comprensión el trabajo se divide en cinco partes o etapas:
 
 % \textit{Modificar de ser necesario el flujo de información y seleccionar el software de aplicación.} Esto implica la modificación, como última opción, de la manera en que la información circula dentro de la organización y la definición del software de aplicación necesario, ya sea comercial o aquél que se encargará al personal especializado; que conozca las particularidades de la programación en ambiente multiusuario. El software encargado o adquirido debe ser de fácil instalación y aprendizaje. Además se debe velar porque sea posible tener acceso a posteriores actualizaciones y que éstas no sean caras.
 
-\section{Lenguajes de programación}
+% \section{Lenguajes de programación}
 
-\subsection{Python}
-Python es un lenguaje de programación potente y elegante
-que sea fácil de leer y de entender\cite{python2021python}.
+% \subsection{Python}
+% Python es un lenguaje de programación potente y elegante
+% que sea fácil de leer y de entender\cite{python2021python}.
 
-Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.
+% Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.
 
-Python se destaca en el ámbito de la inteligencia artificial debido a su capacidad para gestionar conjuntos de datos voluminosos y su facilidad de programación. Su sintaxis concisa y legible lo convierte en una elección ideal para crear prototipos de forma rápida, dinámica y comprensible.
-Además de su amplia popularidad, la razón principal para adentrarse en Python en el contexto del aprendizaje automático es, indiscutiblemente, su vasto ecosistema de recursos previamente desarrollados. 
+% Python se destaca en el ámbito de la inteligencia artificial debido a su capacidad para gestionar conjuntos de datos voluminosos y su facilidad de programación. Su sintaxis concisa y legible lo convierte en una elección ideal para crear prototipos de forma rápida, dinámica y comprensible.
+% Además de su amplia popularidad, la razón principal para adentrarse en Python en el contexto del aprendizaje automático es, indiscutiblemente, su vasto ecosistema de recursos previamente desarrollados. 
 
-\paragraph{Pandas:}
-Es una biblioteca de código abierto que proporciona estructuras de datos flexibles y herramientas de análisis de datos para Python. Su principal estructura de datos es el DataFrame, que permite organizar datos en tablas bidimensionales. Pandas es ampliamente utilizado para la limpieza, manipulación y análisis de datos tabulares, lo que lo hace esencial en el análisis de datos.
+% \paragraph{Pandas:}
+% Es una biblioteca de código abierto que proporciona estructuras de datos flexibles y herramientas de análisis de datos para Python. Su principal estructura de datos es el DataFrame, que permite organizar datos en tablas bidimensionales. Pandas es ampliamente utilizado para la limpieza, manipulación y análisis de datos tabulares, lo que lo hace esencial en el análisis de datos.
 
-\paragraph{NumPy:}
-Es una biblioteca fundamental para el cálculo numérico en Python. Proporciona soporte para arreglos multidimensionales (llamados ndarrays) y una amplia gama de funciones matemáticas para operaciones en estos arreglos. NumPy es crucial para realizar cálculos numéricos eficientes y es la base de muchas otras bibliotecas de análisis de datos en Python.
+% \paragraph{NumPy:}
+% Es una biblioteca fundamental para el cálculo numérico en Python. Proporciona soporte para arreglos multidimensionales (llamados ndarrays) y una amplia gama de funciones matemáticas para operaciones en estos arreglos. NumPy es crucial para realizar cálculos numéricos eficientes y es la base de muchas otras bibliotecas de análisis de datos en Python.
 
-\paragraph{Matplotlib:}
-Es una biblioteca de visualización que permite crear gráficos estáticos de alta calidad. Proporciona una variedad de tipos de gráficos, desde gráficos de líneas y barras hasta histogramas y gráficos de dispersión. Matplotlib es ampliamente utilizado para visualizar datos y resultados en el análisis de datos.
+% \paragraph{Matplotlib:}
+% Es una biblioteca de visualización que permite crear gráficos estáticos de alta calidad. Proporciona una variedad de tipos de gráficos, desde gráficos de líneas y barras hasta histogramas y gráficos de dispersión. Matplotlib es ampliamente utilizado para visualizar datos y resultados en el análisis de datos.
 
-\paragraph{Seaborn:}
-Es una biblioteca de visualización basada en Matplotlib que simplifica la creación de gráficos estadísticos atractivos. Ofrece una interfaz de alto nivel para crear fácilmente visualizaciones complejas y atractivas, lo que la hace útil para el análisis exploratorio de datos y la presentación de resultados.
+% \paragraph{Seaborn:}
+% Es una biblioteca de visualización basada en Matplotlib que simplifica la creación de gráficos estadísticos atractivos. Ofrece una interfaz de alto nivel para crear fácilmente visualizaciones complejas y atractivas, lo que la hace útil para el análisis exploratorio de datos y la presentación de resultados.
 
-\paragraph{Scikit-learn:}
-Es una biblioteca de aprendizaje automático que proporciona herramientas para tareas comunes de aprendizaje automático, como clasificación, regresión, clustering y selección de modelos. También incluye utilidades para la evaluación de modelos y el preprocesamiento de datos, lo que la convierte en una biblioteca esencial para el análisis de datos relacionados con el aprendizaje automático.
+% \paragraph{Scikit-learn:}
+% Es una biblioteca de aprendizaje automático que proporciona herramientas para tareas comunes de aprendizaje automático, como clasificación, regresión, clustering y selección de modelos. También incluye utilidades para la evaluación de modelos y el preprocesamiento de datos, lo que la convierte en una biblioteca esencial para el análisis de datos relacionados con el aprendizaje automático.
 
-\paragraph{StatsModels:}
-Es una biblioteca que se utiliza para realizar análisis estadísticos y modelado en Python. Está especialmente orientada a tareas como la regresión lineal y logística, análisis de series temporales y pruebas estadísticas. Es útil para realizar análisis estadísticos rigurosos en el contexto del análisis de datos.
+% \paragraph{StatsModels:}
+% Es una biblioteca que se utiliza para realizar análisis estadísticos y modelado en Python. Está especialmente orientada a tareas como la regresión lineal y logística, análisis de series temporales y pruebas estadísticas. Es útil para realizar análisis estadísticos rigurosos en el contexto del análisis de datos.
 
-\paragraph{SciPy:}
-Es una extensión de NumPy que proporciona funcionalidades adicionales para cálculos científicos y técnicos. Incluye módulos para optimización, interpolación, integración numérica, álgebra lineal, transformadas y más. Es una biblioteca esencial para aplicaciones científicas y de ingeniería que involucran cálculos numéricos.
+% \paragraph{SciPy:}
+% Es una extensión de NumPy que proporciona funcionalidades adicionales para cálculos científicos y técnicos. Incluye módulos para optimización, interpolación, integración numérica, álgebra lineal, transformadas y más. Es una biblioteca esencial para aplicaciones científicas y de ingeniería que involucran cálculos numéricos.
 
-\paragraph{Plotly:}
-Es una biblioteca que permite crear gráficos interactivos y visualizaciones web en Python. Es útil para crear visualizaciones interactivas para el análisis exploratorio de datos y la presentación de resultados en aplicaciones web.
+% \paragraph{Plotly:}
+% Es una biblioteca que permite crear gráficos interactivos y visualizaciones web en Python. Es útil para crear visualizaciones interactivas para el análisis exploratorio de datos y la presentación de resultados en aplicaciones web.
 
-\paragraph{Bokeh:}
-Es otra biblioteca para crear gráficos interactivos y aplicaciones web basadas en datos. Ofrece una amplia gama de herramientas para crear visualizaciones interactivas y es especialmente útil para proyectos que requieren interfaces de usuario interactivas.
+% \paragraph{Bokeh:}
+% Es otra biblioteca para crear gráficos interactivos y aplicaciones web basadas en datos. Ofrece una amplia gama de herramientas para crear visualizaciones interactivas y es especialmente útil para proyectos que requieren interfaces de usuario interactivas.
 
-\paragraph{Dask:}
-Es una biblioteca que se utiliza para el procesamiento paralelo y distribuido de datos en Python. Permite trabajar con conjuntos de datos grandes y realizar operaciones complejas de manera eficiente en clústeres de computadoras.
+% \paragraph{Dask:}
+% Es una biblioteca que se utiliza para el procesamiento paralelo y distribuido de datos en Python. Permite trabajar con conjuntos de datos grandes y realizar operaciones complejas de manera eficiente en clústeres de computadoras.
 
-\paragraph{TensorFlow y PyTorch:}
-Si bien estas bibliotecas son conocidas principalmente por el aprendizaje profundo, también se utilizan en tareas de procesamiento y análisis de datos cuando se trabajan con modelos de redes neuronales. Proporcionan herramientas para construir, entrenar y evaluar modelos de aprendizaje automático y profundo.
+% \paragraph{TensorFlow y PyTorch:}
+% Si bien estas bibliotecas son conocidas principalmente por el aprendizaje profundo, también se utilizan en tareas de procesamiento y análisis de datos cuando se trabajan con modelos de redes neuronales. Proporcionan herramientas para construir, entrenar y evaluar modelos de aprendizaje automático y profundo.
 
-Estas bibliotecas forman la base del ecosistema de análisis de datos en Python y son esenciales para una variedad de tareas en ciencia de datos, análisis de datos y aprendizaje automático.
+% Estas bibliotecas forman la base del ecosistema de análisis de datos en Python y son esenciales para una variedad de tareas en ciencia de datos, análisis de datos y aprendizaje automático.
 
-\subsection{PHP}
-Es un lenguaje de programación ampliamente utilizado en el desarrollo web. Se destaca por su capacidad para crear aplicaciones web dinámicas e interactivas\cite{cobo2005php}.
+% \subsection{PHP}
+% Es un lenguaje de programación ampliamente utilizado en el desarrollo web. Se destaca por su capacidad para crear aplicaciones web dinámicas e interactivas\cite{cobo2005php}.
 
-Ofrece diversas ventajas que lo hacen atractivo en el desarrollo web:
+% Ofrece diversas ventajas que lo hacen atractivo en el desarrollo web:
 
-\paragraph{Facilidad de aprendizaje:}
-Tiene una sintaxis simple y legible, lo que facilita su aprendizaje, especialmente para principiantes en programación.
-\paragraph{Amplia comunidad y soporte:}
-Cuenta con una gran comunidad de desarrolladores y abundantes recursos en línea, incluyendo bibliotecas y frameworks, lo que agiliza el desarrollo.
-\paragraph{Interacción con bases de datos:}
-Brinda soporte integrado para la mayoría de las bases de datos populares, lo que lo hace ideal para aplicaciones que gestionan datos.
-\paragraph{Versatilidad:}
-Se integra fácilmente con HTML y otros lenguajes web, permitiendo una amplia gama de aplicaciones y funcionalidades.
-\paragraph{Plataforma cruzada:}
-Es compatible con varias plataformas y sistemas operativos, lo que lo hace altamente portátil.
+% \paragraph{Facilidad de aprendizaje:}
+% Tiene una sintaxis simple y legible, lo que facilita su aprendizaje, especialmente para principiantes en programación.
+% \paragraph{Amplia comunidad y soporte:}
+% Cuenta con una gran comunidad de desarrolladores y abundantes recursos en línea, incluyendo bibliotecas y frameworks, lo que agiliza el desarrollo.
+% \paragraph{Interacción con bases de datos:}
+% Brinda soporte integrado para la mayoría de las bases de datos populares, lo que lo hace ideal para aplicaciones que gestionan datos.
+% \paragraph{Versatilidad:}
+% Se integra fácilmente con HTML y otros lenguajes web, permitiendo una amplia gama de aplicaciones y funcionalidades.
+% \paragraph{Plataforma cruzada:}
+% Es compatible con varias plataformas y sistemas operativos, lo que lo hace altamente portátil.

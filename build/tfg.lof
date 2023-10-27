@@ -3,7 +3,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Predicción de demanda a corto, mediano y largo plazo\cite {decide}.}}{6}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Proceso de Optimización de inventario\cite {decide}.}}{7}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Arquitectura de un sistema experto \cite {diez2001introduccion}.}}{11}{figure.2.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Arquitectura de un sistema experto \cite {diez2001introduccion}.}}{12}{figure.2.3}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo}}{14}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Aprendisaje supervisado\cite {decide}.}}{15}{figure.2.5}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Componentes de una neurona.}}{18}{figure.2.6}%
@@ -11,15 +11,16 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces La arquitectura básica de una RNN}}{22}{figure.2.8}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Aplicación de la Red Perceptron}}{24}{figure.2.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces productos.csv(Los primeros 5 productos)}}{29}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ventas.csv(Los primeros 25 registros)}}{30}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Grafico en violín incluyendo los tres set train, validación y test}}{31}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Gráfico en violín de los datos de salida escaladas}}{32}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Serie temporal de las ventas totales por día}}{32}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Distribución de los datos, ventas totales por día.}}{33}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diseño procedural.}}{34}{figure.3.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura inicial de la tabla productos.csv}}{29}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Estructura inicial de la tabla ventas.csv}}{29}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces productos.csv(Los primeros 5 productos)}}{30}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Grafico en violín incluyendo los tres set train, validación y test}}{32}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Gráfico en violín de los datos de salida escaladas}}{32}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Serie temporal de las ventas totales por día}}{33}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Distribución de los datos, ventas totales por día.}}{33}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diseño procedural.}}{34}{figure.3.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Huella dactilar.}}{36}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplificacin de diagrama en blanco y negro.}}{37}{figure.4.2}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Huella dactilar.}}{37}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplificacin de diagrama en blanco y negro.}}{38}{figure.4.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
