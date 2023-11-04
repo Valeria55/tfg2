@@ -181,15 +181,17 @@ Inicialmente, los sistemas de información se centraban en recopilar datos para 
 
 La Minería de Datos se puede ubicar en el nivel más alto de la evolución de los procesos tecnológicos de análisis de datos \cite{martinez2001mineria}.
 
-% \section{Técnicas de modelado de procesos de ETL}
+La Minería de Datos involucra e integra técnicas de diferentes disciplinas tales como tecnologías de bases de datos y data warehouse, estadística, aprendizaje de máquina, computación de alta performance, computación evolutiva, reconocimiento de patrones, redes neuronales, visualización de datos, recuperación de información, procesamiento de imágenes y señales, y análisis de datos espaciales o temporales\cite{schab2018mineria}.
 
-% Las herramientas de Extracción-Transformación-Carga (ETL) son piezas de software responsables de la extracción de datos de varias fuentes, su limpieza, personalización e inserción en un almacén de datos\cite{SIMITSIS200822}.
+\section{Técnicas de modelado de procesos de ETL}
 
-% El proceso de extracción, transformación y carga – ETL es una de las actividades técnicas más críticas en el desarrollo de soluciones de inteligencia de negocios BI \cite{martinez2013tecnicas}.
+Las herramientas de Extracción-Transformación-Carga (ETL) son piezas de software responsables de la extracción de datos de varias fuentes, su limpieza, personalización e inserción en un almacén de datos\cite{SIMITSIS200822}.
 
-% El proceso de ETL es esencial para garantizar la calidad y la integridad de los datos antes de que se utilicen en aplicaciones analíticas o de toma de decisiones. Permite a las organizaciones transformar datos crudos en información procesable y confiable. Además, con la creciente cantidad de datos disponibles en la actualidad, el ETL se ha vuelto cada vez más importante para integrar datos de diversas fuentes y garantizar que estén listos para su análisis.
+El proceso de extracción, transformación y carga – ETL es una de las actividades técnicas más críticas en el desarrollo de soluciones de inteligencia de negocios BI \cite{martinez2013tecnicas}.
 
-% Para autores como Ralph Kimball los Almacenes de Datos son “una copia de los datos transaccionales estructurados específicamente para consultas y análisis”, mientras que Bill Inmon define el término Almacén de Datos como: “una colección de datos orientados por temas, integrados, variables en el tiempo y no volátiles para el apoyo de la toma de decisiones”. Los Almacenes de Datos son integradores, ya que su contenido proviene de diversas fuentes de datos como: Sistemas heredados, Archivos de Textos, Base de Datos Relacionales, ERP, entre otras posibilidades. La forma de lograr esta integración es a través del uso y desarrollo de los Procesos ETL. Estos procesos son los encargados de la extracción de los datos desde sus fuentes de origen, de transformarlos a la información deseada, de lograr la limpieza necesaria en aquellos que lo requieran y finalmente cargar al Almacén de Datos deseado, el que será utilizado con alguna finalidad como análisis en un área de las ventas de una corporación o el estudio de tendencias de alguna consultora\cite{villarroel2013incorporacion}.
+El proceso de ETL es esencial para garantizar la calidad y la integridad de los datos antes de que se utilicen en aplicaciones analíticas o de toma de decisiones. Permite a las organizaciones transformar datos crudos en información procesable y confiable. Además, con la creciente cantidad de datos disponibles en la actualidad, el ETL se ha vuelto cada vez más importante para integrar datos de diversas fuentes y garantizar que estén listos para su análisis.
+
+Para autores como Ralph Kimball los Almacenes de Datos son “una copia de los datos transaccionales estructurados específicamente para consultas y análisis”, mientras que Bill Inmon define el término Almacén de Datos como: “una colección de datos orientados por temas, integrados, variables en el tiempo y no volátiles para el apoyo de la toma de decisiones”. Los Almacenes de Datos son integradores, ya que su contenido proviene de diversas fuentes de datos como: Sistemas heredados, Archivos de Textos, Base de Datos Relacionales, ERP, entre otras posibilidades. La forma de lograr esta integración es a través del uso y desarrollo de los Procesos ETL. Estos procesos son los encargados de la extracción de los datos desde sus fuentes de origen, de transformarlos a la información deseada, de lograr la limpieza necesaria en aquellos que lo requieran y finalmente cargar al Almacén de Datos deseado, el que será utilizado con alguna finalidad como análisis en un área de las ventas de una corporación o el estudio de tendencias de alguna consultora\cite{villarroel2013incorporacion}.
 
 \section{Inteligencia Artificial}
 \subsection{El aprendizaje automático \textit{(machine learning)}}
@@ -221,6 +223,7 @@ El siguiente diagrama muestra un flujo de trabajo típico para el uso del aprend
   \end{center}
 \end{figure}
 
+
 \textbf{Procesamiento:}
   \begin{itemize}
     \item Extracción y escalado de características.
@@ -228,7 +231,7 @@ El siguiente diagrama muestra un flujo de trabajo típico para el uso del aprend
     \item Reducción de la dimensionalidad.
     \item Muestreo.
   \end{itemize}
-\textbf{Aprendizaje:}%importante
+\textbf{Aprendizaje:}
   \begin{itemize}
     \item Selección del modelo.
     \item Validación cruzada.
@@ -258,7 +261,7 @@ El aprendizaje no supervisado se utiliza cuando el problema requiere una cantida
 
 Los métodos de aprendizaje no supervisados son utilizados durante el preprocesamiento de los datos antes de ser utilizados por algoritmos de característica supervisada. Estos algoritmos también son muy utilizados en la compresión de datos. Todos los métodos son implícita o explícitamente basados en la distribución de probabilidad en el espacio definido por las variables de entrada\cite{de2014aprendizaje}.
 
-\subsubsection{Aprendizaje de refuerzo}
+\subsection{Aprendizaje de refuerzo}
 
 El aprendizaje de refuerzo es un modelo de aprendizaje conductual. El algoritmo recibe retroalimentación del análisis de datos, conduciendo el usuario hacia el mejor resultado. El aprendizaje de refuerzo difiere de otros tipos de aprendizaje supervisado, porque el sistema no está entrenado con el conjunto de datos de ejemplo. Más bien, el sistema aprende a través de la prueba y el error. Por lo tanto, una secuencia de decisiones exitosas conduce al fortalecimiento del proceso, porque es el que resuelve el problema de manera más efectiva \cite{ibm}.
 
@@ -381,10 +384,36 @@ Las arquitecturas neuronales pueden clasificarse atendiendo a distintos criterio
   \item Redes de propagación hacia atrás (feedback), en las que las salidas de las neuronas pueden servir de entradas a unidades del mismo nivel (conexiones laterales) o de niveles previos. Las redes de propagación hacia atrás que presentan lazos cerrados se denominan sistemas recurrentes.
 \end{itemize}
 \end{itemize}
+\subsection{Perceptron}
+En 1957, Frank Rosenblatt publicó el mayor trabajo de investigación en computación neuronal realizado hasta esas fechas. Su trabajo consistía en el desarrollo de un
+elemento llamado “Perceptron” \cite{olabe1998redes}.
 
+\vspace{1\baselineskip}
+El perceptron es un sistema clasificador de patrones que puede identificar patrones geométricos y abstractos. El primer perceptron era capaz de aprender algo y era robusto, de forma que su comportamiento variaba sólo si resultaban dañados los componentes del sistema. 
+Además presentaba la característica de ser flexible y comportarse correctamente después de que algunas celdas fueran destruidas.
+El perceptron fue originalmente diseñado para el reconocimiento óptico de patrones.
+Una rejilla de 400 fotocélulas, correspondientes a las neuronas de la retina sensibles a la luz, recibe el estímulo óptico. Estas fotocélulas están conectadas a elementos asociativos que recogen los impulsos eléctricos emitidos desde las fotocélulas. Las
+conexiones entre los elementos asociativos y las fotocélulas se realizan de forma aleatoria.
+Si las células presentan un valor de entrada superior a un umbral predeterminado entonces el elemento asociativo produce una salida\cite{olabe1998redes}.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.90]{./perceptron.png}
+    \caption{Aplicación de la Red Perceptron}
+    \label{fig:perceptron}
+  \end{center}
+\end{figure}
+
+\subsection{Perceptrón multica}
+Una Perceptrón multicapa (MLP) puede ser interpretada como una extensión del algoritmo de regresión logística donde primero la entrada es transformada utilizando una transformación no lineal\cite{de2014aprendizaje}. El propósito de esta transformación es proyectar los datos de entrada a un espacio donde sean linealmente separables.
+Esta capa intermedia es conocida como capa oculta y es característica de una MLP poseer dos o mas de ellas. Una capa oculta única es suficiente para hacer de una MLP un aproximador universal.
 \subsection{Redes neuronales recurrentes (RNN)}
 
-Las redes neuronales recurrentes tienen caminos de retroalimentación entre todos los elementos que las conforman \cite{montesdeoca2016estudios}. Una sola neurona está entonces conectada a las neuronas posteriores en la siguiente capa, las neuronas pasadas de la capa anterior y a ella misma a través de vectores de pesos variables que sufren alteraciones en cada época con el fin de alcanzar los parámetros o metas de operación.
+Una de las ideas principales que propició el desarrollo de estas redes fue extraída de las técnicas de aprendizaje automático y de los modelos estadísticos encontrados en la década de los 80. Esta idea se basaba en compartir diferentes parámetros a lo largo de diferentes partes de un modelo. Esto permitió generalizar conjuntos de datos que contaban con dependencias temporales entre sus entradas \cite{Goodfellow-et-al-2016}.
+
+Un perceptrón multicapa tendría muy difícil el hecho de generalizar sobre una secuencia debido a que, si entrenamos esta red con secuencias de longitud fija, la red tendría parámetros separados para cada una de las características de entrada teniendo que aprender todas las reglas por separado. Sin embargo, la RNNs encontraría esta tarea mucho más fácil debido a que comparte pesos a lo largo del tiempo. Cabe mencionar que cuando mencionamos el tiempo no tiene por que significar literalmente tiempo, puede simplemente significar la posición de un objeto en una secuencia \cite{roman2018redes}.
+
+Las redes neuronales recurrentes tienen caminos de retroalimentación entre todos los elementos que las conforman. Una sola neurona está entonces conectada a las neuronas posteriores en la siguiente capa, las neuronas pasadas de la capa anterior y a ella misma a través de vectores de pesos variables que sufren alteraciones en cada época con el fin de alcanzar los parámetros o metas de operación\cite{montesdeoca2016estudios}.
 
 Las redes neuronales recurrentes (RNNs) son un tipo de modelo de aprendizaje profundo que se utiliza para analizar datos secuenciales, como el procesamiento del lenguaje natural o la predicción de series de tiempo\cite{tomas2023prediccion}.
 
@@ -401,6 +430,7 @@ Sin embargo, la capacidad de las RNNs para manejar datos a largo plazo se ve com
 
 
 Para  superar  este  problema,  Hochreiter \& Schmidhuber,  propusieron  la  memoria  a  corto  y  largo  plazo  (LSTM),  una  variante  de  las  RNNs  que  ha  demostrado  ser efectiva para el procesamiento de datos secuenciales a largo plazo\cite{tomas2023prediccion}.
+
 
 
 \subsection{Arquitectura básica de una RNN}
@@ -425,43 +455,161 @@ El modelo matemático de LSTM se define como una función no lineal que transfor
 
 El cálculo de esta función implica la  operación  de  multiplicación  de  matrices  y  la  aplicación  de  funciones  de  activación,  como la función sigmoide o la tangente hiperbólica\cite{tomas2023prediccion}.
 
-El objetivo es mejorar la memoria de la RNN de los eventos pasados entrenándola para que recuerde lo importante y olvide el resto. Para ello, las LSTM procesan dos versiones del pasado\cite{arana2021redes}.
+El objetivo es mejorar la memoria de la RNN de los eventos pasados entrenándola para que recuerde lo importante y olvide el resto. Para ello, las LSTM procesan dos versiones del pasado \cite{arana2021redes}.
+
+Las LSTM's Estas se han diseñado para evaluar series de datos donde el pasado es importante para presentar una evaluación futura.tienen un alta sensibilidad a los datos a escala
+en entrada, más aún cuando las funciones de activación son la
+tangente hiperbólicaro la función sigmoidea. Debido a esto es
+necesario realizar el escalado de los datos \cite{escobar2022evaluacion}.
+
+\vspace{1\baselineskip}
+Las unidades LSTM (Long Short-Term Memory) son unidades utilizadas en la construcción de redes recurrentes. Cada unidad LSTM es una celda con cuatro puertas (gates): la input gate, la external input gate, la forget gate y output gate. Lo más importante de la celda es su estado interno, encargado de recordar valores a lo largo del tiempo \cite{roman2018redes}.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.70]{./lstm_grafico.png}
+    \caption{Representaci´on de una celda LSTM.}
+    \label{fig:lstm_grafico}
+  \end{center}
+\end{figure}
+
+El \textbf{estado interno} está representado en el diagrama anterior por C y recorre todas las celdas encadenadas, experimentando pequeños cambios cada vez que pasa por cada una de ellas.
+
+El \textbf{estado oculto} \textit{(hidden-state)} es, sin embargo, la salida de cada una de las unidades y se comparte a lo largo de todas las unidades de nuestro modelo. Está representado con la letra h.
+
+El primer cambio que experimenta el estado interno es causado por la forget-gate (ft). Esta puerta decide si el valor presente en el estado de la celda debe ser olvidado o no  \cite{roman2018redes}. Esta decisión se toma aplicando la función sigmoide sobre la entrada y el estado oculto de la celda anterior, y multiplicando el resultado por el estado interno proveniente de la celda anterior. Dado que esta función toma valores entre 0 y 1, puede dar como resultado 0, lo que significa que se debe olvidar, o dar como resultado 1, lo que indica que el valor anterior debe ser completamente recordado.
+
+\[f(t) = \sigma \left( b_f + U_f x(t) + W_f h(t-1) \right)\]
 
 \subsection{Modelo de Regresión Lineal}
-cargar aqui \cite{sepulveda2023analisis}.\cite{chang2023comparacion}
+
+La siguiente figura \ref{fig:red_recurreente} ilustra el concepto de regresión lineal. Dada una variable predictora x y una variable de respuesta y, aplicamos una línea fina a este dato, que minimiza la distancia normalmente, la distancia cuadrada de promedio entre los puntos de muestra y la línea aplicada. Ahora podemos utilizar la intersección y la pendiente aprendidas de este dato para predecir la variable de resultado del nuevo dato\cite{mirjalili2020python}:
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.40]{./grafico_regresion.png}
+    \caption{Regresión lineal}
+    \label{fig:red_recurreente}
+  \end{center}
+\end{figure}
+
+El modelo de regresión lineal es un método estadístico utilizado para modelar la relación entre una variable dependiente (la variable que queremos predecir) y una o más variables independientes (las variables que se utilizan para predecir la variable dependiente). El objetivo es encontrar una relación lineal que mejor se ajuste a los datos observados \cite{sepulveda2023analisis}.
+
+%\cite{chang2023comparacion}
 \subsection{Los pesos sinápticos}
 A una neurona artificial se le asigna un peso sináptico a las entradas que provienen desde otras neuronas. Este procedimiento es similar al que se realiza en una neurona de un ser humano, a lo que normalmente en la medicina se le conoce como sinapsis. El peso sináptico entonces es un valor numérico y que puede ir cambiando durante la fase de entrenamiento\cite{acevedo2017principios}. Este peso hace que la red neural tengo una utilidad y es allí donde se almacena la información.
 
 En una red de neuronas existe un peso o fuerza sináptica que va a ser un valor numérico que pondera las señales que se reciben por sus entradas. Este peso será un valor que determina la fuerza de conexión entre 2 neuronas. Cuando se evalúa una neurona se debe calcular el conjunto de todas las fuerzas o valores (denominado NET) que se reciben por sus entradas. Una vez calculado el valor conjunto de todas las entradas se aplica una función de activación (FA) que determinará el valor del estado interno de la neurona y que será lo que se transmita a su salida\cite{pose2009introduccion}.
 
-\subsection{Perceptron}
-En 1957, Frank Rosenblatt publicó el mayor trabajo de investigación en computación neuronal realizado hasta esas fechas. Su trabajo consistía en el desarrollo de un
-elemento llamado “Perceptron” \cite{olabe1998redes}.
 
-\vspace{1\baselineskip}
-El perceptron es un sistema clasificador de patrones que puede identificar patrones geométricos y abstractos. El primer perceptron era capaz de aprender algo y era robusto, de forma que su comportamiento variaba sólo si resultaban dañados los componentes del sistema. 
-Además presentaba la característica de ser flexible y comportarse correctamente después de que algunas celdas fueran destruidas.
-El perceptron fue originalmente diseñado para el reconocimiento óptico de patrones.
-Una rejilla de 400 fotocélulas, correspondientes a las neuronas de la retina sensibles a la luz, recibe el estímulo óptico. Estas fotocélulas están conectadas a elementos asociativos que recogen los impulsos eléctricos emitidos desde las fotocélulas. Las
-conexiones entre los elementos asociativos y las fotocélulas se realizan de forma aleatoria.
-Si las células presentan un valor de entrada superior a un umbral predeterminado entonces el elemento asociativo produce una salida\cite{olabe1998redes}.
+\section{Métricas para la evaluación de una red neuronal}
 
-\begin{figure}[H]
-  \begin{center}
-    \includegraphics[scale=0.90]{./perceptron.png}
-    \caption{Aplicación de la Red Perceptron}
-    \label{fig:perceptron}
-  \end{center}
-\end{figure}
+\subsection{El error medio cuadrático (MSE) }
 
-\subsection{Perceptrón multica}
-Una Perceptrón multicapa (MLP) puede ser interpretada como una extensión del algoritmo de regresión logística donde primero la entrada es transformada utilizando una transformación no lineal\cite{de2014aprendizaje}. El propósito de esta transformación es proyectar los datos de entrada a un espacio donde sean linealmente separables.
-Esta capa intermedia es conocida como capa oculta y es característica de una MLP poseer dos o mas de ellas. Una capa oculta única es suficiente para hacer de una MLP un aproximador universal.
+El MSE es una medida del error cuadrático medio que se utiliza comúnmente para evaluar la precisión de un modelo de predicción \cite{sepulveda2023analisis}.
+Se define como la media de los errores cuadrados entre los valores observados y los valores predichos por el modelo. 
+Esta métrica calcula el valor promedio de los errores elevados al
+cuadrado\cite{chang2023comparacion}.
 
-\section{Series de Tiempo}
-Las series de tiempo, son datos estadísticos que se recopilan, observan o registran en intervalos de tiempo regulares (diario, semanal, semestral, anual, entre otros)\cite{herrera2020prediccion}. 
+La expresión matemática es la siguiente:
 
-Conviene recalcar que una serie de tiempo es un conjunto ordenado de valores, no una función, y que no debe ser tratada como tal\cite{nava2015procesamiento}.
+\[
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+\]
+
+Donde:
+
+\begin{itemize}
+  \item $n$ : número de observaciones.
+  \item $y_i$ : valor observado de la i-ésima observación.
+  \item $\hat{y}_i$ : valor predicho por el modelo para la i-ésima observación.
+\end{itemize}
+
+
+\subsection{Raíz del error medio cuadrático (RMSE)}
+
+El RMSE (Error Cuadrático Medio de la Raíz) es una medida utilizada para evaluar la precisión de un modelo de predicción.Representa la raíz cuadrada de la media de los errores cuadrados entre los valores observados y los valores predichos por el modelo. Cuanto menor sea el valor de RMSE, mejor será el ajuste del modelo a los datos\cite{sepulveda2023analisis}. 
+RMSE es una medida absoluta de ajuste y se interpreta como la desviación estándar de la varianza inexplicada. Es especialmente útil cuando se busca evaluar la precisión de la predicción en el contexto de un modelo.
+
+La expresión matemática es la siguiente:
+
+\[
+\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
+\]
+
+Donde:
+
+\begin{itemize}
+  \item $RMSE$ es el Error Cuadrático Medio de la Raíz.
+  \item $n$ es el número de observaciones.
+  \item $y_i$ es el valor observado de la i-ésima observación.
+  \item $\hat{y}_i$ es el valor predicho por el modelo para la i-ésima observación.
+  \item \(\sqrt{\ }\) es la función que calcula la raíz cuadrada.
+  \item $\sum$ es la función que suma los términos.
+\end{itemize}
+
+
+\subsection{Error Absoluto Medio (MAE)} 
+Es una medida que calcula la diferencia promedio absoluta entre los valores pronosticados y los valores reales en un pronóstico \cite{chang2023comparacion}. El MAE es útil para evaluar cuán cerca están los pronósticos de los valores reales. Su fórmula es la siguiente:
+
+\[
+MAE = \frac{SAE}{N} = \frac{\sum_{i=1}^{N} |y_i - \hat{y}_i|}{N}
+\]
+
+Donde:
+
+\begin{itemize}
+    \item $MAE$ es el Error Absoluto Medio.
+    \item $N$ es el número de puntos de datos no faltantes.
+    \item $y_i$ corresponde a la información actual de la serie de tiempo.
+    \item $\hat{y}_i$ corresponde a la serie de tiempo pronosticada.
+    \item $\sum$ es la función que realiza la suma.
+    \item $SAE$  Corresponde a la sumatoria de errores absolutos o desviaciones
+    \item $|\ |$ representa el valor absoluto.
+\end{itemize}
+
+\subsection{Error porcentual absoluto medio (MAPE)} 
+
+Permite calcular la dimensión del error de tipo absoluto expresado en porcentajes, y su fórmula es la siguiente \cite{chang2023comparacion}:
+
+\[
+MAPE = \frac{1}{N} \sum_{t=1}^{N} \frac{|X_t - Y_t|}{|X_t|}
+\]
+
+Donde:
+
+\begin{itemize}
+  \item $X_t$: Valor real.
+  \item $Y_t$: Valor de pronóstico.
+  \item $N$: Número de puntos de datos no faltantes.
+\end{itemize}
+
+
+\subsection{El coeficiente de determinación \( R^2 \)} 
+
+Es una medida que resume la capacidad explicativa de un modelo de regresión. Describe la proporción de la varianza en la variable dependiente que puede ser explicada por el modelo de regresión\cite{chang2023comparacion}. Su fórmula es:
+
+\[
+R^2 = \frac{SSR}{SST} = 1 - \frac{SSE}{SST}
+\]
+
+De lo cual: 
+\begin{itemize}
+  \item \(SST\): Corresponde a la Suma de Cuadrados Total.
+  \item \(SSR\): Corresponde a la Suma de Cuadrados de Regresión.
+  \item \(SSE\): Corresponde a la Suma de Cuadrados de Error.
+\end{itemize}
+
+
+% \section{Series de Tiempo}
+% Las series de tiempo, son datos estadísticos que se recopilan, observan o registran en intervalos de tiempo regulares (diario, semanal, semestral, anual, entre otros)\cite{herrera2020prediccion}. 
+
+% Las series temporales son conjuntos de observaciones de una variable que se registran en intervalos de tiempo regulares. Estas observaciones pueden ser diarias, semanales, mensuales o anuales, y se utilizan para analizar patrones y tendencias a lo largo del tiempo\cite{sepulveda2023analisis}.
+
+% La teoría de las series temporales proporciona un marco para analizar, modelar y predecir la demanda de servicios a partir de datos históricos.
+
+% La formulación matemática de una serie temporal se puede expresar como:
+% \[ y = f(t) + \varepsilon \]
+% Conviene recalcar que una serie de tiempo es un conjunto ordenado de valores, no una función, y que no debe ser tratada como tal\cite{nava2015procesamiento}.
 
 \newacronym{rnn}{RNN}{Redes neuronales recurrentes}
 \glsreset{rnn} % reinicia el banderín del primer uso
@@ -512,6 +660,5 @@ Tesis\textbf{\textit{“Prediccion de la demanda usando modelos de machine Learn
 
 
 \vspace{1\baselineskip}
-Trabajo final de grado tiulado \textbf{\textit{“Estudios de predicción en series temporales de datos meteorológicos utilizando redes neuronales recurrentes” }}\cite{montesdeoca2016estudios}
-En los últimos años, en el campo de las energías renovables, la energía eólica ha sido una de las que mas se ha desarrollado e invertido. La importancia de las predicciones de viento radica en la ayuda que aportan para planificar y anticiparse a los valores futuros que afectarán al sistema, ayudando a gestionar la adquisición de los recursos necesarios con antelación suficiente. Recientemente se han desarrollado nuevas arquitecturas de redes recurrentes que resultan muy prometedoras para realizar predicción. En este trabajo se probará y experimentará con dichas arquitecturas para realizar distintas predicciones de la velocidad del viento en un horizonte de corto y muy corto plazo a partir de datos de series temporales de viento.
+Trabajo final de grado tiulado \textbf{\textit{“Estudios de predicción en series temporales de datos meteorológicos utilizando redes neuronales recurrentes” }}\cite{montesdeoca2016estudios} En los últimos años, en el campo de las energías renovables, la energía eólica ha sido una de las que mas se ha desarrollado e invertido. La importancia de las predicciones de viento radica en la ayuda que aportan para planificar y anticiparse a los valores futuros que afectarán al sistema, ayudando a gestionar la adquisición de los recursos necesarios con antelación suficiente. Recientemente se han desarrollado nuevas arquitecturas de redes recurrentes que resultan muy prometedoras para realizar predicción. En este trabajo se probará y experimentará con dichas arquitecturas para realizar distintas predicciones de la velocidad del viento en un horizonte de corto y muy corto plazo a partir de datos de series temporales de viento.
 

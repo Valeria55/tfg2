@@ -1062,6 +1062,26 @@ INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.idx
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.glo
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.acn
@@ -1278,6 +1298,7 @@ OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.toc
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lot
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lot
@@ -1355,7 +1376,13 @@ INPUT .\tipo_neuronas.png
 INPUT .\tipo_neuronas.png
 INPUT .\tipo_neuronas.png
 INPUT .\tipo_neuronas.png
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT .\perceptron.png
+INPUT .\perceptron.png
+INPUT perceptron.png
+INPUT .\perceptron.png
+INPUT .\perceptron.png
+INPUT .\perceptron.png
+INPUT .\perceptron.png
 INPUT .\redes_recurrentes.png
 INPUT .\redes_recurrentes.png
 INPUT redes_recurrentes.png
@@ -1364,13 +1391,30 @@ INPUT .\redes_recurrentes.png
 INPUT .\redes_recurrentes.png
 INPUT .\redes_recurrentes.png
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.glsdefs
-INPUT .\perceptron.png
-INPUT .\perceptron.png
-INPUT perceptron.png
-INPUT .\perceptron.png
-INPUT .\perceptron.png
-INPUT .\perceptron.png
-INPUT .\perceptron.png
+INPUT .\lstm_grafico.png
+INPUT .\lstm_grafico.png
+INPUT lstm_grafico.png
+INPUT .\lstm_grafico.png
+INPUT .\lstm_grafico.png
+INPUT .\lstm_grafico.png
+INPUT .\lstm_grafico.png
+INPUT .\grafico_regresion.png
+INPUT .\grafico_regresion.png
+INPUT grafico_regresion.png
+INPUT .\grafico_regresion.png
+INPUT .\grafico_regresion.png
+INPUT .\grafico_regresion.png
+INPUT .\grafico_regresion.png
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT .\capitulo_03\marco_metodologico.tex
 INPUT .\capitulo_03\marco_metodologico.tex
 INPUT .\capitulo_03\marco_metodologico.tex
@@ -1388,31 +1432,35 @@ INPUT .\tabla_producto.png
 INPUT .\tabla_producto.png
 INPUT .\tabla_producto.png
 INPUT .\tabla_producto.png
-INPUT .\tabla_inicial_venta.png
-INPUT .\tabla_inicial_venta.png
-INPUT tabla_inicial_venta.png
-INPUT .\tabla_inicial_venta.png
-INPUT .\tabla_inicial_venta.png
-INPUT .\tabla_inicial_venta.png
-INPUT .\tabla_inicial_venta.png
-INPUT .\tabla_producto.png
-INPUT .\tabla_producto.png
-INPUT tabla_producto.png
-INPUT .\tabla_producto.png
-INPUT .\grafico_violin.jpg
-INPUT .\grafico_violin.jpg
-INPUT grafico_violin.jpg
-INPUT .\grafico_violin.jpg
-INPUT .\grafico_violin.jpg
-INPUT .\grafico_violin.jpg
-INPUT .\grafico_violin.jpg
-INPUT .\grafico_violin_salida.jpg
-INPUT .\grafico_violin_salida.jpg
-INPUT grafico_violin_salida.jpg
-INPUT .\grafico_violin_salida.jpg
-INPUT .\grafico_violin_salida.jpg
-INPUT .\grafico_violin_salida.jpg
-INPUT .\grafico_violin_salida.jpg
+INPUT .\ventas_tabla.png
+INPUT .\ventas_tabla.png
+INPUT ventas_tabla.png
+INPUT .\ventas_tabla.png
+INPUT .\ventas_tabla.png
+INPUT .\ventas_tabla.png
+INPUT .\ventas_tabla.png
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
+INPUT .\primeros_5productos.png
+INPUT .\primeros_5productos.png
+INPUT primeros_5productos.png
+INPUT .\primeros_5productos.png
+INPUT .\primeros_5productos.png
+INPUT .\primeros_5productos.png
+INPUT .\primeros_5productos.png
+INPUT .\ventas_fecha.png
+INPUT .\ventas_fecha.png
+INPUT ventas_fecha.png
+INPUT .\ventas_fecha.png
+INPUT .\ventas_fecha.png
+INPUT .\ventas_fecha.png
+INPUT .\ventas_fecha.png
+INPUT .\escalado.png
+INPUT .\escalado.png
+INPUT escalado.png
+INPUT .\escalado.png
+INPUT .\escalado.png
+INPUT .\escalado.png
+INPUT .\escalado.png
 INPUT .\serie_normal_completa.png
 INPUT .\serie_normal_completa.png
 INPUT serie_normal_completa.png
@@ -1420,6 +1468,41 @@ INPUT .\serie_normal_completa.png
 INPUT .\serie_normal_completa.png
 INPUT .\serie_normal_completa.png
 INPUT .\serie_normal_completa.png
+INPUT .\tabla_resultante.png
+INPUT .\tabla_resultante.png
+INPUT tabla_resultante.png
+INPUT .\tabla_resultante.png
+INPUT .\tabla_resultante.png
+INPUT .\tabla_resultante.png
+INPUT .\tabla_resultante.png
+INPUT .\lectura_escalado.jpg
+INPUT .\lectura_escalado.jpg
+INPUT lectura_escalado.jpg
+INPUT .\lectura_escalado.jpg
+INPUT .\lectura_escalado.jpg
+INPUT .\lectura_escalado.jpg
+INPUT .\lectura_escalado.jpg
+INPUT .\grafico tipo violin de escalado.png
+INPUT .\grafico tipo violin de escalado.png
+INPUT grafico tipo violin de escalado.png
+INPUT .\grafico tipo violin de escalado.png
+INPUT .\grafico tipo violin de escalado.png
+INPUT .\grafico tipo violin de escalado.png
+INPUT .\grafico tipo violin de escalado.png
+INPUT .\grafico_violin_salida.jpg
+INPUT .\grafico_violin_salida.jpg
+INPUT grafico_violin_salida.jpg
+INPUT .\grafico_violin_salida.jpg
+INPUT .\grafico_violin_salida.jpg
+INPUT .\grafico_violin_salida.jpg
+INPUT .\grafico_violin_salida.jpg
+INPUT .\divisionde _datos.jpg
+INPUT .\divisionde _datos.jpg
+INPUT divisionde _datos.jpg
+INPUT .\divisionde _datos.jpg
+INPUT .\divisionde _datos.jpg
+INPUT .\divisionde _datos.jpg
+INPUT .\divisionde _datos.jpg
 INPUT .\serie_normal_dividida.png
 INPUT .\serie_normal_dividida.png
 INPUT serie_normal_dividida.png
@@ -1427,21 +1510,62 @@ INPUT .\serie_normal_dividida.png
 INPUT .\serie_normal_dividida.png
 INPUT .\serie_normal_dividida.png
 INPUT .\serie_normal_dividida.png
-INPUT .\diseño_procedural.png
-INPUT .\diseño_procedural.png
-INPUT diseño_procedural.png
-INPUT .\diseño_procedural.png
-INPUT .\diseño_procedural.png
-INPUT .\diseño_procedural.png
-INPUT .\diseño_procedural.png
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT .\regresion lineal estructura.png
+INPUT .\regresion lineal estructura.png
+INPUT regresion lineal estructura.png
+INPUT .\regresion lineal estructura.png
+INPUT .\regresion lineal estructura.png
+INPUT .\regresion lineal estructura.png
+INPUT .\regresion lineal estructura.png
+INPUT .\metricas de error REGRESION LINEAL.png
+INPUT .\metricas de error REGRESION LINEAL.png
+INPUT metricas de error REGRESION LINEAL.png
+INPUT .\metricas de error REGRESION LINEAL.png
+INPUT .\metricas de error REGRESION LINEAL.png
+INPUT .\metricas de error REGRESION LINEAL.png
+INPUT .\metricas de error REGRESION LINEAL.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\modeloLineal7Dias.jpg
+INPUT .\modeloLineal7Dias.jpg
+INPUT modeloLineal7Dias.jpg
+INPUT .\modeloLineal7Dias.jpg
+INPUT .\modeloLineal7Dias.jpg
+INPUT .\modeloLineal7Dias.jpg
+INPUT .\modeloLineal7Dias.jpg
+INPUT .\arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT .\predicción 7 días.png
+INPUT .\predicción 7 días.png
+INPUT predicción 7 días.png
+INPUT .\predicción 7 días.png
+INPUT .\predicción 7 días.png
+INPUT .\predicción 7 días.png
+INPUT .\predicción 7 días.png
+INPUT .\comparativo desempeños LSTM.png
+INPUT .\comparativo desempeños LSTM.png
+INPUT comparativo desempeños LSTM.png
+INPUT .\comparativo desempeños LSTM.png
+INPUT .\comparativo desempeños LSTM.png
+INPUT .\comparativo desempeños LSTM.png
+INPUT .\comparativo desempeños LSTM.png
+INPUT .\grafico de perdida en las épocas.png
+INPUT .\grafico de perdida en las épocas.png
+INPUT grafico de perdida en las épocas.png
+INPUT .\grafico de perdida en las épocas.png
+INPUT .\grafico de perdida en las épocas.png
+INPUT .\grafico de perdida en las épocas.png
+INPUT .\grafico de perdida en las épocas.png
 INPUT .\capitulo_04\resultados.tex
 INPUT .\capitulo_04\resultados.tex
 INPUT .\capitulo_04\resultados.tex
@@ -1452,26 +1576,6 @@ INPUT .\capitulo_04\resultados.tex
 INPUT capitulo_04\resultados.tex
 INPUT .\capitulo_04\resultados.tex
 INPUT capitulo_04\resultados.tex
-INPUT .\capitulo_04\huella.jpg
-INPUT capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
 INPUT .\capitulo_05\discusion.tex
 INPUT .\capitulo_05\discusion.tex
 INPUT .\capitulo_05\discusion.tex
@@ -1564,8 +1668,6 @@ INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl12.pfb
@@ -1576,3 +1678,5 @@ INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb

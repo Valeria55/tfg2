@@ -1,26 +1,38 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Predicción de demanda a corto, mediano y largo plazo\cite {decide}.}}{6}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Proceso de Optimización de inventario\cite {decide}.}}{7}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Arquitectura de un sistema experto \cite {diez2001introduccion}.}}{12}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo}}{14}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Aprendisaje supervisado\cite {decide}.}}{15}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Componentes de una neurona.}}{18}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Tipos de neuronas artificiales\cite {lopez2008redes}.}}{18}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces La arquitectura básica de una RNN}}{22}{figure.2.8}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Aplicación de la Red Perceptron}}{24}{figure.2.9}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Predicción de demanda a corto, mediano y largo plazo\cite {decide}.}}{7}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Proceso de Optimización de inventario\cite {decide}.}}{8}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Arquitectura de un sistema experto \cite {diez2001introduccion}.}}{13}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces flujo de trabajo típico para el uso del aprendizaje automático en modelado predictivo}}{16}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Aprendisaje supervisado\cite {decide}.}}{17}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Componentes de una neurona.}}{20}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Tipos de neuronas artificiales\cite {lopez2008redes}.}}{20}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Aplicación de la Red Perceptron}}{23}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces La arquitectura básica de una RNN}}{25}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Representaci´on de una celda LSTM.}}{26}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Regresión lineal}}{27}{figure.2.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura inicial de la tabla productos.csv}}{29}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Estructura inicial de la tabla ventas.csv}}{29}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces productos.csv(Los primeros 5 productos)}}{30}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Grafico en violín incluyendo los tres set train, validación y test}}{32}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Gráfico en violín de los datos de salida escaladas}}{32}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Serie temporal de las ventas totales por día}}{33}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Distribución de los datos, ventas totales por día.}}{33}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Diseño procedural.}}{34}{figure.3.8}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura inicial de la tabla productos.csv}}{35}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Estructura inicial de la tabla ventas.csv}}{35}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Datos de la tabla productos(Los primeros 5 productos)}}{36}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Datos de la tabla ventas}}{37}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Datos escalados(muestra de la tabla ventas)}}{38}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Serie temporal de las ventas totales por día}}{39}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Tabla resultante con las variables de entrada}}{41}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Lectura y escalado del dataset en Python}}{42}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Grafico en violín incluyendo los tres set train, validación y test}}{42}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Gráfico en violín de los datos de salida escaladas}}{43}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Algoritmo de distribución de los datos.}}{44}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Distribución de los datos, ventas totales por día.}}{44}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Algoritmo de la estructura de regresión lineal.}}{46}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Metrica de error regresión lineal.}}{46}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Grafico de predicción con regresión lineal.}}{47}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Predicción de 7 días con regresión lineal.}}{47}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Algoritmo de la estructura del LSTM.}}{48}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Grafico de predicción con LSTM.}}{49}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Comparativo de desempeños LSTM.}}{50}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Grafico de perdida(loss) en las épocas LSTM .}}{50}{figure.3.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Huella dactilar.}}{37}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplificacin de diagrama en blanco y negro.}}{38}{figure.4.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

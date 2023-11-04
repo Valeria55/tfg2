@@ -1,9 +1,9 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Resumen}{\es@scroman {ix}}{Doc-Start}%
 \contentsline {chapter}{Abstract}{\es@scroman {x}}{Doc-Start}%
-\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xiii}}{chapter*.2}%
-\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xiv}}{chapter*.3}%
-\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiv}}{chapter*.3}%
+\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xiv}}{chapter*.2}%
+\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xv}}{chapter*.3}%
+\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xv}}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{2}{section.1.2}%
@@ -14,57 +14,64 @@
 \contentsline {section}{\numberline {1.5}Fundamentación}{3}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Impacto de la investigación}{4}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Organización del trabajo.}{4}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Conceptos fundamentales, teorías y antecedentes}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Predicciones de Compras}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Relación de Demanda y Gestión de Suministro}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Importancia de la Predicción de Compra de Insumos}{5}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Factores que Influyen en la Curva de Insumos Demandados}{8}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Tiempos Actuales en las Predicciones de Demanda}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Sistema de información }{9}{section.2.3}%
-\contentsline {paragraph}{Sistemas de procesamiento de transacciones}{9}{section*.4}%
-\contentsline {paragraph}{Sistema de información administrativa}{10}{section*.5}%
-\contentsline {paragraph}{Sistema de soporte de decisiones DSS}{10}{section*.6}%
-\contentsline {paragraph}{Sistema de información gerencial}{11}{section*.7}%
-\contentsline {paragraph}{Sistema experto e inteligencia artificial }{11}{section*.8}%
-\contentsline {section}{\numberline {2.4}Mineria de datos}{12}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Inteligencia Artificial}{13}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}El aprendizaje automático \textit {(machine learning)}}{13}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Aprendizaje supervisado}{15}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Aprendizaje no supervisado}{15}{subsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.3.1}Aprendizaje de refuerzo}{16}{subsubsection.2.5.3.1}%
-\contentsline {subsection}{\numberline {2.5.4}Redes Neuronales Artificiales}{16}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Capas de la neurona artificial}{18}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Modelo de redes neuronales artificiales}{19}{subsection.2.5.6}%
-\contentsline {subsection}{\numberline {2.5.7}Arquitectura de una red neuronal}{20}{subsection.2.5.7}%
-\contentsline {subsection}{\numberline {2.5.8}Redes neuronales recurrentes (RNN)}{21}{subsection.2.5.8}%
-\contentsline {subsection}{\numberline {2.5.9}Arquitectura básica de una RNN}{21}{subsection.2.5.9}%
-\contentsline {subsection}{\numberline {2.5.10}Redes de Memoria Corta y Larga LSTM}{22}{subsection.2.5.10}%
-\contentsline {subsection}{\numberline {2.5.11}Modelo de Regresión Lineal}{22}{subsection.2.5.11}%
-\contentsline {subsection}{\numberline {2.5.12}Los pesos sinápticos}{23}{subsection.2.5.12}%
-\contentsline {subsection}{\numberline {2.5.13}Perceptron}{23}{subsection.2.5.13}%
-\contentsline {subsection}{\numberline {2.5.14}Perceptrón multica}{24}{subsection.2.5.14}%
-\contentsline {section}{\numberline {2.6}Series de Tiempo}{24}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Antecedentes}{24}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Predicción de la demanda}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Preprocesamiento de datos}{28}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Análisis de los datos }{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Definición de variables de entrada y salida}{30}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Lectura y escalado del dataset en Python}{30}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Distribución del conjunto de datos}{30}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Aplicación y comparación de técnicas ML}{30}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Regresión lineal}{30}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}LSTM}{30}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Afinación de hiperparámetros con base en porcentaje de pérdida RMS}{30}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Resultados}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Metricas de rendimiento}{36}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Modelo de regresión lineal}{36}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Modelo LSTM}{36}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Informe de predicción de compras}{36}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Discusión}{40}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Logros alcanzados}{40}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Solución del problema de investigacin}{40}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Sugerencias para futuras investigaciones}{40}{section.5.3}%
-\contentsline {chapter}{Anexo A.}{41}{chapter*.9}%
-\contentsline {chapter}{Glosario}{41}{section.5.3}%
-\contentsline {chapter}{Anexos}{41}{section.5.3}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{42}{chapter*.9}%
+\contentsline {chapter}{\numberline {2}Conceptos fundamentales, teorías y antecedentes}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Predicciones de Compras}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Relación de Demanda y Gestión de Suministro}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Importancia de la Predicción de Compra de Insumos}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Factores que Influyen en la Curva de Insumos Demandados}{9}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Tiempos Actuales en las Predicciones de Demanda}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Sistema de información }{10}{section.2.3}%
+\contentsline {paragraph}{Sistemas de procesamiento de transacciones}{10}{section*.4}%
+\contentsline {paragraph}{Sistema de información administrativa}{11}{section*.5}%
+\contentsline {paragraph}{Sistema de soporte de decisiones DSS}{11}{section*.6}%
+\contentsline {paragraph}{Sistema de información gerencial}{12}{section*.7}%
+\contentsline {paragraph}{Sistema experto e inteligencia artificial }{12}{section*.8}%
+\contentsline {section}{\numberline {2.4}Mineria de datos}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Técnicas de modelado de procesos de ETL}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Inteligencia Artificial}{14}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}El aprendizaje automático \textit {(machine learning)}}{14}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Aprendizaje supervisado}{16}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Aprendizaje no supervisado}{17}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Aprendizaje de refuerzo}{18}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Redes Neuronales Artificiales}{18}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}Capas de la neurona artificial}{20}{subsection.2.6.6}%
+\contentsline {subsection}{\numberline {2.6.7}Modelo de redes neuronales artificiales}{21}{subsection.2.6.7}%
+\contentsline {subsection}{\numberline {2.6.8}Arquitectura de una red neuronal}{22}{subsection.2.6.8}%
+\contentsline {subsection}{\numberline {2.6.9}Perceptron}{23}{subsection.2.6.9}%
+\contentsline {subsection}{\numberline {2.6.10}Perceptrón multica}{23}{subsection.2.6.10}%
+\contentsline {subsection}{\numberline {2.6.11}Redes neuronales recurrentes (RNN)}{24}{subsection.2.6.11}%
+\contentsline {subsection}{\numberline {2.6.12}Arquitectura básica de una RNN}{25}{subsection.2.6.12}%
+\contentsline {subsection}{\numberline {2.6.13}Redes de Memoria Corta y Larga LSTM}{25}{subsection.2.6.13}%
+\contentsline {subsection}{\numberline {2.6.14}Modelo de Regresión Lineal}{27}{subsection.2.6.14}%
+\contentsline {subsection}{\numberline {2.6.15}Los pesos sinápticos}{28}{subsection.2.6.15}%
+\contentsline {section}{\numberline {2.7}Métricas para la evaluación de una red neuronal}{28}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}El error medio cuadrático (MSE) }{28}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Raíz del error medio cuadrático (RMSE)}{29}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Error Absoluto Medio (MAE)}{29}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Error porcentual absoluto medio (MAPE)}{30}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}El coeficiente de determinación \( R^2 \)}{30}{subsection.2.7.5}%
+\contentsline {section}{\numberline {2.8}Antecedentes}{31}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Predicción de la demanda}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Preprocesamiento de datos}{34}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Modelado de datos}{35}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Escalado de datos}{37}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Análisis de los datos }{38}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Definición de las variables de entrada y salida}{39}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Lectura y escalado del dataset en Python}{41}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Distribución del conjunto de datos}{43}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}Aplicación y comparación de técnicas ML}{44}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Regresión lineal}{44}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}LSTM}{48}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Resultados}{51}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metricas de rendimiento}{51}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Modelo de regresión lineal}{51}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Modelo LSTM}{51}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Informe de predicción de compras}{51}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Discusión}{52}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Logros alcanzados}{52}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Solución del problema de investigacin}{52}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Sugerencias para futuras investigaciones}{52}{section.5.3}%
+\contentsline {chapter}{Anexo A.}{53}{chapter*.9}%
+\contentsline {chapter}{Glosario}{53}{section.5.3}%
+\contentsline {chapter}{Anexos}{53}{section.5.3}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{54}{chapter*.9}%

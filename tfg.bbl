@@ -72,6 +72,13 @@ Beatriz~Beltr{\'a}n Mart{\'\i}nez, ``Miner{\'\i}a de datos,'' \emph{C{\'o}mo
   hallar una aguja en un pajar. Ingenier{\'\i}as}, vol.~14, no.~53, pp. 53--66,
   2001.
 
+\bibitem{schab2018mineria}
+Esteban Schab, Ramiro Rivera, Luciana Bracco, Facundo Coto, Patricia Cristaldo,
+  Lautaro Ramos, Natalia Rapesta, Juan~Pablo N{\'u}{\~n}ez, Soledad Retamar,
+  Carlos Casanova \emph{et~al.}, ``Miner{\'\i}a de datos y visualizaci{\'o}n de
+  informaci{\'o}n,'' in \emph{XX Workshop de Investigadores en Ciencias de la
+  Computaci{\'o}n (WICC 2018, Universidad Nacional del Nordeste).}, 2018.
+
 \bibitem{SIMITSIS200822}
 \BIBentryALTinterwordspacing
 Alkis Simitsis y Panos Vassiliadis, ``A method for the mapping of conceptual
@@ -148,6 +155,15 @@ Nicol{\'a}s S{\'a}nchez~Anzola, ``M{\'a}quinas de soporte vectorial y redes
 Andres Nacelle y E~Mizraji, ``Redes neuronales artificiales,'' \emph{N{\'u}cleo
   de ingenier{\'\i}a biom{\'e}dica--Universidad de la Republica Uruguay}, 2009.
 
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, y Aaron Courville, \emph{Deep Learning}.\hskip
+  1em plus 0.5em minus 0.4em\relax MIT Press, 2016,
+  \url{http://www.deeplearningbook.org}.
+
+\bibitem{roman2018redes}
+Javier Rom{\'a}n~Morales \emph{et~al.}, ``Redes recurrentes para el
+  an{\'a}lisis de series temporales,'' {B.S.} thesis, 2018.
+
 \bibitem{montesdeoca2016estudios}
 Besay Montesdeoca~Santana, ``Estudios de predicci{\'o}n en series temporales de
   datos meteorol{\'o}gicos utilizando redes neuronales recurrentes,'' {B.S.}
@@ -163,15 +179,15 @@ Juan Jos{\'e} De~Lucio Fern{\'a}ndez, ``Estimaci{\'o}n adelantada del
   crecimiento regional mediante redes neuronales lstm,'' \emph{Investigaciones
   Regionales= Journal of Regional Research}, no.~49, pp. 45--64, 2021.
 
+\bibitem{escobar2022evaluacion}
+FABIO~ALEJANDRO ESCOBAR~GOMEZ y JOHAN~YESID CORAL~MUESES, ``Evaluaci{\'o}n de
+  redes neuronales recurrentes lstm en la predicci{\'o}n de fatiga muscular,''
+  Ph.D. dissertation, AUNAR, 2022.
+
 \bibitem{sepulveda2023analisis}
 Carlos~Andr{\'e}s Sep{\'u}lveda~Calle y Milton~Tarsicio Benavides~Posso,
   ``An{\'a}lisis predictivo de demanda de servicios bajo series temporales,''
   2023.
-
-\bibitem{chang2023comparacion}
-Haward~Miguel Chang~Hidalgo, ``Comparaci{\'o}n de t{\'e}cnicas de
-  estimaci{\'o}n basadas en machine learning para predecir costos en los planes
-  de adquisiciones de las entidades p{\'u}blicas del per{\'u},'' 2023.
 
 \bibitem{acevedo2017principios}
 Eder Acevedo, Alexei Serna, y Edgar Serna, ``Principios y caracter{\'\i}sticas
@@ -183,9 +199,10 @@ M~Gestal Pose, ``Introducci{\'o}n a las redes de neuronas artificiales,''
   \emph{Departamento de Tecnolog{\'\i}as de la Informaci{\'o}n y las
   Comunicaciones. Universidad da Coru{\~n}a}, 2009.
 
-\bibitem{nava2015procesamiento}
-F~Alejandro Nava, \emph{Procesamiento de series de tiempo}.\hskip 1em plus
-  0.5em minus 0.4em\relax Fondo de cultura econ{\'o}mica, 2015.
+\bibitem{chang2023comparacion}
+Haward~Miguel Chang~Hidalgo, ``Comparaci{\'o}n de t{\'e}cnicas de
+  estimaci{\'o}n basadas en machine learning para predecir costos en los planes
+  de adquisiciones de las entidades p{\'u}blicas del per{\'u},'' 2023.
 
 \bibitem{condorena2017desarrollo}
 V{\'\i}ctor~Marcial Condorena~Rond{\'o}n, ``Desarrollo de un sistema de control
@@ -219,10 +236,5 @@ Jose~R SAURA, Ana Reyes-Men{\'e}ndez, y Pedro PALOS-SANCHEZ, ``Un an{\'a}lisis
 \bibitem{hincapie2021prediccion}
 Edwar~Andr{\'e}s Hincapi{\'e}~Herrera, ``Predicci{\'o}n de la demanda usando
   modelos de machine learning,'' 2021.
-
-\bibitem{sampieri}
-Roberto Hern\'andez, C.~Fern\'andez, y M.~P. Baptista, \emph{Metodolog\'ia de
-  la investigaci\'on}, 5th~ed.\hskip 1em plus 0.5em minus 0.4em\relax M\'exico
-  D.F.: McGraw-Hill, 2010.
 
 \end{thebibliography}
