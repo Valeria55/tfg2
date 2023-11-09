@@ -6,11 +6,183 @@
 
 \chapter{Resultados}
 
-\section{Metricas de rendimiento}
+\section{Métricas de rendimiento}
+Las métricas de rendimiento son medidas cuantitativas utilizadas en aprendizaje automático para evaluar la calidad de los modelos predictivos. Estas métricas proporcionan una evaluación objetiva de la capacidad de un modelo para hacer predicciones precisas en tareas como clasificación o regresión. 
 \subsection{Modelo de regresión lineal}
+
+los parámetros y configuraciones utilizados en el modelo de regresión con regularización Ridge:
+
+\begin{itemize}
+  \item  \textbf{loss=squared\_loss:} Se ha elegido la función de pérdida de error cuadrático medio (MSE) debido a la naturaleza de un problema de regresión. La función MSE evalúa la discrepancia al cuadrado entre las predicciones y los valores reales, y se minimiza durante el proceso de entrenamiento.
+
+    
+  \item \textbf{penalty=l2:} La regularización Ridge ayuda a prevenir el sobreajuste incorporando un término de penalización en la función de pérdida.
+
+  
+  \item \textbf{alpha=0.0001:}  En este caso, se ha optado por un valor pequeño (0.0001) para evitar una regularización excesiva y permitir que el modelo se ajuste de manera adecuada a los datos.
+
+  
+  \item \textbf{max\_iter=1000:} Se ha establecido el número máximo de iteraciones permitidas para el descenso de gradiente en 1000, un valor suficientemente amplio para asegurar la convergencia del modelo.
+
+  
+  \item \textbf{tol=1e-3:} Este valor de tolerancia es apropiado para garantizar una convergencia razonable.
+
+  
+  \item \textbf{learning\_rate=constant:} Se ha configurado la tasa de aprendizaje como constante a lo largo del proceso de entrenamiento.
+\end{itemize}
+   
+ 
+
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=0.50]{./regresion lineal estructura.png}
+      \caption{Algoritmo de la estructura de regresión lineal.}
+      \label{fig:estructura_lineal}
+    \end{center}
+  \end{figure}
+
+  
+A pesar de que tanto el Error Cuadrático Medio (MSE) como el Error Absoluto
+Medio (MAE) proporcionan indicadores favorables, el valor de R-cuadrado (R²)
+indica que el modelo se encuentra notablemente alejado de la excelencia
+representada por un valor de 1, ya que R² = 1 constituye la condición ideal
+(Figura \ref{fig:metricas_regresion}).
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.70]{./metricas de error REGRESION LINEAL.png}
+    \caption{Metrica de error regresión lineal.}
+    \label{fig:metricas_regresion}
+  \end{center}
+\end{figure}
+
+% \begin{figure}[H]
+%   \begin{center}
+%     \includegraphics[scale=0.50]{./modeloLineal7Dias.jpg}
+%     \caption{Predicción de 7 días con regresión lineal.}
+%     \label{fig:grafico_lstm}
+%   \end{center}
+% \end{figure}
+
 \subsection{Modelo LSTM}
 
-\section{Informe de predicción de compras}
+% \begin{figure}[H]
+%   \begin{center}
+%     \includegraphics[scale=0.60]{./arquitectura LSTM.png}
+%     \caption{Algoritmo de la estructura del LSTM.}
+%     \label{fig:estructura_lstm}
+%   \end{center}
+% \end{figure}
+
+Al configurar una red neuronal LSTM, es común considerar varios hiperparámetros
+clave (Codigo \ref{fig:desenpeño}):
+
+\begin{itemize}
+  \item  \textbf{Unidades de LSTM:} Se obtuvieron los mejores resultados con 64 neuronas.
+   
+  
+  \item \textbf{Número de capas LSTM:} En este caso, se determinó que una sola capa oculta era la mejor opción.
+
+ 
+  \item \textbf{Función de Activación:} Se lograron buenos resultados utilizando “relu” en la capa oculta y “linear” en la salida.
+
+ 
+  \item \textbf{Función de Pérdida:} Se optó por el MSE debido a su versatilidad en problemas de regresión.
+
+ 
+  \item \textbf{Optimizador:} En esta configuración, se prefirió “RMSprop” por su relevancia en predicciones de demanda.
+
+ 
+  \item \textbf{Tasa de Aprendizaje:} Una tasa de aprendizaje de 0.01 resultó óptima.
+
+ 
+  \item \textbf{Dropout:} Para esta configuración, un dropout del 20\% fue suficiente.
+\end{itemize}
+
+  
+
+% Es importante tener en cuenta que la elección de estos hiperparámetros puede depender en gran medida del problema específico y requiere experimentación para encontrar la configuración óptima.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.50]{./predicción 7 días.png}
+    \caption{Grafico de predicción con LSTM.}
+    \label{fig:grafico_lstm}
+  \end{center}
+\end{figure}
+
+Los tres valores muestran una proximidad aceptable, lo que indica que el modelo
+tiene una capacidad de generalización satisfactoria (Figura
+\ref{fig:desenpeño}).
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.50]{./comparativo desempeños LSTM.png}
+    \caption{Comparativo de desempeños LSTM.}
+    \label{fig:desenpeño}
+  \end{center}
+\end{figure}
+
+En este trabajo para evaluar el rendimiento de una red neuronal LSTM se hace
+uso de la gráfica de pérdidas (loss). Esta permite evaluar cómo es su evolución
+de los datos en un modelo. Según la literatura entre más grandes las pérdidas
+las predicciones van a estar alejadas del valor real. En la (Figura
+\ref{fig:perdida}) se puede observar la evolución de pérdidas a través de las
+épocas, se evidencia dos señales que corresponden a entrenamiento y validación
+marcados con los colores azul y naranja respectivamente, se infiere que los
+valores decrecen con una alta tasa hasta la época 5 aproximadamente y luego no
+presentan cambios significativos. Las pérdidas son de 0.020 y 0.039 para
+entrenamiento y test respectivamente.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.50]{./grafico de perdida en las épocas.png}
+    \caption{Grafico de perdida(loss) en las épocas LSTM .}
+    \label{fig:perdida}
+  \end{center}
+\end{figure}
+\section{Resultados de predicción de compras}
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \rowcolor{gray!50} \textbf{Días} & \textbf{Real} & \textbf{Pred. Reg} & \textbf{Dif} & \textbf{Pred. LSTM} & \textbf{Dif} \\
+    \hline
+    1 & 21 & 39 & 18 & 33 & 12 \\
+    \hline
+    2 & 11 & 42 & 31 & 41 & 30 \\
+    \hline
+    3 & 60 & 44 & -16 & 52 & -8 \\
+    \hline
+    4 & 55 & 47 & -8 & 47 & -8 \\
+    \hline
+    5 & 60 & 34 & -26 & 36 & -24 \\
+    \hline
+    6 & 21 & 36 & 15 & 22 & 1 \\
+    \hline
+    7 & 15 & 39 & 24 & 27 & 12 \\
+    \hline
+    Dif. Total &  &  & 38 &  & 15 \\
+    \hline
+  \end{tabular}
+  \caption{ Tabla de resultados de las predicciones de ambos modelos}
+  \label{tab:prediccion_final}
+\end{table}
+
+La tabla~\ref{tab:prediccion_final} proporciona un resumen de la predicción de la demanda de productos de la empresa gastronómica durante un período de siete días. 
+
+\vspace{1\baselineskip}
+Compara los resultados entre los modelos de predicción estudiados: el modelo de regresión lineal y el modelo LSTM (Long Short-Term Memory).
+
+\vspace{1\baselineskip}
+En la columna  “Días”, se enumeran los siete días del período en cuestión. En  “Real”, se muestra la demanda real de productos para cada día, mientras que en “Pred. Reg” y “Pred. LSTM”, se presentan las predicciones realizadas por los modelos de regresión lineal y LSTM, respectivamente.
+
+\vspace{1\baselineskip}
+La columna “Dif” representa la diferencia entre las predicciones de cada modelo y la demanda real. En términos generales, se puede observar que ambas técnicas tuvieron algunas discrepancias con los valores reales. El modelo de regresión lineal tuvo una diferencia total de 38 unidades en comparación con la demanda real, mientras que el modelo LSTM tuvo una diferencia total de 15 unidades. En este caso, el modelo LSTM muestra un mejor desempeño al ser más preciso en la predicción de la demanda de productos en estos siete días en comparación con el modelo de regresión lineal.
+
+\vspace{1\baselineskip}
+En resumen, este estudio ha avanzado significativamente en la solución del problema de la predicción de la demanda semanal, y se espera que futuras investigaciones sigan ampliando los límites de la precisión y la aplicabilidad de estas predicciones en entornos de ventas minoristas.
+
 
 
 % Este captulo presenta el producto del anlisis de los datos. Los resultados compendian el eventual tratamiento estadstico que se dio a los datos. Regularmente el orden es: a) anlisis descriptivo de los datos, b) anlisis inferenciales para responder a las preguntas de investigacin y/o probar hiptesis. Segn \cite{sampieri}, la American Psychological Association recomienda que primero se describa de manera breve la idea principal que resume los descubrimientos, y posteriormente se los reporten con detalle. Es importante destacar que en este captulo no se incluyen conclusiones ni sugerencias, tampoco se deben explicar las implicaciones de la investigacin. Esto se hace en el captulo dedicado a la interpretaciones de los resultados, que en esta plantilla se denomina ``Discusin''.

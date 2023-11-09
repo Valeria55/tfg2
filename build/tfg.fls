@@ -1082,6 +1082,52 @@ INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.c
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.idx
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.glo
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.acn
@@ -1298,7 +1344,6 @@ OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.toc
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
-INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lof
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lot
 INPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.lot
@@ -1339,6 +1384,7 @@ INPUT .\procesos_de_trabajo.png
 INPUT .\procesos_de_trabajo.png
 INPUT .\procesos_de_trabajo.png
 INPUT .\procesos_de_trabajo.png
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\hechos.png
 INPUT .\hechos.png
 INPUT hechos.png
@@ -1510,6 +1556,79 @@ INPUT .\serie_normal_dividida.png
 INPUT .\serie_normal_dividida.png
 INPUT .\serie_normal_dividida.png
 INPUT .\serie_normal_dividida.png
+INPUT .\arquitectura REGRESION LINEAL.png
+INPUT .\arquitectura REGRESION LINEAL.png
+INPUT arquitectura REGRESION LINEAL.png
+INPUT .\arquitectura REGRESION LINEAL.png
+INPUT .\arquitectura REGRESION LINEAL.png
+INPUT .\arquitectura REGRESION LINEAL.png
+INPUT .\arquitectura REGRESION LINEAL.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\Grafico de predicciones con regresión.png
+INPUT .\arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT .\arquitectura LSTM.png
+INPUT .\arqui1ie.png
+INPUT .\arqui1ie.png
+INPUT arqui1ie.png
+INPUT .\arqui1ie.png
+INPUT .\arqui1ie.png
+INPUT .\arqui1ie.png
+INPUT .\arqui1ie.png
+INPUT .\res1i.png
+INPUT .\res1i.png
+INPUT res1i.png
+INPUT .\res1i.png
+INPUT .\res1i.png
+INPUT .\res1i.png
+INPUT .\res1i.png
+INPUT .\imagenlstm1.png
+INPUT .\imagenlstm1.png
+INPUT imagenlstm1.png
+INPUT .\imagenlstm1.png
+INPUT .\imagenlstm1.png
+INPUT .\imagenlstm1.png
+INPUT .\imagenlstm1.png
+INPUT .\arqui2i.png
+INPUT .\arqui2i.png
+INPUT arqui2i.png
+INPUT .\arqui2i.png
+INPUT .\arqui2i.png
+INPUT .\arqui2i.png
+INPUT .\arqui2i.png
+INPUT .\res2i.png
+INPUT .\res2i.png
+INPUT res2i.png
+INPUT .\res2i.png
+INPUT .\res2i.png
+INPUT .\res2i.png
+INPUT .\res2i.png
+INPUT .\Imagenlstm2.png
+INPUT .\Imagenlstm2.png
+INPUT Imagenlstm2.png
+INPUT .\Imagenlstm2.png
+INPUT .\Imagenlstm2.png
+INPUT .\Imagenlstm2.png
+INPUT .\Imagenlstm2.png
+INPUT .\capitulo_04\resultados.tex
+INPUT .\capitulo_04\resultados.tex
+INPUT .\capitulo_04\resultados.tex
+OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\.\capitulo_04\resultados.aux
+INPUT .\capitulo_04\resultados.tex
+INPUT .\capitulo_04\resultados.tex
+INPUT .\capitulo_04\resultados.tex
+INPUT capitulo_04\resultados.tex
+INPUT .\capitulo_04\resultados.tex
+INPUT capitulo_04\resultados.tex
 INPUT .\regresion lineal estructura.png
 INPUT .\regresion lineal estructura.png
 INPUT regresion lineal estructura.png
@@ -1524,27 +1643,6 @@ INPUT .\metricas de error REGRESION LINEAL.png
 INPUT .\metricas de error REGRESION LINEAL.png
 INPUT .\metricas de error REGRESION LINEAL.png
 INPUT .\metricas de error REGRESION LINEAL.png
-INPUT .\Grafico de predicciones con regresión.png
-INPUT .\Grafico de predicciones con regresión.png
-INPUT Grafico de predicciones con regresión.png
-INPUT .\Grafico de predicciones con regresión.png
-INPUT .\Grafico de predicciones con regresión.png
-INPUT .\Grafico de predicciones con regresión.png
-INPUT .\Grafico de predicciones con regresión.png
-INPUT .\modeloLineal7Dias.jpg
-INPUT .\modeloLineal7Dias.jpg
-INPUT modeloLineal7Dias.jpg
-INPUT .\modeloLineal7Dias.jpg
-INPUT .\modeloLineal7Dias.jpg
-INPUT .\modeloLineal7Dias.jpg
-INPUT .\modeloLineal7Dias.jpg
-INPUT .\arquitectura LSTM.png
-INPUT .\arquitectura LSTM.png
-INPUT arquitectura LSTM.png
-INPUT .\arquitectura LSTM.png
-INPUT .\arquitectura LSTM.png
-INPUT .\arquitectura LSTM.png
-INPUT .\arquitectura LSTM.png
 INPUT .\predicción 7 días.png
 INPUT .\predicción 7 días.png
 INPUT predicción 7 días.png
@@ -1566,16 +1664,6 @@ INPUT .\grafico de perdida en las épocas.png
 INPUT .\grafico de perdida en las épocas.png
 INPUT .\grafico de perdida en las épocas.png
 INPUT .\grafico de perdida en las épocas.png
-INPUT .\capitulo_04\resultados.tex
-INPUT .\capitulo_04\resultados.tex
-INPUT .\capitulo_04\resultados.tex
-OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\.\capitulo_04\resultados.aux
-INPUT .\capitulo_04\resultados.tex
-INPUT .\capitulo_04\resultados.tex
-INPUT .\capitulo_04\resultados.tex
-INPUT capitulo_04\resultados.tex
-INPUT .\capitulo_04\resultados.tex
-INPUT capitulo_04\resultados.tex
 INPUT .\capitulo_05\discusion.tex
 INPUT .\capitulo_05\discusion.tex
 INPUT .\capitulo_05\discusion.tex
@@ -1602,6 +1690,84 @@ INPUT .\anexos\anexo.tex
 INPUT anexos\anexo.tex
 INPUT .\anexos\anexo.tex
 INPUT anexos\anexo.tex
+INPUT .\sistema\login.png
+INPUT .\sistema\login.png
+INPUT sistema\login.png
+INPUT .\sistema\login.png
+INPUT .\sistema\login.png
+INPUT .\sistema\login.png
+INPUT .\sistema\login.png
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT .\sistema\codigo_login.png
+INPUT .\sistema\codigo_login.png
+INPUT sistema\codigo_login.png
+INPUT .\sistema\codigo_login.png
+INPUT .\sistema\codigo_login.png
+INPUT .\sistema\codigo_login.png
+INPUT .\sistema\codigo_login.png
+INPUT .\sistema\lista productos.png
+INPUT .\sistema\lista productos.png
+INPUT sistema\lista productos.png
+INPUT .\sistema\lista productos.png
+INPUT .\sistema\lista productos.png
+INPUT .\sistema\lista productos.png
+INPUT .\sistema\lista productos.png
+INPUT .\sistema\ingrediente_de_producto.png
+INPUT .\sistema\ingrediente_de_producto.png
+INPUT sistema\ingrediente_de_producto.png
+INPUT .\sistema\ingrediente_de_producto.png
+INPUT .\sistema\ingrediente_de_producto.png
+INPUT .\sistema\ingrediente_de_producto.png
+INPUT .\sistema\ingrediente_de_producto.png
+INPUT .\sistema\producto_codigo.png
+INPUT .\sistema\producto_codigo.png
+INPUT sistema\producto_codigo.png
+INPUT .\sistema\producto_codigo.png
+INPUT .\sistema\producto_codigo.png
+INPUT .\sistema\producto_codigo.png
+INPUT .\sistema\producto_codigo.png
+INPUT .\sistema\compras.png
+INPUT .\sistema\compras.png
+INPUT sistema\compras.png
+INPUT .\sistema\compras.png
+INPUT .\sistema\compras.png
+INPUT .\sistema\compras.png
+INPUT .\sistema\compras.png
+INPUT .\sistema\codigo_compra.png
+INPUT .\sistema\codigo_compra.png
+INPUT sistema\codigo_compra.png
+INPUT .\sistema\codigo_compra.png
+INPUT .\sistema\codigo_compra.png
+INPUT .\sistema\codigo_compra.png
+INPUT .\sistema\codigo_compra.png
+INPUT .\sistema\nueva_venta.png
+INPUT .\sistema\nueva_venta.png
+INPUT sistema\nueva_venta.png
+INPUT .\sistema\nueva_venta.png
+INPUT .\sistema\nueva_venta.png
+INPUT .\sistema\nueva_venta.png
+INPUT .\sistema\nueva_venta.png
+INPUT .\sistema\codigo_venta.png
+INPUT .\sistema\codigo_venta.png
+INPUT sistema\codigo_venta.png
+INPUT .\sistema\codigo_venta.png
+INPUT .\sistema\codigo_venta.png
+INPUT .\sistema\codigo_venta.png
+INPUT .\sistema\codigo_venta.png
+INPUT .\sistema\lista_predicciones.png
+INPUT .\sistema\lista_predicciones.png
+INPUT sistema\lista_predicciones.png
+INPUT .\sistema\lista_predicciones.png
+INPUT .\sistema\lista_predicciones.png
+INPUT .\sistema\lista_predicciones.png
+INPUT .\sistema\lista_predicciones.png
+INPUT .\sistema\Informe de compra prediccion.png
+INPUT .\sistema\Informe de compra prediccion.png
+INPUT sistema\Informe de compra prediccion.png
+INPUT .\sistema\Informe de compra prediccion.png
+INPUT .\sistema\Informe de compra prediccion.png
+INPUT .\sistema\Informe de compra prediccion.png
+INPUT .\sistema\Informe de compra prediccion.png
 INPUT .\tfg.bbl
 INPUT tfg.bbl
 INPUT .\tfg.bbl
@@ -1668,6 +1834,8 @@ INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl12.pfb

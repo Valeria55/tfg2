@@ -22,27 +22,15 @@
 \BIBdecl
 \renewcommand{\BIBentryALTinterwordstretchfactor}{4}
 
+\bibitem{romero2021prediccion}
+Jimmy~Alexander Romero~Miranda, V{\'\i}ctor~Alberto Lizcano~Portilla
+  \emph{et~al.}, ``Predicci{\'o}n de ventas futuras,'' 2021.
+
 \bibitem{decide}
 \BIBentryALTinterwordspacing
  [En l{\'\i}nea]. Disponible:
   \url{https://decidesoluciones.es/modelo-de-prediccion-de-demanda-aplicacion-y-beneficios/}
 \BIBentrySTDinterwordspacing
-
-\bibitem{diez2001introduccion}
-Ra{\'u}l~Pino D{\'\i}ez, Alberto~G{\'o}mez G{\'o}mez, y Nicol{\'a}s
-  de~Abajo~Mart{\'\i}nez, \emph{Introducci{\'o}n a la inteligencia artificial:
-  sistemas expertos, redes neuronales artificiales y computaci{\'o}n
-  evolutiva}.\hskip 1em plus 0.5em minus 0.4em\relax Universidad de oviedo,
-  2001.
-
-\bibitem{lopez2008redes}
-Raquel~Fl{\'o}rez L{\'o}pez y Jos{\'e} Miguel~Fern{\'a}ndez Fern{\'a}ndez,
-  \emph{Las redes neuronales artificiales}.\hskip 1em plus 0.5em minus
-  0.4em\relax Netbiblo, 2008.
-
-\bibitem{romero2021prediccion}
-Jimmy~Alexander Romero~Miranda, V{\'\i}ctor~Alberto Lizcano~Portilla
-  \emph{et~al.}, ``Predicci{\'o}n de ventas futuras,'' 2021.
 
 \bibitem{marques2017nivel}
 Ana~Ortega Marqu{\'e}s, Sandy Patricia~Padilla Dom{\'\i}nguez, Johana
@@ -101,6 +89,10 @@ Rodolfo~H Villarroel, Yessica~M G{\'o}mez, y Constanza~B Krause,
   extracci{\'o}n-transformaci{\'o}n-carga,'' \emph{Informaci{\'o}n
   tecnol{\'o}gica}, vol.~24, no.~6, pp. 101--110, 2013.
 
+\bibitem{herrera2020prediccion}
+Dennys~Fabian Herrera~Cofre \emph{et~al.}, ``Predicci{\'o}n para el mercado de
+  acciones con redes neuronales lstm,'' 2020.
+
 \bibitem{mahesh2020machine}
 \BIBentryALTinterwordspacing
 Batta Mahesh, ``Machine learning algorithms-a review,'' \emph{International
@@ -109,24 +101,20 @@ Batta Mahesh, ``Machine learning algorithms-a review,'' \emph{International
   \url{https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=+machine+learning&btnG=}
 \BIBentrySTDinterwordspacing
 
-\bibitem{herrera2020prediccion}
-Dennys~Fabian Herrera~Cofre \emph{et~al.}, ``Predicci{\'o}n para el mercado de
-  acciones con redes neuronales lstm,'' 2020.
-
 \bibitem{ibm}
 \BIBentryALTinterwordspacing
 I.B.M. Staff(es). (2017) Machine learning. [En l{\'\i}nea]. Disponible:
   \url{https://www.ibm.com/mx-es/analytics/machine-learning}
 \BIBentrySTDinterwordspacing
 
-\bibitem{goodfellow2016deep}
-Ian Goodfellow, Yoshua Bengio, y Aaron Courville, \emph{Deep learning}.\hskip
-  1em plus 0.5em minus 0.4em\relax MIT press, 2016.
-
 \bibitem{arana2021redes}
 Carlos Arana, ``Redes neuronales recurrentes: An{\'a}lisis de los modelos
   especializados en datos secuenciales,'' Serie Documentos de Trabajo, Tech.
   Rep., 2021.
+
+\bibitem{goodfellow2016deep}
+Ian Goodfellow, Yoshua Bengio, y Aaron Courville, \emph{Deep learning}.\hskip
+  1em plus 0.5em minus 0.4em\relax MIT press, 2016.
 
 \bibitem{mirjalili2020python}
 Vahid Mirjalili y Sebastian Raschka, \emph{Python machine learning}.\hskip 1em
@@ -144,6 +132,11 @@ Xavier Basogain, ``Redes neuronales artificiales y sus aplicaciones,''
   http://ocw. ehu.
   es/ensenanzas-tecnicas/redes-neuronales-artificiales-y-sus-aplicaciones/Course\_
   listing.[Consultada 20-09-2012]}, 2008.
+
+\bibitem{lopez2008redes}
+Raquel~Fl{\'o}rez L{\'o}pez y Jos{\'e} Miguel~Fern{\'a}ndez Fern{\'a}ndez,
+  \emph{Las redes neuronales artificiales}.\hskip 1em plus 0.5em minus
+  0.4em\relax Netbiblo, 2008.
 
 \bibitem{sanchez2015maquinas}
 Nicol{\'a}s S{\'a}nchez~Anzola, ``M{\'a}quinas de soporte vectorial y redes
@@ -179,15 +172,14 @@ Juan Jos{\'e} De~Lucio Fern{\'a}ndez, ``Estimaci{\'o}n adelantada del
   crecimiento regional mediante redes neuronales lstm,'' \emph{Investigaciones
   Regionales= Journal of Regional Research}, no.~49, pp. 45--64, 2021.
 
-\bibitem{escobar2022evaluacion}
-FABIO~ALEJANDRO ESCOBAR~GOMEZ y JOHAN~YESID CORAL~MUESES, ``Evaluaci{\'o}n de
-  redes neuronales recurrentes lstm en la predicci{\'o}n de fatiga muscular,''
-  Ph.D. dissertation, AUNAR, 2022.
-
 \bibitem{sepulveda2023analisis}
 Carlos~Andr{\'e}s Sep{\'u}lveda~Calle y Milton~Tarsicio Benavides~Posso,
   ``An{\'a}lisis predictivo de demanda de servicios bajo series temporales,''
   2023.
+
+\bibitem{carrasco2016tecnicas}
+Mar{\'\i}a Carrasco~Carrasco, ``T{\'e}cnicas de regularizaci{\'o}n en
+  regresi{\'o}n: Implementaci{\'o}n y aplicaciones,'' 2016.
 
 \bibitem{acevedo2017principios}
 Eder Acevedo, Alexei Serna, y Edgar Serna, ``Principios y caracter{\'\i}sticas
@@ -204,21 +196,25 @@ Haward~Miguel Chang~Hidalgo, ``Comparaci{\'o}n de t{\'e}cnicas de
   estimaci{\'o}n basadas en machine learning para predecir costos en los planes
   de adquisiciones de las entidades p{\'u}blicas del per{\'u},'' 2023.
 
-\bibitem{condorena2017desarrollo}
-V{\'\i}ctor~Marcial Condorena~Rond{\'o}n, ``Desarrollo de un sistema de control
-  de inventario, para la gesti{\'o}n de compras de materia prima en el rubro de
-  restaurantes,'' 2017.
+\bibitem{santander2017redes}
+Pedro Santander, Claudio El{\'o}rtegui, Cristian Gonz{\'a}lez, H{\'e}ctor
+  Allende-Cid, y Wenceslao Palma, ``Redes sociales, inteligencia computacional
+  y predicci{\'o}n electoral: el caso de las primarias presidenciales de chile
+  2017,'' \emph{Cuadernos. info}, no.~41, pp. 41--56, 2017.
 
 \bibitem{pacheco2015rediseno}
 Nicole Pacheco~Allende, ``Redise{\~n}o del proceso de abastecimiento en el
   {\'a}rea de compras en dos empresas dedicadas al equipamiento
   gastron{\'o}mico,'' 2015.
 
-\bibitem{sanchez2018sistemas}
-Gabriel Vinicio~Moreano S{\'a}nchez, V{\'\i}ctor Hugo~Ben{\'\i}tez Bravo,
-  Wilmer Albarrac{\'\i}n, y {\'A}lvaro Gabriel~Ben{\'\i}tez Bravo, ``Sistemas
-  inteligentes y colaborativos de administraci{\'o}n global: Caso de estudio;
-  establecimiento gastron{\'o}mico,'' \emph{revistapuce}, 2018.
+\bibitem{condorena2017desarrollo}
+V{\'\i}ctor~Marcial Condorena~Rond{\'o}n, ``Desarrollo de un sistema de control
+  de inventario, para la gesti{\'o}n de compras de materia prima en el rubro de
+  restaurantes,'' 2017.
+
+\bibitem{hincapie2021prediccion}
+Edwar~Andr{\'e}s Hincapi{\'e}~Herrera, ``Predicci{\'o}n de la demanda usando
+  modelos de machine learning,'' 2021.
 
 \bibitem{afanador2022diseno}
 Mar{\'\i}a Afanador~Jim{\'e}nez, Silvia~Juliana Casadiegos~Chaparro, Isabella
@@ -227,14 +223,51 @@ Mar{\'\i}a Afanador~Jim{\'e}nez, Silvia~Juliana Casadiegos~Chaparro, Isabella
   learning y un modelo multi-objetivo para planeaci{\'o}n de la producci{\'o}n
   en una industria panificadora,'' 2022.
 
-\bibitem{saura2018analisis}
-Jose~R SAURA, Ana Reyes-Men{\'e}ndez, y Pedro PALOS-SANCHEZ, ``Un an{\'a}lisis
-  de sentimiento en twitter con machine learning: Identificando el sentimiento
-  sobre las ofertas de\# blackfriday,'' \emph{Revista Espacios}, vol.~39,
-  no.~42, 2018.
+\bibitem{dubois2013mysql}
+Paul DuBois, \emph{MySQL}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Addison-Wesley, 2013.
 
-\bibitem{hincapie2021prediccion}
-Edwar~Andr{\'e}s Hincapi{\'e}~Herrera, ``Predicci{\'o}n de la demanda usando
-  modelos de machine learning,'' 2021.
+\bibitem{chilet2023elaboracion}
+{\'A}lvaro Chilet~Vera, ``Elaboraci{\'o}n de un algoritmo predictivo para la
+  reposici{\'o}n de hipoclorito en los dep{\'o}sitos mediante t{\'e}cnicas de
+  machine learning,'' Ph.D. dissertation, Universitat Polit{\`e}cnica de
+  Val{\`e}ncia, 2023.
+
+\bibitem{numpy-website}
+\BIBentryALTinterwordspacing
+Numpy. [En l{\'\i}nea]. Disponible: \url{https://numpy.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{pandas-website}
+\BIBentryALTinterwordspacing
+{The Pandas Development Team}. Pandas documentation. [En l{\'\i}nea].
+  Disponible: \url{https://pandas.pydata.org/about/index.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{MatplotlibWebsite}
+\BIBentryALTinterwordspacing
+Matplotlib~Development Team. (2023) Matplotlib official website. [En
+  l{\'\i}nea]. Disponible: \url{https://matplotlib.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{tensorflow-website}
+\BIBentryALTinterwordspacing
+{Google Brain Team}. Tensorflow. [En l{\'\i}nea]. Disponible:
+  \url{https://www.tensorflow.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{keras-doc}
+Keras. (2023) {Keras} documentation. \url{https://keras.io/}. Accessed:
+  2023-08-10.
+
+\bibitem{nixon2014learning}
+Robin Nixon, \emph{Learning PHP, MySQL \& JavaScript: With jQuery, CSS \&
+  HTML5}.\hskip 1em plus 0.5em minus 0.4em\relax " O'Reilly Media, Inc.", 2014.
+
+\bibitem{mejia2009tecnicas}
+Nicol{\'a}s~Aristiz{\'a}bal Mej{\'\i}a y Miguel Eduardo~Torres Moreno,
+  ``T{\'e}cnicas de levantamiento de requerimientos con innovaci{\'o}n,'' in
+  \emph{Presentado en el Cuarto Congreso Colombiano de Computaci{\'o}n 4CCC.
+  Sociedad Colombiana de Computaci{\'o}n S (CO)}, vol.~2, 2009.
 
 \end{thebibliography}
