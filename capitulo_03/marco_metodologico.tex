@@ -77,8 +77,11 @@ Estructura inicial de la tabla de ventas(con información de 6 registros (Fig.
 
 %MODELADO
 \subsection{Modelado de datos}
-En el siguiente apartado se estara realizando el proceso de limpieza de los
-datos para la obtención de los parametros a utilizar.
+Antes de evaluar algún modelo, se debe llevar a cabo una limpieza de la
+base de datos y acondicionamiento de las características finales en variables numéricas.
+
+\vspace{1\baselineskip}
+En el siguiente apartado se estara realizando el proceso de limpieza de los datos para la obtención de los parametros a utilizar.
 
 \vspace{1\baselineskip}
 
@@ -419,7 +422,9 @@ utilizados para estos casos.
 \end{figure}
 
 %APLICACION Y COMPARACION
-\section{Predicción de demanda}
+\section{Modelos de predicción}
+Finalmente, todo el desarrollo del trabajo que se describirá a continuación referente al tratamiento de datos, entrenamiento de los modelos, evaluación de las métricas y su representación gráfica se ejecutará usando Python con el fin de aprovechar su uso por medio
+de librerías como Numpy, Matplotlib, Pandas, Scikit-Learn el cual facilitará la solución de los requerimientos necesarios en cada punto del proceso.
 
 %REGRESION LINEAL
 \subsection{Modelo de Regresión lineal}
@@ -428,8 +433,9 @@ utilizados para estos casos.
 Para la implementación de regresión lineal, se ha optado por utilizar el
 SGDRegressor de la biblioteca sklearn. En lo que respecta a la elección de
 hiperparámetros, se han seleccionado valores comunes para un modelo de
-regresión lineal implementado a través del algoritmo de Descenso de Gradiente
-Estocástico (SGD). Estos hiperparámetros son los siguientes:
+regresión lineal implementado a través del algoritmo de Descenso de Gradiente Estocástico (SGD).
+
+Estos parametros son los siguientes:
 
 \begin{itemize}
   \item \textbf{loss}: Es una función de pérdida en la regresión lineal que mide la diferencia entre las predicciones del modelo y los valores reales. Su objetivo es minimizar esta discrepancia para encontrar la mejor línea de ajuste a los datos.
@@ -727,231 +733,5 @@ La generación de informes cobra importancia para analizar y predecir el comport
 \vspace{1\baselineskip}
  El anexo de la tesis se convierte en un recurso valioso para aquellos lectores interesados en explorar en profundidad tanto la investigación cualitativa realizada a través de la entrevista como los aspectos técnicos y prácticos del prototipo desarrollado. Proporciona una visión completa de los dos componentes críticos de este trabajo: la obtención de requerimientos a través de entrevistas y la implementación técnica del sistema prototipo.
 
+
  
-% \begin{figure}[H]
-%   \begin{center}
-%     \includegraphics[scale=0.50]{./predicción 7 días.png}
-%     \caption{Grafico de predicción con LSTM.}
-%     \label{fig:grafico_lstm}
-%   \end{center}
-% \end{figure}
-
-% Los tres valores muestran una proximidad aceptable, lo que indica que el modelo
-% tiene una capacidad de generalización satisfactoria (Figura
-% \ref{fig:desenpeño}).
-% \begin{figure}[H]
-%   \begin{center}
-%     \includegraphics[scale=0.50]{./comparativo desempeños LSTM.png}
-%     \caption{Comparativo de desempeños LSTM.}
-%     \label{fig:desenpeño}
-%   \end{center}
-% \end{figure}
-
-% En este trabajo para evaluar el rendimiento de una red neuronal LSTM se hace
-% uso de la gráfica de pérdidas loss. Esta permite evaluar cómo es su evolución
-% de los datos en un modelo. Según la literatura entre más grandes las pérdidas
-% las predicciones van a estar alejadas del valor real. En la (Figura
-% \ref{fig:perdida}) se puede observar la evolución de pérdidas a través de las
-% épocas, se evidencia dos señales que corresponden a entrenamiento y validación
-% marcados con los colores azul y naranja respectivamente, se infiere que los
-% valores decrecen con una alta tasa hasta la época 5 aproximadamente y luego no
-% presentan cambios significativos. Las pérdidas son de 0.020 y 0.039 para
-% entrenamiento y test respectivamente.
-
-% \begin{figure}[H]
-%   \begin{center}
-%     \includegraphics[scale=0.50]{./grafico de perdida en las épocas.png}
-%     \caption{Grafico de perdida(loss) en las épocas LSTM .}
-%     \label{fig:perdida}
-%   \end{center}
-% \end{figure}
-
-% \section{Afinación de hiperparámetros con base en porcentaje de pérdida RMS}
-
-% \section{Analítica descriptiva}
-
-% \section{Conjunto de datos}
-
-% Cuenta con 3.840 registros de ventas que agrupados por fecha dan un total de 185 registros, que corresponden a la cantidad de ventas diarias del prodcuto mensionado organizados por fechas desde el 17 de abril de 2023 hasta el 15 de octubre de 2023. 
-
-% Se  empleó  un  conjunto  de  datos  recopilados  a  partir  del  número  diario  de  productos vendidos,  obtenido  de la empresa gastronomica que proveyo los datos para el analisis y predicción de la misma, es importante destacar que el conjunto de datos es continuamente actualizado, sin embargo, para los propósitos de esta investigación, se consideró un conjunto de datos con 180 registros que cubren el período desde 17 de Abril del 2023 hasta 15 de Octubre del 2023 de un producto en especifico “hamburgesa simple”.
-
-% Como el objetivo de este proyecto consiste en predecir las ventas del dia, se realiza una gráfica \ref{fig:serie_completa}, la cual nos permite ver la serie temporal de las ventas del producto mencionado. 
-
-% Posteriormente, se dividió el conjunto de datos en tres grupos: entrenamiento, validación y prueba. El grupo de entrenamiento comprendió 148 registros que cubren desde 17 de abril hasta el 9 de septiembre. El grupo de validación incluyó 18 registros, desde 10 de septiembre hasta el 29 de septiembre  y el conjunto de prueba 19 registros desde el 30 de septiembre hasta 18 de octubre.
-
-% \textbf{Lista de requisitos:}
-
-% \begin{itemize}
-% % \item Registro de usuarios(Alta, Baja, Modificaciones).
-% \item Registro de productos (Alta, Baja, Modificaciones).
-% \item Registro de insumos(materia prima) (Alta, Baja,Modificaciones). 
-% \item Registro de pedidos/ventas (Alta, Baja, Modificaciones).
-% \item Generación de Informes Personalizados: Debe permitir la creación de informes personalizados que muestren datos específicos para análisis.
-% \item Análisis de Tendencias: Debe ser capaz de identificar tendencias y patrones en las ventas de insumos, lo que facilita la toma de decisiones basadas en datos.
-
-% \end{itemize}
-% \begin{figure}[H]
-%     \begin{center}
-%       \includegraphics[scale=0.90]{./diseño_procedural.png}
-%       \caption{Diseño procedural.}
-%       \label{fig:diseño_procedural}
-%     \end{center}
-%   \end{figure}
-
-% \section{Librerias de uso común en Mching Learning}
-% A continuación se instalara y actualizaran las principales librerias mas utilizadas cuando se realizan programas de inteligencia artificial.
-
-% \begin{itemize}
-%   \item \textbf{TensorFlow:} Es una plataforma de código abierto de un extremo a otro para el aprendizaje automático. Tiene un ecosistema integral y flexible de herramientas, bibliotecas y recursos comunitarios que permite a los investigadores impulsar lo último en ML y a los desarrolladores crear e implementar fácilmente aplicaciones basadas en ML.
-%   Es ampliamente utilizada para desarrollar y entrenar modelos de redes neuronales, incluyendo modelos LSTM (Long Short-Term Memory).
-%   \item \textbf{Keras:} Es una interfaz de alto nivel para TensorFlow que facilita la construcción, entrenamiento y evaluación de modelos de redes neuronales, incluyendo modelos LSTM.
-% \end{itemize}
-
-% La función de activación utilizada para modelar la no linealidad suele ser la Unidad Lineal Rectificada (ReLU), que puede calcularse más rápido que las funciones tangentes sigmoideas o hiperbólicas utilizadas tradicionalmente y también ofrece interesantes propiedades de convergencia.
-
-% \subsection{Alcance exploratorio.}
-% La medida de este alcance abarca la exploración de problemas generalmente poco conocidos, a veces difíciles de conocer.
-
-% \subsection{Alcance descriptivo.}
-% La medida de este alcance abarca la descripción del fenómeno, situación, contexto o evento; detalla cómo es y cómo se manifiesta. Busca especificar propiedades, características y rasgos importantes. Describe tendencias de un grupo o población. Es útil para mostrar con precisión los ángulos o dimensiones de un fenómeno, suceso, comunidad, contexto o situación.
-
-% \subsection{Alcance correlacional.}
-% La profundidad de este alcance busca establecer relaciones entre variables sin precisar sentido de causalidad, es decir, no analiza relación causal.
-
-% Un ejemplo de este alcance es una investigación que busca averiguar cómo se relacionan las calificaciones de los alumnos de un grado, en las asignaturas: Castellano y Matemática.
-
-% \subsection{Alcance explicativo.}
-% La profundidad de este alcance busca establecer relaciones entre variables precisando sentido de causalidad, es decir, analiza relación entre causa y efecto entre variables.
-
-% Un ejemplo de este alcance es una investigación que busca averiguar la relación entre urbanización y alfabetismo en un país, para ver qué variables macrosociales definen el grado de alfabetización de la población del país.
-
-% \section{Diseño}
-% Es el plan o estrategia que se desarrolla para obtener la información que se requiere en una investigación, generalmente para verificar la hipótesis. La precisión, amplitud y profundidad de la información obtenida varía en función del diseño elegido \cite{sampieri}.
-
-% En la literatura sobre investigación cuantitativa es posible encontrar diferentes clasificaciones de los diseños; los autores \cite{sampieri} adoptan la siguiente clasificaciòn: investigación experimental e investigación no experimental. A su vez, la primera puede dividirse de acuerdo con las clásicas categorías de Campbell y Stanley (1966) en: preexperimentos, experimentos ``puros'' y cuasiexperimentos. La investigación no experimental, siempre de acuerdo con \cite{sampieri}, se subdivide en diseños transversales y diseños longitudinales.
-
-\vspace{.5 cm}
-
-% \textbf{Ejemplo de diseño en una investigación tecnológica formativa.}
-
-% Aún más que en la investigación en ciencias básicas, es en la investigación tecnológica donde se puede apreciar la importancia del diseño para obtener un buen producto o servicio. Cabe entonces ilustrarlo con un ejemplo tomado dentro de esta última forma de investigación desde la referencia \cite{lan}.
-
-\vspace{.5 cm}
-
-% \textbf{\emph{Metodología para implementar red de área local. (\gls{lan}\@)}}\footnote{Por brevedad, solo se desarrolla la etapa de diseño.}
-
-% Hoy en día, como nunca antes, el ser social necesita estar informado. Para estudiar problemas y tomas de decisiones es necesario disponer de datos precisos, en el lugar y en el instante preciso. En gran medida se logra lo anterior con las redes de computadoras, cuyo objetivo fundamental es compartir recursos e información pues ofrecen acceso a servicios universales de datos tales como: bases de datos, correo electrónico, transmisión de archivos y boletines electrónicos; eliminando el desplazamiento de los individuos en la búsqueda de información y aumentando la capacidad de almacenamiento disponible por cada usuario en un momento determinado.
-
-% Un gran porcentaje de las redes de computadoras se usan para la transmisión de información científica siendo una vía rápida y económica de divulgar resultados y de discutir con otros especialistas afines sobre un tema en cuestión. En este trabajo en particular se aborda la metodología a seguir para la implementación de redes de computadoras de área local; las cuales cumplen todos los objetivos planteados a una escala reducida ya que son propiedad de una sola organización (un solo centro administrativo o fabril) abarcando zonas geográficas de algunos kilómetros como máximo. La experiencia en el campo de \glspl{lan} en el ámbito universitario, donde las mismas se emplean para la gestión administrativa y económica, para la transmisión de información científica y para la enseñanza; ha dejado claro que el diseño, la instalación y puesta a punto de una \gls{wan} suele ser un proceso cuidadoso del cual depende en grado sumo que se cumplan los objetivos para los que se invirtió en dicha red.
-
-% Para su comprensión el trabajo se divide en cinco partes o etapas:
-% \begin{itemize}
-% \item Etapa de estudio,
-% \item Etapa de diseño.\footnote{Solo se desarrolla esta etapa.}
-% \item Etapa de elaboración de la solicitud de oferta y selección del vendedor,
-% \item Etapa de instalación y puesta en funcionamiento,
-% \item Etapa de análisis de las prestaciones y evaluación de los resultados.
-% \end{itemize}
-
-% Una vez concluida la primera etapa y aprobado el presupuesto de la red es necesario realizar la etapa del \textit{diseño} de la \gls{lan} para lo cual se deben seguir los siguientes pasos:
-
-\renewcommand{\labelitemi}{$-$}
-
-% \begin{itemize}
-% \item Seleccionar la(s) topología(s) y norma(s) de red a emplear,
-% \item Seleccionar el soporte de transmisión a utilizar,
-% \item Analizar la necesidad de emplear técnicas de conectividad,
-% \item Considerar ampliaciones futuras de la red,
-% \item Realizar una evaluación primaria del tráfico,
-% \item Contemplar las necesidades del personal involucrado en la red,
-% \item Modificar, de ser necesario, el flujo de la información y seleccionar el software de aplicación.
-% \end{itemize}
-
-% \textit{Seleccionar la topología.} Este paso, el cual es dependiente de los resultados del anterior. Las tres topologías más empleadas son: bus, estrella y anillo; mientras que las normas más comunes son: Ethernet, Token Ring y ArcNet. La selección de los aspectos anteriores trae aparejado escoger la velocidad de transmisión, la distancia máxima a emplear, el método de control de acceso al medio, etc. La elección se realiza a partir de la necesidad particular y de un amplio conocimiento de las topologías y normas existentes. 
-
-% \textit{Seleccionar el Soporte de Transmisión.} Esto está muy relacionado con la norma a emplear y con las características de los puntos a conectar. Es vital realizar una selección adecuada pues una opción equivocada comprometería la eficacia y la velocidad de la transferencia de datos. Para la elección de uno u otro medio de transmisión se debe tomar entre otras cosas las dimensiones de la instalación, el costo, la evolución tecnológica estimada, la facilidad de instalación y el grado de hostilidad electromagnética presente en el entorno. 
-
-% Aunque el \gls{sored}  (del inglés NOS: Netware Operating System) NetWare predomina en el mundo, éste no es siempre la elección adecuada, debido a sus costos y características. En el mercado existen otros \glspl{sored} tales como: LAN Manager, LANServer, LANtastic, Vines, LINUX, Windows NT Server, Windows 2000 Server, etc.; los cuales poseen una determinada cuota de mercado. Para seleccionar el SOR adecuado se debe tener en cuenta:
-
-% \begin{itemize}
-% \item El nivel de confidencialidad que brinda a los datos,
-% \item Si es del tipo cliente-servidor o de igual a igual,
-% \item Grado de tolerancia a fallos que posee,
-% \item Memoria RAM necesaria en el servidor y en las estaciones de trabajo,
-% \item Facilidades de administración y diagnóstico que brinda,
-% \item Si posee o no sistema de correo electrónico,
-% \item Características de manipulación de colas de impresión.
-% \end{itemize}
-
-% \textit{Analizar la necesidad de emplear técnicas de conectividad.} Esto estará en función de las dimensiones de la organización, del tráfico a cursar y el tipo de equipamiento a interconectar entre otros aspectos. Es necesario conocer en profundidad dichas técnicas para realizar una adecuada selección entre repetidores, puentes, ruteadores, compuertas, servidores de acceso, etc. y lograr su correcta ubicación. La mejor solución muchas veces hace uso de más de un tipo de dispositivo de interconexión.
-
-% \textit{Considerar ampliaciones futuras de la red.} Aún cuando de forma inmediata no sea necesario extender la red ni conectarse a otros, ésta debe poseer la base para que a partir de ella, y en cualquier momento sea posible una ampliación o llegar a formar parte de otras redes.
-
-% \textit{Realizar una evaluación primaria del tráfico.} Aquí debe estimarse el tráfico que circulará en la red y analizar si el mismo no afecta el tiempo de acceso a la información ya otros recursos compartidos. Es importante que una vez instalada y puesta en funcionamiento la \gls{lan} se efectúen periódicamente estudios de este tipo.
-
-% \textit{Contemplar las necesidades del personal involucrado en la red.} Esto es muy importante pues en última instancia éste será el personal que utilizará la red y por lo tanto deben quedar satisfechas sus necesidades de forma tal que la nueva red sea un elemento que facilite su trabajo.
-
-% \textit{Modificar de ser necesario el flujo de información y seleccionar el software de aplicación.} Esto implica la modificación, como última opción, de la manera en que la información circula dentro de la organización y la definición del software de aplicación necesario, ya sea comercial o aquél que se encargará al personal especializado; que conozca las particularidades de la programación en ambiente multiusuario. El software encargado o adquirido debe ser de fácil instalación y aprendizaje. Además se debe velar porque sea posible tener acceso a posteriores actualizaciones y que éstas no sean caras.
-
-% \section{Lenguajes de programación}
-
-% \subsection{Python}
-% Python es un lenguaje de programación potente y elegante
-% que sea fácil de leer y de entender\cite{python2021python}.
-
-% Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.
-
-% Python se destaca en el ámbito de la inteligencia artificial debido a su capacidad para gestionar conjuntos de datos voluminosos y su facilidad de programación. Su sintaxis concisa y legible lo convierte en una elección ideal para crear prototipos de forma rápida, dinámica y comprensible.
-% Además de su amplia popularidad, la razón principal para adentrarse en Python en el contexto del aprendizaje automático es, indiscutiblemente, su vasto ecosistema de recursos previamente desarrollados. 
-
-% \paragraph{Pandas:}
-% Es una biblioteca de código abierto que proporciona estructuras de datos flexibles y herramientas de análisis de datos para Python. Su principal estructura de datos es el DataFrame, que permite organizar datos en tablas bidimensionales. Pandas es ampliamente utilizado para la limpieza, manipulación y análisis de datos tabulares, lo que lo hace esencial en el análisis de datos.
-
-% \paragraph{NumPy:}
-% Es una biblioteca fundamental para el cálculo numérico en Python. Proporciona soporte para arreglos multidimensionales (llamados ndarrays) y una amplia gama de funciones matemáticas para operaciones en estos arreglos. NumPy es crucial para realizar cálculos numéricos eficientes y es la base de muchas otras bibliotecas de análisis de datos en Python.
-
-% \paragraph{Matplotlib:}
-% Es una biblioteca de visualización que permite crear gráficos estáticos de alta calidad. Proporciona una variedad de tipos de gráficos, desde gráficos de líneas y barras hasta histogramas y gráficos de dispersión. Matplotlib es ampliamente utilizado para visualizar datos y resultados en el análisis de datos.
-
-% \paragraph{Seaborn:}
-% Es una biblioteca de visualización basada en Matplotlib que simplifica la creación de gráficos estadísticos atractivos. Ofrece una interfaz de alto nivel para crear fácilmente visualizaciones complejas y atractivas, lo que la hace útil para el análisis exploratorio de datos y la presentación de resultados.
-
-% \paragraph{Scikit-learn:}
-% Es una biblioteca de aprendizaje automático que proporciona herramientas para tareas comunes de aprendizaje automático, como clasificación, regresión, clustering y selección de modelos. También incluye utilidades para la evaluación de modelos y el preprocesamiento de datos, lo que la convierte en una biblioteca esencial para el análisis de datos relacionados con el aprendizaje automático.
-
-% \paragraph{StatsModels:}
-% Es una biblioteca que se utiliza para realizar análisis estadísticos y modelado en Python. Está especialmente orientada a tareas como la regresión lineal y logística, análisis de series temporales y pruebas estadísticas. Es útil para realizar análisis estadísticos rigurosos en el contexto del análisis de datos.
-
-% \paragraph{SciPy:}
-% Es una extensión de NumPy que proporciona funcionalidades adicionales para cálculos científicos y técnicos. Incluye módulos para optimización, interpolación, integración numérica, álgebra lineal, transformadas y más. Es una biblioteca esencial para aplicaciones científicas y de ingeniería que involucran cálculos numéricos.
-
-% \paragraph{Plotly:}
-% Es una biblioteca que permite crear gráficos interactivos y visualizaciones web en Python. Es útil para crear visualizaciones interactivas para el análisis exploratorio de datos y la presentación de resultados en aplicaciones web.
-
-% \paragraph{Bokeh:}
-% Es otra biblioteca para crear gráficos interactivos y aplicaciones web basadas en datos. Ofrece una amplia gama de herramientas para crear visualizaciones interactivas y es especialmente útil para proyectos que requieren interfaces de usuario interactivas.
-
-% \paragraph{Dask:}
-% Es una biblioteca que se utiliza para el procesamiento paralelo y distribuido de datos en Python. Permite trabajar con conjuntos de datos grandes y realizar operaciones complejas de manera eficiente en clústeres de computadoras.
-
-% \paragraph{TensorFlow y PyTorch:}
-% Si bien estas bibliotecas son conocidas principalmente por el aprendizaje profundo, también se utilizan en tareas de procesamiento y análisis de datos cuando se trabajan con modelos de redes neuronales. Proporcionan herramientas para construir, entrenar y evaluar modelos de aprendizaje automático y profundo.
-
-% Estas bibliotecas forman la base del ecosistema de análisis de datos en Python y son esenciales para una variedad de tareas en ciencia de datos, análisis de datos y aprendizaje automático.
-
-% \subsection{PHP}
-% Es un lenguaje de programación ampliamente utilizado en el desarrollo web. Se destaca por su capacidad para crear aplicaciones web dinámicas e interactivas\cite{cobo2005php}.
-
-% Ofrece diversas ventajas que lo hacen atractivo en el desarrollo web:
-
-% \paragraph{Facilidad de aprendizaje:}
-% Tiene una sintaxis simple y legible, lo que facilita su aprendizaje, especialmente para principiantes en programación.
-% \paragraph{Amplia comunidad y soporte:}
-% Cuenta con una gran comunidad de desarrolladores y abundantes recursos en línea, incluyendo bibliotecas y frameworks, lo que agiliza el desarrollo.
-% \paragraph{Interacción con bases de datos:}
-% Brinda soporte integrado para la mayoría de las bases de datos populares, lo que lo hace ideal para aplicaciones que gestionan datos.
-% \paragraph{Versatilidad:}
-% Se integra fácilmente con HTML y otros lenguajes web, permitiendo una amplia gama de aplicaciones y funcionalidades.
-% \paragraph{Plataforma cruzada:}
-% Es compatible con varias plataformas y sistemas operativos, lo que lo hace altamente portátil.

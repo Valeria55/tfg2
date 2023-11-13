@@ -2,18 +2,22 @@
 \fancyfoot{}
 \cfoot{\thepage}
 
-\lhead{Anexo.}
+\lhead{Anexos}
 %\rhead{\today}
 %\rfoot{\thepage}
 
-\chapter{Anexo.}
+\chapter{Anexos}
 
-Exportación de Python  e importación en javascript del modelo
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.70]{./diagrama de clases.png}
+    \caption{Diagrama de clases sistema de
+    gestion de inventario.}
+    \label{fig:product}
+  \end{center}
+\end{figure}
 
-Pasos para exportar el modelo para su utilización con la librería tensorflow js
-
-
-
+El diagrama de clases del sistema comprende cuatro entidades principales: Compras, Ventas, Productos e Ingredientes. La clase Ingredientes incluye atributos como id, que funciona como clave primaria, el ingrediente en sí representado por la descripción y la cantidad en stock. Por otro lado, la clase Productos cuenta con atributos como id, que sirve como clave primaria, la descripción del producto, la cantidad en stock y una relación con la clase Ingredientes a través del id\_ingrediente. De esta manera, las clases Compras y Ventas registran transacciones asociadas a estos productos e ingredientes, incluyendo detalles como el id\_compra o id\_venta, respectivamente, la cantidad y el precio. Este diseño de clases proporciona una estructura coherente para gestionar eficientemente las operaciones de compra y venta, manteniendo un control detallado sobre los productos e ingredientes disponibles en el sistema.
 \begin{figure}[H]
     \begin{center}
         \begin{subfigure}{0.28\textwidth}
@@ -57,7 +61,7 @@ Este script PHP se utiliza para la autenticación de usuarios en un sistema web,
     \end{center}
   \end{figure}
 
-El código proporcionado es una combinación de HTML, PHP y JavaScript que se utiliza para crear una página web que muestra una lista de productos. Emplea HTML para estructurar la página, PHP para interactuar con una base de datos y recuperar datos de productos, y JavaScript, incluyendo la biblioteca DataTables, para agregar funcionalidades interactivas a la tabla de productos. La página permite buscar, editar y eliminar productos, y utiliza solicitudes AJAX para comunicarse con el servidor y obtener información sobre los productos. En conjunto, estas tecnologías y herramientas se utilizan para construir una interfaz web dinámica y amigable para la gestión de productos \cite{eguiluz2012introduccion}.
+El código proporcionado es una combinación de HTML, PHP y JavaScript que se utiliza para crear una página web que muestra una lista de productos. Emplea HTML para estructurar la página, PHP para interactuar con una base de datos y recuperar datos de productos, y JavaScript, incluyendo la biblioteca DataTables, para agregar funcionalidades interactivas a la tabla de productos. La página permite buscar, editar y eliminar productos, y utiliza solicitudes AJAX para comunicarse con el servidor y obtener información sobre los productos. En conjunto, estas tecnologías y herramientas se utilizan para construir una interfaz web dinámica y amigable para la gestión de productos \cite{mohedano2012iniciacion}.
 
 \begin{figure}[H]
     \begin{center}
@@ -103,6 +107,31 @@ El código proporcionado es una combinación de HTML, PHP y JavaScript que se ut
       \includegraphics[scale=0.65]{./sistema/Informe de compra prediccion.png}
       \caption{Informe de predicción de ingredientes a comprar }
       \label{fig:product}
+    \end{center}
+  \end{figure}
+
+
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=0.90]{./sistema/primeraparte.png}
+      \caption{Expotación de Python}
+      \label{fig:python}
+    \end{center}
+  \end{figure}
+
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=0.90]{./sistema/segundaparte.png}
+      \caption{Importación a javascript}
+      \label{fig:python}
+    \end{center}
+  \end{figure}
+
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=0.90]{./sistema/terceraparte.png}
+      \caption{Importación a javascript}
+      \label{fig:python}
     \end{center}
   \end{figure}
 

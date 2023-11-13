@@ -1128,6 +1128,39 @@ INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.s
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\valer\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.idx
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.glo
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.acn
@@ -1437,13 +1470,13 @@ INPUT .\redes_recurrentes.png
 INPUT .\redes_recurrentes.png
 INPUT .\redes_recurrentes.png
 OUTPUT c:\Users\valer\OneDrive\Escritorio\tfg2-1\build\tfg.glsdefs
-INPUT .\lstm_grafico.png
-INPUT .\lstm_grafico.png
-INPUT lstm_grafico.png
-INPUT .\lstm_grafico.png
-INPUT .\lstm_grafico.png
-INPUT .\lstm_grafico.png
-INPUT .\lstm_grafico.png
+INPUT .\arquitectura lstm nuevo.png
+INPUT .\arquitectura lstm nuevo.png
+INPUT arquitectura lstm nuevo.png
+INPUT .\arquitectura lstm nuevo.png
+INPUT .\arquitectura lstm nuevo.png
+INPUT .\arquitectura lstm nuevo.png
+INPUT .\arquitectura lstm nuevo.png
 INPUT .\grafico_regresion.png
 INPUT .\grafico_regresion.png
 INPUT grafico_regresion.png
@@ -1643,6 +1676,13 @@ INPUT .\metricas de error REGRESION LINEAL.png
 INPUT .\metricas de error REGRESION LINEAL.png
 INPUT .\metricas de error REGRESION LINEAL.png
 INPUT .\metricas de error REGRESION LINEAL.png
+INPUT .\LSTM estructura.png
+INPUT .\LSTM estructura.png
+INPUT LSTM estructura.png
+INPUT .\LSTM estructura.png
+INPUT .\LSTM estructura.png
+INPUT .\LSTM estructura.png
+INPUT .\LSTM estructura.png
 INPUT .\predicción 7 días.png
 INPUT .\predicción 7 días.png
 INPUT predicción 7 días.png
@@ -1690,6 +1730,13 @@ INPUT .\anexos\anexo.tex
 INPUT anexos\anexo.tex
 INPUT .\anexos\anexo.tex
 INPUT anexos\anexo.tex
+INPUT .\diagrama de clases.png
+INPUT .\diagrama de clases.png
+INPUT diagrama de clases.png
+INPUT .\diagrama de clases.png
+INPUT .\diagrama de clases.png
+INPUT .\diagrama de clases.png
+INPUT .\diagrama de clases.png
 INPUT .\sistema\login.png
 INPUT .\sistema\login.png
 INPUT sistema\login.png
@@ -1768,6 +1815,27 @@ INPUT .\sistema\Informe de compra prediccion.png
 INPUT .\sistema\Informe de compra prediccion.png
 INPUT .\sistema\Informe de compra prediccion.png
 INPUT .\sistema\Informe de compra prediccion.png
+INPUT .\sistema\primeraparte.png
+INPUT .\sistema\primeraparte.png
+INPUT sistema\primeraparte.png
+INPUT .\sistema\primeraparte.png
+INPUT .\sistema\primeraparte.png
+INPUT .\sistema\primeraparte.png
+INPUT .\sistema\primeraparte.png
+INPUT .\sistema\segundaparte.png
+INPUT .\sistema\segundaparte.png
+INPUT sistema\segundaparte.png
+INPUT .\sistema\segundaparte.png
+INPUT .\sistema\segundaparte.png
+INPUT .\sistema\segundaparte.png
+INPUT .\sistema\segundaparte.png
+INPUT .\sistema\terceraparte.png
+INPUT .\sistema\terceraparte.png
+INPUT sistema\terceraparte.png
+INPUT .\sistema\terceraparte.png
+INPUT .\sistema\terceraparte.png
+INPUT .\sistema\terceraparte.png
+INPUT .\sistema\terceraparte.png
 INPUT .\tfg.bbl
 INPUT tfg.bbl
 INPUT .\tfg.bbl

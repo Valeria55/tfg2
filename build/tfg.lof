@@ -25,30 +25,35 @@
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Gráfico en violín de los datos de salida escaladas}}{44}{figure.caption.29}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Codigo de distribución de los datos.}}{45}{figure.caption.30}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Distribución de los datos, ventas totales por día.}}{45}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Codigo de la estructura de regresión lineal.}}{47}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Grafico de lineas con Matplotlib.}}{48}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Codigo de la estructura del LSTM.}}{49}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Codigo de la estructura del LSTM datos de prueba 1.}}{50}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Rendimiento de datos de prueba 1.}}{51}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Grafico de predicción LSTM prueba 1}}{52}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Codigo de la estructura del LSTM datos de prueba 2.}}{53}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Rendimiento de datos de prueba 2.}}{54}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Grafico de predicción LSTM prueba 2}}{54}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Codigo de la estructura de regresión lineal.}}{48}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Grafico de lineas con Matplotlib.}}{49}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Codigo de la estructura del LSTM.}}{50}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Codigo de la estructura del LSTM datos de prueba 1.}}{51}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Rendimiento de datos de prueba 1.}}{52}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Grafico de predicción LSTM prueba 1}}{53}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Codigo de la estructura del LSTM datos de prueba 2.}}{54}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Rendimiento de datos de prueba 2.}}{55}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Grafico de predicción LSTM prueba 2}}{55}{figure.caption.40}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Algoritmo de la estructura de regresión lineal.}}{58}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Metrica de error regresión lineal.}}{58}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Grafico de predicción con LSTM.}}{59}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparativo de desempeños LSTM.}}{60}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Grafico de perdida(loss) en las épocas LSTM .}}{60}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Algoritmo de la estructura de regresión lineal.}}{59}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Metrica de error regresión lineal.}}{59}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Algoritmo de estructura LSTM.}}{60}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Grafico de predicción con LSTM.}}{61}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparativo de desempeños LSTM.}}{61}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Grafico de perdida en las épocas LSTM.}}{62}{figure.caption.46}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Login del sistema}}{64}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Interfaz productos}}{65}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Interfaz de carga de ingredientes}}{65}{figure.caption.50}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Codigo carga de productos e ingresientes}}{66}{figure.caption.51}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Interfaz de compras }}{67}{figure.caption.52}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Codigo carga de compras }}{67}{figure.caption.53}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Interfaz de ventas}}{68}{figure.caption.54}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Codigo carga de ventas}}{68}{figure.caption.55}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Interfaz de lista de predicciones hechas}}{69}{figure.caption.56}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Informe de predicción de ingredientes a comprar }}{69}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de clases sistema de gestion de inventario.}}{68}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Login del sistema}}{69}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Interfaz productos}}{70}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Interfaz de carga de ingredientes}}{70}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Codigo carga de productos e ingresientes}}{71}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Interfaz de compras }}{72}{figure.caption.54}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Codigo carga de compras }}{72}{figure.caption.55}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Interfaz de ventas}}{73}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Codigo carga de ventas}}{73}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Interfaz de lista de predicciones hechas}}{74}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Informe de predicción de ingredientes a comprar }}{74}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Expotación de Python}}{75}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Importación a javascript}}{75}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Importación a javascript}}{76}{figure.caption.62}%

@@ -75,7 +75,7 @@ representada por un valor de 1, ya que R² = 1 constituye la condición ideal
 % \end{figure}
 
 Al configurar una red neuronal LSTM, es común considerar varios hiperparámetros
-clave (Codigo \ref{fig:desenpeño}):
+clave (Codigo \ref{fig:codigo_lstm}):
 
 \begin{itemize}
   \item  \textbf{Unidades de LSTM:} Se obtuvieron los mejores resultados con 64 neuronas.
@@ -99,7 +99,13 @@ clave (Codigo \ref{fig:desenpeño}):
   \item \textbf{Dropout:} Para esta configuración, un dropout del 20\% fue suficiente.
 \end{itemize}
 
-  
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.40]{./LSTM estructura.png}
+    \caption{Algoritmo de estructura LSTM.}
+    \label{fig:codigo_lstm}
+  \end{center}
+\end{figure}
 
 % Es importante tener en cuenta que la elección de estos hiperparámetros puede depender en gran medida del problema específico y requiere experimentación para encontrar la configuración óptima.
 
@@ -122,8 +128,7 @@ tiene una capacidad de generalización satisfactoria (Figura
   \end{center}
 \end{figure}
 
-En este trabajo para evaluar el rendimiento de una red neuronal LSTM se hace
-uso de la gráfica de pérdidas (loss). Esta permite evaluar cómo es su evolución
+En este trabajo para evaluar el rendimiento de una red neuronal LSTM se hace uso de la función de pérdidas (loss). Esta permite evaluar cómo es su evolución
 de los datos en un modelo. Según la literatura entre más grandes las pérdidas
 las predicciones van a estar alejadas del valor real. En la (Figura
 \ref{fig:perdida}) se puede observar la evolución de pérdidas a través de las
@@ -136,7 +141,7 @@ entrenamiento y test respectivamente.
 \begin{figure}[H]
   \begin{center}
     \includegraphics[scale=0.50]{./grafico de perdida en las épocas.png}
-    \caption{Grafico de perdida(loss) en las épocas LSTM .}
+    \caption{Grafico de perdida en las épocas LSTM.}
     \label{fig:perdida}
   \end{center}
 \end{figure}
@@ -181,7 +186,7 @@ En la columna  “Días”, se enumeran los siete días del período en cuestió
 La columna “Dif” representa la diferencia entre las predicciones de cada modelo y la demanda real. En términos generales, se puede observar que ambas técnicas tuvieron algunas discrepancias con los valores reales. El modelo de regresión lineal tuvo una diferencia total de 38 unidades en comparación con la demanda real, mientras que el modelo LSTM tuvo una diferencia total de 15 unidades. En este caso, el modelo LSTM muestra un mejor desempeño al ser más preciso en la predicción de la demanda de productos en estos siete días en comparación con el modelo de regresión lineal.
 
 \vspace{1\baselineskip}
-En resumen, este estudio ha avanzado significativamente en la solución del problema de la predicción de la demanda semanal, y se espera que futuras investigaciones sigan ampliando los límites de la precisión y la aplicabilidad de estas predicciones en entornos de ventas minoristas.
+En resumen, este estudio ha avanzado significativamente en la solución del problema de la predicción de la demanda semanal, y se espera que futuras investigaciones sigan ampliando los límites de la precisión y la aplicabilidad de estas predicciones en entornos de demanda.
 
 
 
